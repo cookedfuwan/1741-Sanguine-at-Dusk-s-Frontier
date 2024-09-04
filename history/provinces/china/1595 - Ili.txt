@@ -1,0 +1,7 @@
+add_core = CHI
+add_core = TGK
+trade_goods = sulphur
+life_rating = 32
+
+owner = TGK
+controller = TGK

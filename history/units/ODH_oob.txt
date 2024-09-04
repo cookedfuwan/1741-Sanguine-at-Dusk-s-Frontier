@@ -1,0 +1,72 @@
+army = {
+	name = "Army of Oudh"
+	location = 1242
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = cavalry
+		home = 1242
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = cavalry
+		home = 1242
+	}
+
+	regiment = {
+		name= "3.Balangir Contingent"
+		type = irregular
+		home = 1242
+	}
+	
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = irregular
+		home = 1244
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = irregular
+		home = 1244
+	}
+
+	regiment = {
+		name= "3.Balangir Contingent"
+		type = irregular
+		home = 1243
+	}
+	
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = irregular
+		home = 1243
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = irregular
+		home = 1243
+	}
+
+	regiment = {
+		name= "3.Balangir Contingent"
+		type = irregular
+		home = 1245
+	}
+	
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = irregular
+		home = 1245
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = irregular
+		home = 1245
+	}
+
+
+}
+

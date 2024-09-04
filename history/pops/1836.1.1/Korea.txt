@@ -1,0 +1,1242 @@
+#Pyongan Region (1596000)
+#under the rule of Korea in 1836
+#Pyongyang (800000/200000 POPS)
+1619 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 3750
+	}
+
+	bureaucrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 300
+	}
+
+	officers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 400
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1925
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 9500
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 2000
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 172125
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 10000
+	}
+}
+#Chonchon (796000/190000 POPS)
+1620 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 3550
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1825
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 9000
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 2000
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 163625
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 10000
+	}
+}
+#Hamgyong Region (920000)
+#under the rule of Korea in 1836
+#Hamhung (300000/75000 POPS)
+1621 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1400
+	}
+
+	bureaucrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 150
+	}
+
+	officers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 200
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 750
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 3500
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 700
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 63300
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5000
+	}
+}
+#Chongjin (360000/90000 POPS)
+1622 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 15000
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 800
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 40000
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 110000
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 702600
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 10000
+	}
+}
+#Kimchaek (260000/65000 POPS)
+1623 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1150
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 625
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 3000
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 600
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 54625
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5000
+	}
+}
+#Kyonggi Region (2620000)
+#under the rule of Korea in 1836
+#Seoul (1180000/295000 POPS)
+1624 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5425
+	}
+
+	bureaucrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 675
+	}
+
+	officers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 625
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 2800
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 10000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 3750
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 3000
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 248725
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 20000
+	}
+}
+#Kaesong (280000/70000 POPS)
+1625 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1250
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 675
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 3250
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 650
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 59150
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5000
+	}
+}
+#Haeju (260000/65000 POPS)
+1626 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1150
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 625
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 3000
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 600
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 54625
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5000
+	}
+}
+#Sariwon (340000/85000 POPS)
+1627 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1550
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 825
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 4000
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 110030
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 172625
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5000
+	}
+}
+#Inchon (560000/140000 POPS)
+1628 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 2550
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1325
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 6500
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 2000
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 117625
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 10000
+	}
+}
+#Gangwon Region (920000)
+#under the rule of Korea in 1836
+#Wonsan (380000/95000 POPS)
+1629 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1700
+	}
+
+	bureaucrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 175
+	}
+
+	officers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 225
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 850
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 4250
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1100
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 76800
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 10000
+	}
+}
+#Kangnung (260000/65000 POPS)
+1630 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1150
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 625
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 3000
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 600
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 54625
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5000
+	}
+}
+#Wonju (280000/70000 POPS)
+1631 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1250
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 675
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 3250
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 650
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 59175
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5000
+	}
+}
+#Kyongsang Region (1800000)
+#under the rule of Korea in 1836
+#Pusan (740000/185000 POPS)
+1632 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 3400
+	}
+
+	bureaucrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 375
+	}
+
+	officers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 425
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1800
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 8750
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 2000
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 558150
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 120000
+	}
+}
+#Taejon (420000/105000 POPS)
+1633 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1900
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1050
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5000
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1100
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 91050
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5000
+	}
+}
+#Pohang (640000/160000 POPS)
+1634 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 2900
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1550
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 7500
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 2000
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 136050
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 10000
+	}
+}
+#Cholla Region (1504000)
+#under the rule of Korea in 1836
+#Kwangju (644000/161000 POPS)
+1635 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 3000
+	}
+
+	bureaucrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 300
+	}
+
+	officers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 350
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1500
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 7550
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 2000
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 136300
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 10000
+	}
+}
+#Taegu (560000/140000 POPS)
+1636 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 2550
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1325
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 6500
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 2000
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 117625
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 10000
+	}
+}
+#Cheju (300000/75000 POPS)
+1637 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1350
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 725
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 3500
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 700
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 63725
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5000
+	}
+
+}
+
+3377 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1330
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 725
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 10521
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 700
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 43725
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5012
+	}
+
+}
+
+3378 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1345
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 725
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 10521
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 700
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 43724
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5012
+	}
+
+}
+
+3379 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1345
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 725
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 10211
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 700
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 43724
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5012
+	}
+
+}
+
+3380 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1345
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 725
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 123211
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 700
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 43356
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5012
+	}
+
+}
+
+3381 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1345
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 725
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 123211
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 4345
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 56786
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5012
+	}
+
+}
+
+3382 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1345
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 725
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 12321
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 4345
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 136786
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5012
+	}
+
+}
+
+3383 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1345
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 725
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 12321
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 4345
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 36786
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5012
+	}
+
+}
+
+3384 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1345
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 725
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 12321
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 4345
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 94233
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5012
+	}
+
+}
+
+3385 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1345
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 725
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 12321
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 4345
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 104233
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1012
+	}
+
+}
+
+3386 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1345
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 725
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 32311
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 434
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 74233
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 501
+	}
+
+}
+
+3387 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1345
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 725
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 52311
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 434
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1433
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 5021
+	}
+
+}

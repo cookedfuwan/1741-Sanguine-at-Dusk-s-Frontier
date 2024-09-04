@@ -1,0 +1,788 @@
+#financial_institutions
+
+Manorial_System = {
+	area = financial_institutions
+	year = 1750 
+	cost = 5000
+	tax_eff = 0.5
+	
+
+}
+
+Medici_Bank = {
+	area = financial_institutions
+	year = 1750 
+	cost = 10000
+	tax_eff = 2
+	
+
+}
+
+Casa_di_San_Giorgio_public_bank = {
+	area = financial_institutions
+	year = 1750 	
+	cost = 15000
+	tax_eff = 3
+	
+
+}
+
+
+early_bank = {
+	area = financial_institutions
+	year = 1760
+	cost = 11000
+	tax_eff = 2
+	
+
+}
+
+central_banks = {
+	area = financial_institutions
+	year = 1770
+	cost = 4000
+
+	tax_eff = 2
+	
+
+}
+
+insurance_companies = {
+	area = financial_institutions
+	year = 1750
+	cost = 6000
+
+	tax_eff = 2
+	
+
+}
+
+government_bonds = {
+	area = financial_institutions
+	year = 1800
+	cost = 8000
+
+
+	tax_eff = 2
+	
+
+}
+
+stock_exchange = {
+	area = financial_institutions
+	year = 1810
+	cost = 10000
+
+	tax_eff = 2
+	
+
+}
+
+private_banks = {
+	area = financial_institutions
+	year = 1830
+	cost = 12000
+ 
+	tax_eff = 2
+	
+
+}
+
+postal_saving_system = {
+	area = financial_institutions
+	year = 1850
+	cost = 14000
+
+	tax_eff = 2
+	
+
+}
+
+business_banks = {
+	area = financial_institutions
+	year = 1870
+	cost = 16000
+ 
+	tax_eff = 2
+	
+
+}
+
+commercial_banks = {
+	area = financial_institutions
+	year = 1880
+	cost = 18000
+
+	tax_eff = 2
+	
+
+}
+
+investment_banks = {
+	area = financial_institutions
+	year = 1890
+	cost = 20000
+ 
+	tax_eff = 2
+	
+
+}
+
+war_bonds = {
+	area = financial_institutions
+	year = 1900
+	cost = 22000
+ 
+	tax_eff = 2
+	
+
+}
+
+mutual_saving_system = {
+	area = financial_institutions
+	year = 1910
+	cost = 24000
+
+	tax_eff = 2
+	
+
+}
+
+
+
+
+#monetary_system
+
+Gold_Ducat = {
+	area = monetary_system
+	year = 1750
+	cost = 3500	
+
+	administrative_efficiency = 0.02
+	tax_eff = 0.15
+
+}
+
+Greshams_Law = {
+	area = monetary_system
+	year = 1750 
+	cost = 13500	
+
+	administrative_efficiency = 0.04
+	tax_eff = 0.15
+
+}
+
+
+no_standard = {
+	area = monetary_system
+	year = 1760 
+	cost = 6000
+
+	administrative_efficiency = 0.03
+	tax_eff = 0.5
+
+}
+
+Bimetallism = {
+	area = monetary_system
+	year = 1760 
+	cost = 9500	
+
+	administrative_efficiency = 0.04
+	tax_eff = 0.15
+
+}
+
+silver_standard = {
+	area = monetary_system
+	year = 1770
+	cost = 4000
+
+	administrative_efficiency = 0.03
+	tax_eff = 0.5
+
+}
+
+gold_standard = {
+	area = monetary_system
+	year = 1790
+	cost = 6000
+
+	administrative_efficiency = 0.03
+	tax_eff = 0.5
+
+}
+
+bimetallic_standard = {
+	area = monetary_system
+	year = 1790
+	cost = 8000
+
+	administrative_efficiency = 0.03
+	tax_eff = 0.5
+
+}
+
+central_bank_money_bill_printing = {
+	area = monetary_system
+	year = 1840
+	cost = 10000
+
+	administrative_efficiency = 0.03
+	tax_eff = 0.5
+
+}
+
+fiat_money_system = {
+	area = monetary_system
+	year = 1860
+	cost = 12000
+
+	administrative_efficiency = 0.03
+	tax_eff = 0.5
+
+}
+
+decimal_monetary_system = {
+	area = monetary_system
+	year = 1870
+	cost = 14000
+
+	administrative_efficiency = 0.03
+	tax_eff = 0.5
+
+}
+
+private_bank_money_bill_printing = {
+	area = monetary_system
+	year = 1890
+	cost = 16000
+
+	administrative_efficiency = 0.03
+	tax_eff = 0.5
+
+}
+
+fixed_exchange_rates = {
+	area = monetary_system
+	year = 1900
+	cost = 18000
+
+	administrative_efficiency = 0.03
+	tax_eff = 0.5
+
+}
+
+state_bond_monetary_system = {
+	area = monetary_system
+	year = 1900
+	cost = 20000
+
+	administrative_efficiency = 0.03
+	tax_eff = 0.5
+
+}
+
+floating_exchange_rates = {
+	area = monetary_system
+	year = 1910
+	cost = 22000
+
+	administrative_efficiency = 0.03
+	tax_eff = 0.5
+
+}
+
+modern_central_bank_system = {
+	area = monetary_system
+	year = 1920
+	cost = 24000
+
+	administrative_efficiency = 0.03
+	tax_eff = 0.5
+
+}
+
+
+
+#economic_thought_and_critique
+
+Scholastic_Economic_Thought = {
+	area = economic_thought_and_critique
+	year = 1750
+	cost = 3500
+	activate_building = lumber_mill
+	factory_input = -0.005
+	permanent_prestige = 1 
+
+}
+
+Market_orientated_thought = {
+	area = economic_thought_and_critique
+	year = 1750
+	cost = 3500
+	
+	factory_input = -0.005
+	permanent_prestige = 1 
+
+}
+
+Early_Mercantilist_Thought = {
+	area = economic_thought_and_critique
+	year = 1770
+	cost = 3500
+	
+	factory_input = 0.005
+	permanent_prestige = 1 
+
+}
+
+royal_mercantilism = {
+	area = economic_thought_and_critique
+	year = 1770
+	cost = 4000
+	factory_input = -0.005
+	permanent_prestige = 1 
+
+}
+
+eco_physiocracy = {
+	area = economic_thought_and_critique
+	year = 1780
+	cost = 2000
+	
+	factory_input = -0.005
+	permanent_prestige = 1 
+
+}
+
+division_of_labour = {
+	area = economic_thought_and_critique
+	year = 1790
+	cost = 20000
+	activate_building = furniture_factory
+	factory_input = -0.005
+	factory_output = 0.01
+	permanent_prestige = 1 
+
+}
+
+
+eco_wealth_of_nations = {
+	area = economic_thought_and_critique
+	year = 1790
+	cost = 8000
+	
+	activate_building = luxury_clothes_factory 
+	factory_input = -0.005
+	permanent_prestige = 1 
+
+}
+
+classical_theory = {
+	area = economic_thought_and_critique
+	year = 1800
+	cost = 10000
+	
+	factory_input = -0.005
+	permanent_prestige = 1 
+
+}
+
+the_historical_theory = {
+	area = economic_thought_and_critique
+	year = 1830
+	cost = 12000
+	
+	factory_input = -0.005
+	permanent_prestige = 1 
+
+}
+
+economic_liberalism = {
+	area = economic_thought_and_critique
+	year = 1840
+	cost = 14000
+	
+	activate_building = luxury_furniture_factory
+	factory_input = -0.005
+	permanent_prestige = 1 
+
+}
+
+eco_utilitarianism = {
+	area = economic_thought_and_critique
+	year = 1860
+	cost = 6000
+	
+	
+	factory_input = -0.005
+	permanent_prestige = 1 
+
+}
+
+eco_collectivist_theory = {
+	area = economic_thought_and_critique
+	year = 1870
+	cost = 18000
+	
+	factory_input = -0.005
+	permanent_prestige = 1 
+
+}
+
+national_debt = {
+	area = economic_thought_and_critique
+	year = 1880
+	cost = 16000
+	
+	factory_input = -0.005
+	permanent_prestige = 1 
+
+}
+
+neoclassical_theory = {
+	area = economic_thought_and_critique
+	year = 1900
+	cost = 22000
+	
+	factory_input = -0.005
+	permanent_prestige = 1 
+
+}
+
+keynesian_economics = {
+	area = economic_thought_and_critique
+	year = 1920
+	cost = 24000
+	
+	factory_input = -0.005
+	permanent_prestige = 1 
+
+}
+
+
+
+
+#market_functionality
+
+trade_guilds = {
+	area = market_functionality
+	year = 1750 
+	cost = 8000
+	influence = 0.05
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.025
+	
+}
+
+trade_league_market = {
+	area = market_functionality
+	year = 1750 
+	cost = 8000
+	influence = 0.05
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.025
+	
+}
+
+specialized_trade_route = {
+	area = market_functionality
+	year = 1760 
+	cost = 9000
+	influence = 0.1
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.15
+	
+}
+
+market_structure = {
+	area = market_functionality
+	year = 1770
+	cost = 9000
+
+	influence = 0.1
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.025
+	
+}
+
+
+freedom_of_trade = {
+	area = market_functionality
+	year = 1790
+	cost = 10000
+
+
+	activate_building = winery
+	influence = 0.1
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.025
+	
+}
+
+joint_stock_companies = {
+	area = market_functionality
+	year = 1800
+	cost = 16000
+
+ 
+	influence = 0.1
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.025
+	
+}
+
+
+trust_companies = {
+	area = market_functionality
+	year = 1810
+	cost = 18000
+
+ 
+	influence = 0.1
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.025
+	
+}
+
+
+Trade_association = {
+	area = market_functionality
+	year = 1820
+	cost = 20000
+
+ 
+	influence = 0.1
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.025
+	
+}
+
+business_regulations = {
+	area = market_functionality
+	year = 1850
+	cost = 22000
+
+ 
+	influence = 0.1
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.025
+	
+}
+
+market_monopolization = {
+	area = market_functionality
+	year = 1870
+	cost = 24000
+
+  
+	influence = 0.1
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.025
+	
+}
+
+
+market_regulations = {
+	area = market_functionality
+	year = 1890
+	cost = 26000
+
+ 
+	influence = 0.1
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.025
+	
+}
+
+supply_demand = {
+	area = market_functionality
+	year = 1900
+	cost = 27000
+ 
+
+	influence = 0.1
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.025
+	
+}
+
+public_companies = {
+	area = market_functionality
+	year = 1900
+	cost = 29000
+ 
+ 
+	influence = 0.1
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.025
+	
+}
+
+
+economic_responsibility = {
+	area = market_functionality
+	year = 1910
+	cost = 31000
+
+ 
+	influence = 0.1
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.025
+	
+}
+
+government_interventionism = {
+	area = market_functionality
+	year = 1910
+	cost = 24000
+
+ 
+	influence = 0.1
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.025
+	
+}
+
+
+#tech_organization
+
+commune_organization = {
+	area = tech_organization
+	year = 1750 
+	cost = 8000
+
+	factory_output = 0.01
+	
+}
+
+early_guild_organization = {
+	area = tech_organization
+	year = 1750 
+	cost = 9000
+
+	factory_output = 0.01
+	
+}
+
+guild_organization = {
+	area = tech_organization
+	year = 1765 
+	cost = 9000
+	activate_building = artillery_factory
+	factory_output = 0.02
+	
+}
+
+specialized_guild_organization = {
+	area = tech_organization
+	year = 1780 
+	cost = 9000
+
+	factory_output = 0.01
+	
+}
+
+bourgeoisie_organization = {
+	area = tech_organization
+	year = 1780
+	cost = 9000
+	
+	factory_output = 0.02
+	
+}
+
+capital_organization = {
+	area = tech_organization
+	year = 1790
+	cost = 9000
+	
+	factory_output = 0.02
+	
+}
+
+workforce_organization = {
+	area = tech_organization
+	year = 1800
+	cost = 9000
+	
+	factory_output = 0.02
+	
+}
+
+market_organization = {
+	area = tech_organization
+	year = 1810
+	cost = 10000
+	
+	factory_output = 0.02
+	
+}
+
+organized_factories = {
+	area = tech_organization
+	year = 1850
+	cost = 12000
+	
+	factory_output = 0.02
+	
+}
+
+scientific_management = {
+	area = tech_organization
+	year = 1870
+	cost = 14000
+	
+	factory_output = 0.02
+	
+}
+
+smallholder_business = {
+	area = tech_organization
+	year = 1880
+	cost = 16000
+	
+	factory_output = 0.02
+	
+}
+
+time_saving_mesasures = {
+	area = tech_organization
+	year = 1890
+	cost = 18000
+	
+	factory_output = 0.02
+	
+}
+
+management_strategy = {
+	area = tech_organization
+	year = 1900
+	cost = 20000
+	
+	factory_output = 0.02
+	
+}
+
+work_specialization = {
+	area = tech_organization
+	year = 1910
+	cost = 22000
+	
+	factory_output = 0.02
+	
+}
+
+organizational_development = {
+	area = tech_organization
+	year = 1920
+	cost = 24000
+	
+	factory_output = 0.02
+	
+}
+
+
+

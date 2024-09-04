@@ -1,0 +1,5 @@
+owner = KFI
+controller = KFI
+add_core = KFI
+trade_goods = iron
+life_rating = 32

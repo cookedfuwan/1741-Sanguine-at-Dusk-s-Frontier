@@ -1,0 +1,7 @@
+owner = KRN
+controller = KRN
+add_core = KRN
+add_core = HND
+#add_core = HYD
+trade_goods = dye
+life_rating = 30

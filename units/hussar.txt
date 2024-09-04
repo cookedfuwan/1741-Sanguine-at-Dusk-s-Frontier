@@ -1,0 +1,57 @@
+hussar = {
+	icon = 15
+	
+	type = land
+	sprite = Hussar
+	active = no
+	unit_type = cavalry
+	floating_flag = yes
+	
+	#Avatar
+	sprite_override = Cavalry
+	sprite_mount = GenericMount
+	sprite_mount_attach_node = Saddle_Node
+	
+	#Core Abilities
+	priority = 40
+	max_strength = 3
+	default_organisation = 30
+	maximum_speed = 6.00
+	weighted_value = 7.0
+
+
+	#Building Costs
+	build_time = 90 #120
+	build_cost = {
+		regular_clothes = 0.25
+		ammunition = 0.5
+		iron = 1
+		fabric = 1
+		cattle = 3
+		small_arms = 2 #10
+		canned_food = 1 #10
+		lumber = 5
+	}
+	
+	supply_consumption = 0.4
+	supply_cost = {	
+		iron = 0.05
+		regular_clothes = 0.1
+		fabric = 0.5
+		small_arms = 0.05 #0.012 #0.012
+		ammunition = 0.5 #0.075 #0
+		canned_food = 0.05 #0.07 #0.08
+		cattle = 0.5
+		lumber = 0.25
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 2.5
+	attack = 3
+	defence = 3
+	discipline = 1.0
+	support = 0.0
+	maneuver = 4
+	
+}

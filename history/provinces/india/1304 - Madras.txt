@@ -1,0 +1,10 @@
+owner = ENG
+controller = ENG
+add_core = KRN
+#add_core = HYD
+add_core = HND
+trade_goods = grain
+life_rating = 30
+fort = 1
+colonial = 2
+naval_base = 1

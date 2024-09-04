@@ -1,0 +1,5 @@
+owner = MNK
+controller = MNK
+add_core = MNK
+trade_goods = iron
+life_rating = 32

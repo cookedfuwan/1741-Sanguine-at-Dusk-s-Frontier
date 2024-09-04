@@ -1,0 +1,115 @@
+army = {
+	name = "Svenska Armén"
+	location = 322
+	regiment = {
+		name= "Svea Livgarde"
+		type = guard
+		home = 325
+	}
+
+	regiment = {
+		name= "Södermanlands Regemente"
+		type = artillery
+		home = 327
+	}
+
+	regiment = {
+		name= "Första Livgrenadjärregementet"
+		type = infantry
+		home = 328
+	}
+
+	regiment = {
+		name= "Upplands Regemente"
+		type = infantry
+		home = 326
+	}
+
+	regiment = {
+		name= "Västgöta Regemente"
+		type = infantry
+		home = 322
+	}
+
+	regiment = {
+		name= "Kalmar Regemente"
+		type = infantry
+		home = 324
+	}
+
+	regiment = {
+		name= "Jönköpings Regemente"
+		type = infantry
+		home = 317
+	}
+
+	regiment = {
+		name= "Södra Skånska Infanteriregementet"
+		type = infantry
+		home = 328
+	}
+
+}
+
+navy = {
+	name = "Swedish Navy"
+	location = 322
+	ship = {
+		name= "Karl XIII"
+		type = manowar
+	}
+
+	ship = {
+		name= "Karl XIV Johan"
+		type = manowar
+	}
+
+	ship = {
+		name= "Fäderneslandet"
+		type = manowar
+	}
+
+	ship = {
+		name= "Manligheten"
+		type = manowar
+	}
+
+
+	ship = {
+		name= "Camilla"
+		type = frigate
+	}
+
+	ship = {
+		name= "Af Chapman"
+		type = frigate
+	}
+
+	ship = {
+		name= "Eurydice"
+		type = frigate
+	}
+
+	ship = {
+		name= "Galatea"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+

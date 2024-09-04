@@ -1,0 +1,18 @@
+
+
+army = {
+	name = "Bey of Tripoli"
+	location = 1731
+	regiment = {
+		name= "1.Imazighen"
+		type = irregular
+		home = 1731
+	}
+	
+	regiment = {
+		name= "2.Imazighen"
+		type = irregular
+		home = 1733
+	}
+}
+

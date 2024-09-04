@@ -1,0 +1,5 @@
+owner = AME
+controller = AME
+add_core = AME
+trade_goods = sulphur
+life_rating = 30

@@ -1,0 +1,748 @@
+#aesthetics
+
+classicism = {
+	area = aesthetics
+	year = 1750
+	cost = 8000
+
+	prestige = 0.05
+
+}
+
+early_romanticism = {
+	area = aesthetics
+	year = 1760
+	cost = 7000
+
+	prestige = 0.05
+	permanent_prestige = 10	
+
+}
+
+neoclassicism = {
+	area = aesthetics
+	year = 1770
+	cost = 8000
+
+	prestige = 0.05
+	permanent_prestige = 10 
+	goods_demand = 0.001
+
+}
+
+romanticism = {
+	area = aesthetics
+	year = 1790
+	cost = 8000
+
+	prestige = 0.05
+	permanent_prestige = 10
+	goods_demand = 0.05
+	
+
+}
+
+realism = {
+	area = aesthetics
+	year = 1800
+	cost = 10000
+
+	prestige = 0.05
+	permanent_prestige = 10 
+	goods_demand = 0.05
+
+}
+
+modernism = {
+	area = aesthetics
+	year = 1830
+	cost = 18000
+
+	prestige = 0.05
+	permanent_prestige = 10 
+	goods_demand = 0.1
+
+}
+
+impressionism = {
+	area = aesthetics
+	year = 1870
+	cost = 17000
+
+	prestige = 0.05
+	permanent_prestige = 20
+	goods_demand = 0.1
+
+}
+
+expressionism = {
+	area = aesthetics
+	year = 1880
+	cost = 18000
+
+	prestige = 0.05
+	permanent_prestige = 20
+
+}
+
+avant_garde_culture = {
+	area = aesthetics
+	year = 1890
+	cost = 18000
+
+	prestige = 0.05
+	permanent_prestige = 20
+
+}
+
+illusionism = {
+	area = aesthetics
+	year = 1900
+	cost = 18000
+
+	prestige = 0.05
+	permanent_prestige = 20
+
+}
+
+surrealism = {
+	area = aesthetics
+	year = 1910
+	cost = 28000
+
+	prestige = 0.05
+	permanent_prestige = 20
+
+}
+
+popular_culture = {
+	area = aesthetics
+	year = 1920
+	cost = 27000
+
+	prestige = 0.05
+	permanent_prestige = 20
+
+}
+
+
+
+
+
+
+#philosophy
+
+enlightment_philosophy = {
+	area = philosophy
+	year = 1750
+	cost = 8000
+
+	permanent_prestige = 10
+	increase_research = 0.20
+	
+
+}
+
+idealism = {
+	area = philosophy
+	year = 1770
+	cost = 7000
+
+	permanent_prestige = 10
+	increase_research = 0.20
+	
+
+}
+
+empiricism = {
+	area = philosophy
+	year = 1790
+	cost = 8000
+
+	permanent_prestige = 10
+	increase_research = 0.20
+	
+
+}
+
+political_philosophy = {
+	area = philosophy
+	year = 1810
+	cost = 8000
+
+	permanent_prestige = 10
+	increase_research = 0.20
+	
+
+}
+
+positivism = {
+	area = philosophy
+	year = 1820
+	cost = 10000
+
+	permanent_prestige = 10
+	increase_research = 0.20
+	
+
+}
+
+materialism = {
+	area = philosophy
+	year = 1830
+	cost = 18000
+
+	permanent_prestige = 10
+	increase_research = 0.20
+	
+
+}
+
+rationalism = {
+	area = philosophy
+	year = 1840
+	cost = 17000
+
+	permanent_prestige = 10
+	increase_research = 0.20
+	
+
+}
+
+existensialism = {
+	area = philosophy
+	year = 1850
+	cost = 18000
+
+	permanent_prestige = 10
+	increase_research = 0.20
+	
+
+}
+
+phenomenology = {
+	area = philosophy
+	year = 1870
+	cost = 18000
+
+	permanent_prestige = 10
+	increase_research = 0.20
+	
+
+}
+
+pragmatism = {
+	area = philosophy
+	year = 1890
+	cost = 80000
+
+	permanent_prestige = 10
+	increase_research = 0.20
+	
+
+}
+
+analytic_philosophy = {
+	area = philosophy
+	year = 1900
+	cost = 28000
+
+	permanent_prestige = 10
+	increase_research = 0.20
+	
+
+}
+
+anti_rationalism = {
+	area = philosophy
+	year = 1910
+	cost = 27000
+
+	permanent_prestige = 10
+	increase_research = 0.20
+	
+
+}
+
+
+
+#social_thought
+
+social_contract = {
+	area = social_thought
+	year = 1750
+	cost = 8000
+
+	colonial_migration = 0.03
+	education_efficiency = 0.1
+	goods_demand = -0.15
+	
+
+}
+
+agrarianism = {
+	area = social_thought
+	year = 1770
+	cost = 7000
+
+	colonial_migration = 0.03
+	education_efficiency = 0.1
+	goods_demand = 0.03
+	
+
+}
+
+egalitarianism = {
+	area = social_thought
+	year = 1790
+	cost = 8000
+
+	colonial_migration = 0.03
+	education_efficiency = 0.1
+	
+
+}
+
+malthusianism = {
+	area = social_thought
+	year = 1800
+	cost = 8000
+
+	colonial_migration = 0.03
+	education_efficiency = 0.1
+	goods_demand = 0.1
+	
+
+}
+
+humanism = {
+	area = social_thought
+	year = 1820
+	cost = 10000
+
+	colonial_migration = 0.03
+	education_efficiency = 0.1
+	
+
+}
+
+traditionalism = {
+	area = social_thought
+	year = 1830
+	cost = 18000
+
+	colonial_migration = 0.03
+	education_efficiency = 0.1
+	
+
+}
+
+darwinism = {
+	area = social_thought
+	year = 1850
+	cost = 17000
+
+	colonial_migration = 0.03
+	education_efficiency = 0.1
+	
+
+}
+
+sociology = {
+	area = social_thought
+	year = 1870
+	cost = 18000
+
+	colonial_migration = 0.03
+	education_efficiency = 0.1
+	
+
+}
+
+collectivism = {
+	area = social_thought
+	year = 1890
+	cost = 18000
+
+	colonial_migration = 0.03
+	education_efficiency = 0.1
+	
+
+}
+
+social_antropology = {
+	area = social_thought
+	year = 1900
+	cost = 80000
+
+	colonial_migration = 0.03
+	education_efficiency = 0.1
+	
+
+}
+
+individualism = {
+	area = social_thought
+	year = 1910
+	cost = 28000
+
+	colonial_migration = 0.03
+	education_efficiency = 0.1
+	
+
+}
+
+authoritarianism = {
+	area = social_thought
+	year = 1920
+	cost = 27000
+
+	colonial_migration = 0.03
+	education_efficiency = 0.1
+	
+
+}
+
+
+
+
+#political_thought
+
+state_formation = {
+	area = political_thought
+	year = 1760
+	cost = 8000
+
+	max_national_focus = 2
+	diplomatic_points = 0.05
+	plurality = 0.05
+	suppression_points_modifier = 0.15
+	}
+
+
+rights_of_man = {
+	area = political_thought
+	year = 1790
+	cost = 7000
+
+	max_national_focus = 1
+	diplomatic_points = 0.05
+	plurality = 0.05
+	suppression_points_modifier = 0.05
+	
+		
+			
+	}	
+
+government_by_consent = {
+	area = political_thought
+	year = 1790
+	cost = 8000
+
+	max_national_focus = 1
+	diplomatic_points = 0.05
+	plurality = 0.05
+	suppression_points_modifier = 0.05
+	
+		
+			
+	}
+
+constitutionalism = {
+	area = political_thought
+	year = 1800
+	cost = 8000
+
+	max_national_focus = 1
+	diplomatic_points = 0.05
+	plurality = 0.05
+	suppression_points_modifier = 0.05
+	
+		
+			
+	}
+	
+
+
+nationalism = {
+	area = political_thought
+	year = 1820
+	cost = 10000
+
+	max_national_focus = 1
+	diplomatic_points = 0.05
+	plurality = 0.05
+	suppression_points_modifier = 0.05
+	
+		
+			
+	}
+
+revolutionism = {
+	area = political_thought
+	year = 1830
+	cost = 18000
+
+	max_national_focus = 1
+	diplomatic_points = 0.05
+	plurality = 0.05
+	suppression_points_modifier = 0.05
+	
+		
+			
+	}	
+
+imperialism = {
+	area = political_thought
+	year = 1850
+	cost = 17000
+
+	
+	max_national_focus = 1
+	diplomatic_points = 0.05
+	plurality = 0.05
+	suppression_points_modifier = 0.05
+	
+		
+			
+	}
+
+
+counter_revolutionism = {
+	area = political_thought
+	year = 1860
+	cost = 18000
+
+	max_national_focus = 1
+	diplomatic_points = 0.05
+	plurality = 0.05
+	suppression_points_modifier = 0.05
+	
+		
+			
+	}
+
+
+state_soverignty = {
+	area = political_thought
+	year = 1870
+	cost = 18000
+
+	max_national_focus = 1
+	diplomatic_points = 0.05
+	plurality = 0.05
+	suppression_points_modifier = 0.05
+	
+		
+			
+	}
+
+citizenship = {
+	area = political_thought
+	year = 1880
+	cost = 80000
+
+	max_national_focus = 1
+	diplomatic_points = 0.05
+	plurality = 0.05
+	suppression_points_modifier = 0.05
+	
+		
+			
+	}
+	
+
+
+seperation_of_powers = {
+	area = political_thought
+	year = 1880
+	cost = 28000
+
+	max_national_focus = 1
+	diplomatic_points = 0.05
+	plurality = 0.05
+	suppression_points_modifier = 0.05	
+			
+	}
+
+mass_politics = {
+	area = political_thought
+	year = 1890
+	cost = 27000
+
+	max_national_focus = 1
+	diplomatic_points = 0.05
+	plurality = 0.05
+	suppression_points_modifier = 0.05
+	
+		
+			
+	}
+
+
+
+
+#psychology
+
+epiphenomenalism = {
+	area = psychology
+	year = 1740
+	cost = 8000
+
+
+	regular_experience_level = 4
+	reinforce_rate = 0.04
+	permanent_prestige = 5 
+	
+
+}
+
+structuralism = {
+	area = psychology
+	year = 1750
+	cost = 7000
+
+
+	regular_experience_level = 4
+	reinforce_rate = 0.04
+	permanent_prestige = 5 
+	
+
+}
+
+
+phrenology = {
+	area = psychology
+	year = 1760
+	cost = 8000
+
+
+	regular_experience_level = 4
+	reinforce_rate = 0.04
+	permanent_prestige = 5 
+	
+
+}
+
+introspectionalism = {
+	area = psychology
+	year = 1770
+	cost = 8000
+
+
+	regular_experience_level = 4
+	reinforce_rate = 0.04
+	permanent_prestige = 5 
+	
+
+}
+
+associationism = {
+	area = psychology
+	year = 1790
+	cost = 10000
+
+
+	regular_experience_level = 4
+	reinforce_rate = 0.04
+	permanent_prestige = 5 
+	
+
+}
+
+
+phenomenalism = {
+	area = psychology
+	year = 1810
+	cost = 18000
+
+
+	regular_experience_level = 4
+	reinforce_rate = 0.04
+	permanent_prestige = 5 
+	
+
+}
+
+experimental_psychology = {
+	area = psychology
+	year = 1820
+	cost = 17000
+
+
+	regular_experience_level = 4
+	reinforce_rate = 0.04
+	permanent_prestige = 5 
+	
+
+}
+
+psychoanalysis = {
+	area = psychology
+	year = 1840
+	cost = 18000
+
+
+	regular_experience_level = 4
+	reinforce_rate = 0.04
+	permanent_prestige = 5 
+	
+
+}
+
+
+organizational_psychology = {
+	area = psychology
+	year = 1870
+	cost = 18000
+
+
+	regular_experience_level = 4
+	reinforce_rate = 0.04
+	permanent_prestige = 5 
+	
+
+}
+
+behaviorism = {
+	area = psychology
+	year = 1880
+	cost = 80000
+
+
+	regular_experience_level = 4
+	reinforce_rate = 0.04
+	permanent_prestige = 5 
+	
+
+}
+
+social_psychology = {
+	area = psychology
+	year = 1890
+	cost = 28000
+
+
+	regular_experience_level = 4
+	reinforce_rate = 0.04
+	permanent_prestige = 5 
+	
+
+}
+
+
+military_psychology = {
+	area = psychology
+	year = 1910
+	cost = 27000
+
+
+	regular_experience_level = 4
+	reinforce_rate = 0.04
+	permanent_prestige = 5 
+	
+
+}
+
+
+

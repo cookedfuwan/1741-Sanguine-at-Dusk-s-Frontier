@@ -1,0 +1,6 @@
+owner = KHI
+controller = KHI
+add_core = KHI
+add_core = RUS
+trade_goods = grain
+life_rating = 32

@@ -1,0 +1,60 @@
+capital = 3321
+primary_culture = japanese
+culture = ainu
+religion = tennoshoto
+government = absolute_monarchy
+plurality = 0.10
+nationalvalue = nv_order
+literacy = 0.50
+civilized = yes
+
+ruling_party = GFM_conservative_2
+upper_house = {
+	fascist = 0
+	liberal = 17
+	conservative = 35
+	reactionary = 48
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+early_gunpowder_warfare = 1
+transitional_gunpowder_warfare = 1
+linear_formations_warfare = 1
+Tengejin_idea = 1
+nomads_mobility = 1
+flintlock_muskets = 1
+flintlock_rifle_armament = 1
+
+hand_gonne_muskets = 1
+arquebus_muskets = 1
+early_rifling_musket = 1
+matchlock_muskets = 1
+
+wall_cannon = 1
+swivel_guns = 1
+siege_cannon = 1
+battlefield_cannon = 1

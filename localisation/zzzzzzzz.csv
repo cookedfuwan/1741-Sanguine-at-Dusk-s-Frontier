@@ -1,0 +1,471 @@
+AUS_5000;Transylvania;;;;;;;;;;;;;x
+TUR_1500;Diyarbekir;;;;;;;;;;;;;x
+TUR_1501;Trabzon;;;;;;;;;;;;;x
+TUR_1502;Erzurum;;;;;;;;;;;;;x
+TUR_1503;Adana;;;;;;;;;;;;;x
+TUR_1504;Sivas;;;;;;;;;;;;;x
+TUR_1505;Crete;;;;;;;;;;;;;x
+TUR_1506;Septinsular;;;;;;;;;;;;;x
+TUR_1507;Morea;;;;;;;;;;;;;x
+TUR_1508;Lahsa;;;;;;;;;;;;;x
+TUR_1509;Egypt;;;;;;;;;;;;;x
+TUR_1510;Luxor;;;;;;;;;;;;;x
+TUR_1511;Fezzan;;;;;;;;;;;;;x
+TUR_1512;Barqa;;;;;;;;;;;;;x
+THC;Thirteen Colonies;;;;;;;;;;;;;x
+THC_ADJ;American;;;;;;;;;;;;;x
+TRR;Trier;;;;;;;;;;;;;x
+TRR_ADJ;Trevian;;;;;;;;;;;;;x
+CLG;Cologne;;;;;;;;;;;;;x
+CLG_ADJ;Colognian;;;;;;;;;;;;;x
+AAC;Aachen;;;;;;;;;;;;;x
+AAC_ADJ;Aachenian;;;;;;;;;;;;;x
+PLT;Palatinate;;;;;;;;;;;;;x
+PLT_ADJ;Palatine;;;;;;;;;;;;;x
+MNZ;Mainz;;;;;;;;;;;;;x
+MNZ_ADJ;Mainzian;;;;;;;;;;;;;x
+WUZ;Würzburg;;;;;;;;;;;;;x
+WUZ_ADJ;Wurzburgian;;;;;;;;;;;;;x
+GNA;Genoa;;;;;;;;;;;;;x
+GNA_ADJ;Genoese;;;;;;;;;;;;;x
+MLT;Malta;;;;;;;;;;;;;x
+MLT_ADJ;Maltese;;;;;;;;;;;;;x
+PEG;Pegu;;;;;;;;;;;;;x
+PEG_ADJ;Peguian;;;;;;;;;;;;;x
+MLW;Malwa;;;;;;;;;;;;;x
+MLW_ADJ;Malwese;;;;;;;;;;;;;x
+ASS;Assam;;;;;;;;;;;;;x
+ASS_ADJ;Assamese;;;;;;;;;;;;;x
+BNG;Bengal;;;;;;;;;;;;;x
+BNG_ADJ;Bengali;;;;;;;;;;;;;x
+ODH;Oudh;;;;;;;;;;;;;x
+ODH_ADJ;Oudhian;;;;;;;;;;;;;x
+KRN;Karnataka;;;;;;;;;;;;;x
+KRN_ADJ;Karnatic;;;;;;;;;;;;;x
+MAR;Maratha;;;;;;;;;;;;;x
+MAR_ADJ;Marathi;;;;;;;;;;;;;x
+early_modern_warfare;Early Modern Warfare;;;;;;;;;;;;;x
+maneuver_warfare;Maneuver Warfare;;;;;;;;;;;;;x
+attrition_warfare;Attrition Warfare;;;;;;;;;;;;;x
+napoleonic_warfare;Napoleonic Warfare;;;;;;;;;;;;;x
+guerilla_warfare;Guerilla Warfare;;;;;;;;;;;;;x
+total_warfare;Total Warfare;;;;;;;;;;;;;x
+offensive_warfare;Offensive Warfare;;;;;;;;;;;;;x
+industrial_warfare;Industrial Warfare;;;;;;;;;;;;;x
+defensive_warfare;Defensive Warfare;;;;;;;;;;;;;x
+indirect_warfare;Indirect Warfare;;;;;;;;;;;;;x
+armored_warfare;Armoured Warfare;;;;;;;;;;;;;x
+aerial_warfare;Aerial Warfare;;;;;;;;;;;;;x
+flintlock_muskets;Flintlock Muskets;;;;;;;;;;;;;x
+rifled_muskets;Rifled Muskets;;;;;;;;;;;;;x
+caplock_muskets;Caplock Muskets;;;;;;;;;;;;;x
+carbines;Carbines;;;;;;;;;;;;;x
+breech_loaded_muskets;Breech Loaded Muskets;;;;;;;;;;;;;x
+breech_loaded_rifles;Breech Loaded Rifles;;;;;;;;;;;;;x
+percussion_rifles;Percussion Rifles;;;;;;;;;;;;;x
+bolt_action_rifles;Bolt Action Rifles;;;;;;;;;;;;;x
+machine_guns;Machine Guns;;;;;;;;;;;;;x
+repeating_rifles;Repeating Rifles;;;;;;;;;;;;;x
+lever_action_rifles;Lever Action Rifles;;;;;;;;;;;;;x
+semi_automatic_rifles;Semi Automatic Rifles;;;;;;;;;;;;;x
+de_valiere_system;de Vallière System;;;;;;;;;;;;;x
+gribeauval_system;Gribeauval System;;;;;;;;;;;;;x
+improved_horse_artillery;Improved Horse Artillery;;;;;;;;;;;;;x
+valee_system;Valée System;;;;;;;;;;;;;x
+rifled_artillery;Rifled Artillery;;;;;;;;;;;;;x
+breech_loaded_artillery;Breech Loaded Artillery;;;;;;;;;;;;;x
+improved_siege_artillery;Improved Siege Artillery;;;;;;;;;;;;;x
+howitzer_arty;Howitzers;;;;;;;;;;;;;x
+indirect_fire;Indirect Fire;;;;;;;;;;;;;x
+precision_fire;Precision Fire;;;;;;;;;;;;;x
+armoured_vehicles;Armoured Vehicles;;;;;;;;;;;;;x
+fixed_aircraft;Fixed Aircraft;;;;;;;;;;;;;x
+mil_mobility;Military Mobility;;;;;;;;;;;;;x
+mil_planning;Military Planning;;;;;;;;;;;;;x
+mil_statistics;Military Statistics;;;;;;;;;;;;;x
+mil_logistics;Military Logistics;;;;;;;;;;;;;x
+mil_admin;Military Administration;;;;;;;;;;;;;x
+mil_history;Military History;;;;;;;;;;;;;x
+mil_economics;Military Economics;;;;;;;;;;;;;x
+mil_engineering;Military Engineering;;;;;;;;;;;;;x
+mil_directionism;Military Directionism;;;;;;;;;;;;;x
+mil_strategy;Military Strategy;;;;;;;;;;;;;x
+mil_legislation;Military Legislation;;;;;;;;;;;;;x
+mil_aeronautics;Aeronautics;;;;;;;;;;;;;x
+unity_of_command;Unity of Command;;;;;;;;;;;;;x
+academic_training;Academic Training;;;;;;;;;;;;;x
+army_professionalism;Army Professionalism;;;;;;;;;;;;;x
+force_structure;Army Force Structure;;;;;;;;;;;;;x
+army_promotion_principles;Army Promotion Principles;;;;;;;;;;;;;x
+army_decision_making;Army Decision Making;;;;;;;;;;;;;x
+general_staff_system;General Staff System;;;;;;;;;;;;;x
+army_independent_command;Independent Command;;;;;;;;;;;;;x
+field_training;Army Field Training;;;;;;;;;;;;;x
+army_risk_management;Army Risk Management;;;;;;;;;;;;;x
+army_nco_training;Army NCO Training;;;;;;;;;;;;;x
+army_command_structure;Army Command Structure;;;;;;;;;;;;;x
+building_societies;Building Societies;;;;;;;;;;;;;x
+central_banks;Central Banks;;;;;;;;;;;;;x
+insurance_companies;Insurance Companies;;;;;;;;;;;;;x
+government_bonds;Government Bonds;;;;;;;;;;;;;x
+stock_exchange;Stock Exchange;;;;;;;;;;;;;x
+private_banks;Private Banks;;;;;;;;;;;;;x
+postal_saving_system;Postal Savings System;;;;;;;;;;;;;x
+business_banks;Business Banks;;;;;;;;;;;;;x
+commercial_banks;Commercial Banks;;;;;;;;;;;;;x
+investment_banks;Investment Banks;;;;;;;;;;;;;x
+war_bonds;War Bonds;;;;;;;;;;;;;x
+mutual_saving_system;Mutual Savings System;;;;;;;;;;;;;x
+no_standard;No Standard;;;;;;;;;;;;;x
+silver_standard;Silver Standard;;;;;;;;;;;;;x
+gold_standard;Gold Standard;;;;;;;;;;;;;x
+bimetallic_standard;Bimetallic Standard;;;;;;;;;;;;;x
+central_bank_money_printing;Central Bank Money Bill Printing;;;;;;;;;;;;;x
+fiat_money_system;Fiat Money System;;;;;;;;;;;;;x
+decimal_monetary_system;Decimal Monetary System;;;;;;;;;;;;;x
+private_bank_money_printing;Private Bank Money Bill Printing;;;;;;;;;;;;;x
+fixed_exchange_rates;Fixed Exchange Rates;;;;;;;;;;;;;x
+state_bond_monetary_system;State Bond Monetary System;;;;;;;;;;;;;x
+floating_exchange_rates;Floating Exchange Rates;;;;;;;;;;;;;x
+modern_central_banking_system;Modern Central Banking System;;;;;;;;;;;;;x
+eco_physiocracy;Physiocracy;;;;;;;;;;;;;x
+eco_mercantilism;Mercantilism;;;;;;;;;;;;;x
+eco_utilitarianism;Utlitarianism;;;;;;;;;;;;;x
+eco_wealth_of_nations;Wealth of Nations;;;;;;;;;;;;;x
+classical_theory;Classical Theory;;;;;;;;;;;;;x
+historical_theory;The Historical Theory;;;;;;;;;;;;;x
+eco_liberalism;Liberalism;;;;;;;;;;;;;x
+national_debt;National Debt;;;;;;;;;;;;;x
+eco_marxism;Marxism;;;;;;;;;;;;;x
+division_of_labour;Division of Labour;;;;;;;;;;;;;x
+neoclassical_theory;Neoclassical Theory;;;;;;;;;;;;;x
+keynesian_economics;Keynesian Economics;;;;;;;;;;;;;x
+market_structure;Market Structure;;;;;;;;;;;;;x
+freedom_of_trade;Freedom of Trade;;;;;;;;;;;;;x
+joint_stock_companies;Joint Stock Companies;;;;;;;;;;;;;x
+trust_companies;Trust Companies;;;;;;;;;;;;;x
+trade_unions;Trade Unions;;;;;;;;;;;;;x
+business_regulations;Business Regulations;;;;;;;;;;;;;x
+market_monopolization;Monopolization;;;;;;;;;;;;;x
+market_regulations;Market Regulation;;;;;;;;;;;;;x
+supply_demand;Supply and Demand;;;;;;;;;;;;;x
+public_companies;Public Companies;;;;;;;;;;;;;x
+economic_responsibility;Economic Responsibility;;;;;;;;;;;;;x
+government_interventionism;Government Interventionism;;;;;;;;;;;;;x
+guild_organization;Guild Organization;;;;;;;;;;;;;x
+bourgeoisie_organization;Bourgeoisie;;;;;;;;;;;;;x
+capital_organization;Capital;;;;;;;;;;;;;x
+workforce_organization;Workforce;;;;;;;;;;;;;x
+market_organization;Market;;;;;;;;;;;;;x
+organized_factories;Organized Factories;;;;;;;;;;;;;x
+scientific_management;Scientific Management;;;;;;;;;;;;;x
+smallholder_business;Smallholder Business;;;;;;;;;;;;;x
+time_saving_mesasures;Time Saving Measures;;;;;;;;;;;;;x
+management_strategy;Management Strategy;;;;;;;;;;;;;x
+work_specialization;Work Specialization;;;;;;;;;;;;;x
+organizational_development;Organizational Development;;;;;;;;;;;;;x
+classicism;Classicism;;;;;;;;;;;;;x
+early_romanticism;Early Romanticism;;;;;;;;;;;;;x
+neoclassicism;Neoclassicism;;;;;;;;;;;;;x
+romanticism;Romanticism;;;;;;;;;;;;;x
+realism;Realism;;;;;;;;;;;;;x
+modernism;Modernism;;;;;;;;;;;;;x
+impressionism;Impressionism;;;;;;;;;;;;;x
+expressionism;Expressionism;;;;;;;;;;;;;x
+avant_garde_culture;Avant-Garde;;;;;;;;;;;;;x
+illusionism;Illusionism;;;;;;;;;;;;;x
+surrealism;Surrealism;;;;;;;;;;;;;x
+popular_culture;Popular Culture;;;;;;;;;;;;;x
+enlightment_philosophy;Enlightment Philosophy;;;;;;;;;;;;;x
+idealism;Idealism;;;;;;;;;;;;;x
+empiricism;Empiricism;;;;;;;;;;;;;x
+political_philosophy;Political Philosophy;;;;;;;;;;;;;x
+positivism;Positivism;;;;;;;;;;;;;x
+materialism;Materialism;;;;;;;;;;;;;x
+rationalism;Rationalism;;;;;;;;;;;;;x
+existensialism;Existensialism;;;;;;;;;;;;;x
+phenomenology;Phenomenology;;;;;;;;;;;;;x
+pragmatism;Pragmatism;;;;;;;;;;;;;x
+analytic_philosophy;Analytical Philosophy;;;;;;;;;;;;;x
+anti_rationalism;Anti-Rationalism;;;;;;;;;;;;;x
+social_contract;Social Contract;;;;;;;;;;;;;x
+agrarianism;Agrarianism;;;;;;;;;;;;;x
+egalitarianism;Egalitarianism;;;;;;;;;;;;;x
+malthusianism;Malthusianism;;;;;;;;;;;;;x
+humanism;Humanism;;;;;;;;;;;;;x
+traditionalism;Traditionalism;;;;;;;;;;;;;x
+darwinism;Darwinism;;;;;;;;;;;;;x
+sociology;Sociology;;;;;;;;;;;;;x
+collectivism;Collectivism;;;;;;;;;;;;;x
+social_antropology;Social Anthropology;;;;;;;;;;;;;x
+individualism;Individualism;;;;;;;;;;;;;x
+authoritarianism;Authoritarianism;;;;;;;;;;;;;x
+state_formation;State Formation;;;;;;;;;;;;;x
+rights_of_man;The Rights of Man;;;;;;;;;;;;;x
+government_by_consent;Government by Consent;;;;;;;;;;;;;x
+constitutionalism;Constitutionalism;;;;;;;;;;;;;x
+nationalism;Nationalism;;;;;;;;;;;;;x
+imperialism;Imperialism;;;;;;;;;;;;;x
+revolutionism;Revolutionism;;;;;;;;;;;;;x
+counter_revolutionism;Conunter-Revolutionism;;;;;;;;;;;;;x
+state_soverignty;State Sovereignty;;;;;;;;;;;;;x
+citizenship;Citizenship;;;;;;;;;;;;;x
+seperation_of_powers;Seperation of Powers;;;;;;;;;;;;;x
+mass_politics;Mass Politics;;;;;;;;;;;;;x
+epiphenomenalism;Epiphenomenalism;;;;;;;;;;;;;x
+structuralism;Structuralism;;;;;;;;;;;;;x
+phrenology;Phrenology;;;;;;;;;;;;;x
+introspectionalism;Introspectionalism;;;;;;;;;;;;;x
+associationism;Associationism;;;;;;;;;;;;;x
+phenomenalism;Phenomenalism;;;;;;;;;;;;;x
+experimental_psychology;Experimental Psychology;;;;;;;;;;;;;x
+psychoanalysis;Psychoanalysis;;;;;;;;;;;;;x
+organizational_psychology;Organizational Psychology;;;;;;;;;;;;;x
+behaviorism;Behaviorism;;;;;;;;;;;;;x
+social_psychology;Social Psychology;;;;;;;;;;;;;x
+military_psychology;Military Psychology;;;;;;;;;;;;;x
+line_of_battle;Line of Battle;;;;;;;;;;;;;x
+commerce_raiding;Commerce Raiding;;;;;;;;;;;;;x
+total_blockade;Total Blockade;;;;;;;;;;;;;x
+command_of_the_sea;Command of the Sea;;;;;;;;;;;;;x
+steel_and_steam;Steel and Steam;;;;;;;;;;;;;x
+naval_maneuver;Maneuver;;;;;;;;;;;;;x
+firepower;Firepower;;;;;;;;;;;;;x
+blue_water_navy;Blue Water Navy;;;;;;;;;;;;;x
+raider_group_doctrine;Raider Group Doctrine;;;;;;;;;;;;;x
+brown_water_navy;Brown Water Navy;;;;;;;;;;;;;x
+high_sea_battlefleet;High Sea Battlefleet;;;;;;;;;;;;;x
+modern_naval_doctrine;Modern Naval Doctrine;;;;;;;;;;;;;x
+nav_frigates;Frigates;;;;;;;;;;;;;x
+ship_of_the_line;Ship of the Line;;;;;;;;;;;;;x
+copper_bottoms;Copper Bottoms;;;;;;;;;;;;;x
+steamboats;Steamboats;;;;;;;;;;;;;x
+clipper_design;Clipper Design;;;;;;;;;;;;;x
+steamships;Steamships;;;;;;;;;;;;;x
+iron_steamers;Iron steamers;;;;;;;;;;;;;x
+standardized_design;Standardized Design;;;;;;;;;;;;;x
+steel_steamers;Steel Steamers;;;;;;;;;;;;;x
+steam_turbine_ships;Steam Turbine Ships;;;;;;;;;;;;;x
+oil_driven_ships;Oil Driven Ships;;;;;;;;;;;;;x
+modern_shipbuilding;Modern Shipbuilding;;;;;;;;;;;;;x
+carronades;Carronades;;;;;;;;;;;;;x
+copper_sheating;Copper Sheating;;;;;;;;;;;;;x
+top_gallants;Top Gallants;;;;;;;;;;;;;x
+improved_coppering;Improved Coppering;;;;;;;;;;;;;x
+fire_control_systems;Fire Control Systems;;;;;;;;;;;;;x
+modern_shipyards;Modern Shipyards;;;;;;;;;;;;;x
+weapon_platforms;Weapon Platforms;;;;;;;;;;;;;x
+main_armament;Main Armament;;;;;;;;;;;;;x
+advanced_naval_design;Advanced Naval Design;;;;;;;;;;;;;x
+prefabrication_techniques;Prefabrication Techniques;;;;;;;;;;;;;x
+production_line;Production Line;;;;;;;;;;;;;x
+modern_naval_design;Modern Naval Design;;;;;;;;;;;;;x
+navigation_techniques;Navigation Techniques;;;;;;;;;;;;;x
+marine_chronometer;Marine Chronometer;;;;;;;;;;;;;x
+canned_food_tech;Canned Food;;;;;;;;;;;;;x
+alphabetic_flag_signal;Alphabetic Flag Signalling;;;;;;;;;;;;;x
+naval_planning;Naval Planning;;;;;;;;;;;;;x
+naval_statistics;Naval Statistics;;;;;;;;;;;;;x
+naval_logistics;Naval Logistics;;;;;;;;;;;;;x
+naval_administration;Naval Administration;;;;;;;;;;;;;x
+naval_economics;Naval Economics;;;;;;;;;;;;;x
+naval_strategy;Naval Strategy;;;;;;;;;;;;;x
+naval_directionism;Naval Directionism;;;;;;;;;;;;;x
+naval_integration;Naval Integration;;;;;;;;;;;;;x
+admiralty;Admiralty;;;;;;;;;;;;;x
+naval_professionalism;Naval Professionalism;;;;;;;;;;;;;x
+navy_decision_making;Navy Decision Making;;;;;;;;;;;;;x
+naval_risk_management;Navy Risk Management;;;;;;;;;;;;;x
+naval_command_principle;Navy Command Principle;;;;;;;;;;;;;x
+naval_promotion_principle;Navy Promotion Principle;;;;;;;;;;;;;x
+theatre_of_operation;Theatre of Operation;;;;;;;;;;;;;x
+naval_independent_command;Independent Naval Command;;;;;;;;;;;;;x
+naval_nco_training;Navy NCO Training;;;;;;;;;;;;;x
+naval_modern_command_structure;Modern Command Structure;;;;;;;;;;;;;x
+modern_naval_training;Modern Naval Training;;;;;;;;;;;;;x
+naval_exercises;Naval Exercises;;;;;;;;;;;;;x
+water_wheel_power;Water Wheel Power;;;;;;;;;;;;;x
+early_steam_engine;Early Steam Engine;;;;;;;;;;;;;x
+water_turbine;Water Turbine;;;;;;;;;;;;;x
+practical_steam_engine;Practical Steam Engine;;;;;;;;;;;;;x
+stirling_engine;Stirling Engine;;;;;;;;;;;;;x
+improved_steam_engine;Improved Steam Engine;;;;;;;;;;;;;x
+steam_turbine;Steam Turbine;;;;;;;;;;;;;x
+internal_combustion_engine;Internal Combustion Engine;;;;;;;;;;;;;x
+diesel_engine;Diesel Engine;;;;;;;;;;;;;x
+wind_turbine;Wind Turbine;;;;;;;;;;;;;x
+gas_turbine;Gas Turbine;;;;;;;;;;;;;x
+electrical_power_generation;Electrical Power Generation;;;;;;;;;;;;;x
+flying_shuttle;Flying Shuttle;;;;;;;;;;;;;x
+spinning_jenny;Spinning Jenny;;;;;;;;;;;;;x
+spring_scale;Spring Scale;;;;;;;;;;;;;x
+threshing_machine;Threshing Machine;;;;;;;;;;;;;x
+interchangeable_parts;Interchangeable Parts;;;;;;;;;;;;;x
+printing_press;Printing Press;;;;;;;;;;;;;x
+pattern_tracking_lathe;Pattern Tracking Lathe;;;;;;;;;;;;;x
+reaper_machine;Reaper Machine;;;;;;;;;;;;;x
+rotary_kiln;Rotary Kiln;;;;;;;;;;;;;x
+semi_automatization;Semi Automatization;;;;;;;;;;;;;x
+assembly_line;Assembly Line;;;;;;;;;;;;;x
+shift_work;Shift Work;;;;;;;;;;;;;x
+screw_cutting_lathe;Screw Cutting Lathe;;;;;;;;;;;;;x
+steam_pump;Steam Pump;;;;;;;;;;;;;x
+hydraulic_press;Hydraulic Press;;;;;;;;;;;;;x
+coke_blast_furnace;Coke Blast Furnace;;;;;;;;;;;;;x
+machine_tools;Machine Tools;;;;;;;;;;;;;x
+steam_shovel;Steam Shovel;;;;;;;;;;;;;x
+puddling_furnace;Puddling Furnace;;;;;;;;;;;;;x
+gold_cyanidation;Gold Cyanidation;;;;;;;;;;;;;x
+cheap_iron;Cheap Iron;;;;;;;;;;;;;x
+cheap_steel;Cheap Steel;;;;;;;;;;;;;x
+advanced_metallurgy;Advanced Metallurgy;;;;;;;;;;;;;x
+electrical_furnace;Electrical Furnace;;;;;;;;;;;;;x
+experimental_railroad;Experimental Railroad;;;;;;;;;;;;;x
+horse_drawn_railroad;Horse-Drawn Railroad;;;;;;;;;;;;;x
+steam_locomotives;Steam Locomotive;;;;;;;;;;;;;x
+early_railroad;Early Railroad;;;;;;;;;;;;;x
+rack_railroad;Rack Railroad;;;;;;;;;;;;;x
+iron_railroad;Iron Railroad;;;;;;;;;;;;;x
+intercity_railroad;Intercity Railroad;;;;;;;;;;;;;x
+steel_railroad;Steel Railroad;;;;;;;;;;;;;x
+continental_railroad;Continental Railroad;;;;;;;;;;;;;x
+standard_gauge;Standard Gauge;;;;;;;;;;;;;x
+integral_rail_system;Integral Rail System;;;;;;;;;;;;;x
+limited_access_roads;Limited Acess Roads;;;;;;;;;;;;;x
+early_chemistry;Early Chemistry;;;;;;;;;;;;;x
+basic_chemistry;Basic Chemistry;;;;;;;;;;;;;x
+vaccination;Vaccination;;;;;;;;;;;;;x
+morphine;Morphine;;;;;;;;;;;;;x
+medicine;Medicine;;;;;;;;;;;;;x
+inorganic_chemistry;Inorganic Chemistry;;;;;;;;;;;;;x
+pasteurization;Pasteurization;;;;;;;;;;;;;x
+synthetic_dye;Synthetic Dye;;;;;;;;;;;;;x
+gas_lights;Gas Lights;;;;;;;;;;;;;x
+organic_chemistry;Organic Chemistry;;;;;;;;;;;;;x
+electricity;Electricity;;;;;;;;;;;;;x
+synthetic_polymers;Synthetic Polymers;;;;;;;;;;;;;x
+LOU;Louisiana;;;;;;;;;;;;;x
+LOU_ADJ;Louisianian;;;;;;;;;;;;;x
+NFR;New France;;;;;;;;;;;;;x
+NFR_ADJ;New French;;;;;;;;;;;;;x
+AGRESSION_WAR_PUPPET_NAME;$ORDER$$SECOND$ War of Independence;;;;;;;;;;;;;x
+THC_conservative;Loyalists;;;;;;;;;;;;;x
+THC_liberal;Patriots;;;;;;;;;;;;;x
+THC_socialist;Socialists;;;;;;;;;;;;;x
+THC_reactionary;Reactionaries;;;;;;;;;;;;;x
+THC_anarcho_liberal;Anarchists;;;;;;;;;;;;;x
+THC_communist;Communists;;;;;;;;;;;;;x
+THC_fascist;Fascists;;;;;;;;;;;;;x
+MLT_reactionary;Reactionaries;;;;;;;;;;;;;x
+MLT_conservative;The Knights;;;;;;;;;;;;;x
+MLT_liberal;Liberals;;;;;;;;;;;;;x
+MLT_socialist;Socialists;;;;;;;;;;;;;x
+MLT_liberal_2;Neo-Liberals;;;;;;;;;;;;;x
+MLT_anarcho_liberal;Anarcho-Liberals;;;;;;;;;;;;;x
+MLT_communist;Communists;;;;;;;;;;;;;x
+MLT_fascist;Fascists;;;;;;;;;;;;;x
+MEX_viceroyalty;New Spain;;;;;;;;;;;;;x
+GCO_viceroyalty;New Granada;;;;;;;;;;;;;x
+ARG_viceroyalty;Rio de la Plata;;;;;;;;;;;;;x
+BRZ_viceroyalty;Brazil;;;;;;;;;;;;;x
+PEU_viceroyalty;Peru;;;;;;;;;;;;;x
+THC_viceroyalty;Thirteen Colonies;;;;;;;;;;;;;x
+LOU_viceroyalty;Louisiana;;;;;;;;;;;;;x
+war_for_independence_title;Claim National Independence;;;;;;;;;;;;;x
+war_for_independence_desc;For centuries our nation have been chained up. No liberties, no independence. Now, it is time to take up arms and fight for it!;;;;;;;;;;;;;x
+change_viceroyalty_title;Change Form of Government;;;;;;;;;;;;;x
+change_viceroyalty_desc;Our nation's link to the King is dissolved. We are a new member of nations of the world and we need a new form of government. We are no longer a viceroyalty.;;;;;;;;;;;;;x
+louisiana_purchase_title;Louisiana Purchase;;;;;;;;;;;;;x
+louisiana_purchase_desc;Louisiana is a vast colony with a little population to exploit. It is far from home and hard to maintain both militarily and financially. We really should think on selling it to Americans while they still have an interest to buy. Otherwise they may claim it and annex it by force.;;;;;;;;;;;;;x
+sugarr_act_title;Sugar Act;;;;;;;;;;;;;x
+sugarr_act_desc;Parliament wishes to raise revenue by taxing Americans. They are a part of our nation, therefore they must contribute!;;;;;;;;;;;;;x
+teaa_act_title;Tea Act;;;;;;;;;;;;;x
+teaa_act_desc;Tea is an important commodity and we have immense amount of it. Our subject colonies should buy this tea, they should pay for it, and pay for the taxes for it!;;;;;;;;;;;;;x
+no_taxation_no_representation_title;No Taxation Without Representation;;;;;;;;;;;;;x
+no_taxation_no_representation_desc;The British Parliament passes laws that affects colonies. By passing these laws the Parliament literally expect us to meet war expenses yet we have no representation in parliament. This is a clear violation of our rights as Englishmen, and we will never accept taxation without representation!;;;;;;;;;;;;;x
+stampp_act_title;Stamp Act;;;;;;;;;;;;;x
+stampp_act_desc;We can squeeze American colonies by imposing more taxes. A direct tax perhaps and  stamp is clearly a brilliant idea. All the printed materials in the colonies be produced on stamped paper produced in London carrying a revenue stamp.;;;;;;;;;;;;;x
+boston_tea_party_title;Boston Tea Party;;;;;;;;;;;;;x
+boston_tea_party_desc;The British Parliament insist on that we must buy tea from East India Company. We can protest them and destroy the tea  in Boston Harbor;;;;;;;;;;;;;x
+coercive_acts_title;Coercive Acts;;;;;;;;;;;;;x
+coercive_acts_desc;"The Americans have tarred and feathered your subjects, plundered your merchants, burnt your ships, denied all obedience to your laws and authority; yet so clement and so long forbearing has our conduct been that it is incumbent on us now to take a different course. Whatever may be the consequences, we must risk something; if we do not, all is over.";;;;;;;;;;;;;x
+intolerable_acts_title;Intolerable Acts;;;;;;;;;;;;;x
+intolerable_acts_desc;These so-called coercive acts which they were meant the punish Massachusetts and all of Thirteen Colonies are nothing but intolerable acts. ;;;;;;;;;;;;;x
+petition_to_the_king_title;Petition to the King;;;;;;;;;;;;;x
+petition_to_the_king_desc;That a loyal address to his Majesty be prepared, dutifully requesting the royal attention to the grievances that alarm and distress his Majesty's faithful subjects in North-America, and entreating his Majesty's gracious interposition for the removal of such grievances, thereby to restore between Great-Britain and the colonies that harmony so necessary to the happiness of the British empire, and so ardently desired by all America;;;;;;;;;;;;;x
+minutemen_title;Minutemen;;;;;;;;;;;;;x
+minutemen_desc;Minutemen are self-trained, highly mobile, well-prepared militia companies that can be ready in a minute's notice.;;;;;;;;;;;;;x
+first_continental_congress_title;First Continental Congress;;;;;;;;;;;;;x
+first_continental_congress_desc;First Continental Congress is gathered to consider options, including an economic boycott of British trade, rights and grievances and a petition to the King.;;;;;;;;;;;;;x
+join_or_die_title;Join, or Die;;;;;;;;;;;;;x
+join_or_die_desc;All the colonies are now united and ready to fight for our rights and the most importantly for our indepence!;;;;;;;;;;;;;x
+declaration_of_independence_title;Declaration of Independence;;;;;;;;;;;;;x
+declaration_of_independence_desc;Resolved, that these United Colonies are, and of right ought to be, free and independent States, that they are absolved from all allegiance to the British Crown, and that all political connection between them and the State of Great Britain is, and ought to be, totally dissolved.;;;;;;;;;;;;;x
+continental_army_title;Continental Army;;;;;;;;;;;;;x
+continental_army_desc;We should form a continental army to fight better against British.;;;;;;;;;;;;;x
+tea_act_on_colonies;Tea Act;;;;;;;;;;;;;x
+desc_tea_act_on_colonies;This is a British tax imposed on us.;;;;;;;;;;;;;x
+minutemen_usa;Minutemen;;;;;;;;;;;;;x
+desc_minutemen_usa;Minutemen are self-trained, highly mobile, well-prepared militia companies that can be ready in a minute's notice.;;;;;;;;;;;;;x
+sugar_act_on_colonies;Sugar Act;;;;;;;;;;;;;x
+desc_sugar_act_on_colonies;This is a British tax imposed on us.;;;;;;;;;;;;;x
+stamp_act_on_colonies;Stamp Act;;;;;;;;;;;;;x
+desc_stamp_act_on_colonies;This is a British tax imposed on us.;;;;;;;;;;;;;x
+continental_army_usa;Continental Army;;;;;;;;;;;;;x
+desc_continental_army_usa;Continental army is an organized, regular army that took over duties of militia to figh better against Redcoats.;;;;;;;;;;;;;x
+EVTNAME24500;$DEFENDER$ War of Independence;;;;;;;;;;;;;x
+EVTDESC24500;They want their independence.;;;;;;;;;;;;;x
+EVTOPTA24500;No way!;;;;;;;;;;;;;x
+EVTNAME24501;Boston Massacre;;;;;;;;;;;;;x
+EVTDESC24501;British Army soldiers killed five male civilians and injured six. Soldiers have been arrested and they are now waiting for trial. What do you think will happen?;;;;;;;;;;;;;x
+EVTOPTA24501;Give them fair trial;;;;;;;;;;;;;x
+EVTOPTB24501;Guilty!;;;;;;;;;;;;;x
+EVTNAME24502;Taxation;;;;;;;;;;;;;x
+EVTDESC24502;This is a British tax imposed on us to raise revenue. ;;;;;;;;;;;;;x
+EVTOPTA24502;Outrages!;;;;;;;;;;;;;x
+EVTNAME24503;Petition to the King;;;;;;;;;;;;;x
+EVTDESC24503;American colonies sent a petition for the King to listen to their wishes, respect their rights as Englishmen. What do you want to do?;;;;;;;;;;;;;x
+EVTOPTA24503;Grant them independence;;;;;;;;;;;;;x
+EVTOPTB24503;Give no reply;;;;;;;;;;;;;x
+viceroyalty;Viceroyalty;;;;;;;;;;;;;x
+sugar_act_passed;Sugar Act;;;;;;;;;;;;;x
+stamp_act_passed;Stamp Act;;;;;;;;;;;;;x
+tea_act_passed;Tea Act;;;;;;;;;;;;;x
+tea_destroyed;Boston Tea Party;;;;;;;;;;;;;x
+coercive_acts_passed;Intolerable Acts;;;;;;;;;;;;;x
+intolerable_acts_passed;Intolerable Acts;;;;;;;;;;;;;x
+petition_king;Petition to the King;;;;;;;;;;;;;x
+declaration_of_independence_hap;Declaration of Independence;;;;;;;;;;;;;x
+armenian_relocation_title;Relocation of Armenians;;;;;;;;;;;;;x
+armenian_relocation_desc;Armenian community were allowed to rule themselves under their own system of governance with fairly little interference from the Ottoman government but they chose to betray us by serving Russians in order to have a nation-state of their own. We must take measures and supress this rebellion!;;;;;;;;;;;;;x
+TUR_reactionary_1;Janissaries;;;;;;;;;;;;;x
+TUR_conservative_1;Ulama;;;;;;;;;;;;;x
+TUR_liberal_1;Reformists;;;;;;;;;;;;;x
+TUR_reactionary_2;Ittihad-i Muhammedi;;;;;;;;;;;;;x
+TUR_conservative_2;Hürriyet ve Itilaf Firkasi;;;;;;;;;;;;;x
+TUR_liberal_3;Ahrar Firkasi;;;;;;;;;;;;;x
+TUR_socialist_1;Türk Sosyalist Firkasi;;;;;;;;;;;;;x
+TUR_communist_1;Halk Istirakiyyun;;;;;;;;;;;;;x
+TUR_liberal_4;Yeni Osmanlilar;;;;;;;;;;;;;x
+TUR_socialist_3;Osmanli Sosyalist Firkasi;;;;;;;;;;;;;x
+TUR_anarcho_liberal_1;Radikal Firka;;;;;;;;;;;;;x
+TUR_fascist_1;Ittihat ve Terakki Firkasi;;;;;;;;;;;;;x
+irish_migration;Irish Migration;;;;;;;;;;;;;x
+blight_in_ireland;Blight in Ireland;;;;;;;;;;;;;x
+irish_flee_for_usa;Irish Emigration;;;;;;;;;;;;;x
+pop_adjustment;Population Adjustment;;;;;;;;;;;;;x
+jewish_state_title;Jewish State;;;;;;;;;;;;;x
+jewish_state_desc;Theodor Herzl -a known sionist- asked us if it is possible to create a homeland for Jews. If we accept they promise to pay us good in return of recognizing their claims on Holy Lands. We can very well use the money, but we should be careful about reactions it might create.;;;;;;;;;;;;;x
+declaration_of_independence_hap;Declaration of Independence;;;;;;;;;;;;;x
+viceroyalty_ruler;My Governor;;;;;;;;;;;;;x
+partition_of_poland_title;Partition of Poland;;;;;;;;;;;;;x
+partition_of_poland_desc;Partitions of Poland are series of three partitions of the Polish–Lithuanian Commonwealth that took place towards the end of the 18th century and ended the existence of the state, resulting in the elimination of the sovereign Crown of the Kingdom of Poland and Lithuania for 123 years. The partitions were conducted by the Russian Empire, the Kingdom of Prussia and Habsburg Austria, which divided up the Commonwealth lands among themselves progressively in the process of territorial seizures.;;;;;;;;;;;;;x
+badboy_badboy;Badboy;;;;;;;;;;;;;x
+badboy_badboy_desc;We are badboy;;;;;;;;;;;;;x
+annex_cologne_title;Annex Cologne;;;;;;;;;;;;;x
+annex_cologne_desc;We have an opportunity to annex Cologne.;;;;;;;;;;;;;x
+austrian_expansionism_title;Italian Desires;;;;;;;;;;;;;x
+austrian_expansionism_desc;We can keep French out of Italy by claiming North Italian provinces.;;;;;;;;;;;;;x
+claim_florida_title;Claim Florida;;;;;;;;;;;;;x
+claim_florida_desc;It is time to claim Florida.;;;;;;;;;;;;;x
+TUR_9000;Northern Arabia;;;;;;;;;;;;;x

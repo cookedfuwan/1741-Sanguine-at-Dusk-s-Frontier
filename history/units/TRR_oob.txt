@@ -1,0 +1,10 @@
+army = {
+	name = "Triverische Heer"
+	location = 573
+	regiment = {
+		name= "1. Hannöversche Infanteriebrigade"
+		type = infantry
+		home = 573
+	}
+
+}

@@ -1,0 +1,395 @@
+#Suriye Region (36000)  #see Syria.txt & Lebanon.txt for balance of region
+#under the rule of Egypt in 1836  
+#Amman (20000/5000 POPS) #now part of Jordan
+908 = {
+	aristocrats = {
+		culture = mashriqi
+		religion = sunni
+		size = 25
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = sunni
+		size = 50
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = sunni
+		size = 25
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = sunni
+		size = 875
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 175
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 25
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 3675
+	}
+}
+#Jerash (16000/4000 POPS) #now part of Jordan
+909 = {
+	aristocrats = {
+		culture = turkish
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = turkish
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = turkish
+		religion = sunni
+		size = 70
+	}
+
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 1400
+	}
+
+	clergymen = {
+		culture = armenian
+		religion = orthodox
+		size = 20
+	}
+
+	artisans = {
+		culture = armenian
+		religion = orthodox
+		size = 120
+	}
+
+	farmers = {
+		culture = armenian
+		religion = orthodox
+		size = 2500
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = catholic
+		size = 10
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = catholic
+		size = 300
+	}
+
+	aristocrats = {
+		culture = kurdish
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = kurdish
+		religion = sunni
+		size = 20
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = sunni
+		size = 2000
+	}
+}
+#Badiyat al-Sham Region (40000)  #see Syria.txt, Iraq.txt & Saudi Arabia.txt for balance of region
+#under the "rule" of Egypt in 1836  
+#Ruwayshid (12000/3000 POPS) #now part of Jordan 
+910 = {
+	aristocrats = {
+		culture = kurdish
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = kurdish
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = sunni
+		size = 250
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = sunni
+		size = 4000
+	}
+
+	aristocrats = {
+		culture = mashriqi
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = sunni
+		size = 120
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = sunni
+		size = 600
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = sunni
+		size = 125
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = sunni
+		size = 11975
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 1025
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = catholic
+		size = 250
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = catholic
+		size = 4350
+	}
+}
+#Maan (28000/7000 POPS) #now part of Jordan
+911 = {
+	aristocrats = {
+		culture = tatar
+		religion = sunni
+		size = 250
+	}
+
+	bureaucrats = {
+		culture = tatar
+		religion = sunni
+		size = 25
+	}
+
+	officers = {
+		culture = tatar
+		religion = sunni
+		size = 20
+	}
+
+	clergymen = {
+		culture = tatar
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = tatar
+		religion = sunni
+		size = 450
+	}
+
+	soldiers = {
+		culture = tatar
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = tatar
+		religion = sunni
+		size = 9185
+	}
+
+	clergymen = {
+		culture = ukrainian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = ukrainian
+		religion = orthodox
+		size = 150
+	}
+
+	soldiers = {
+		culture = ukrainian
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = ukrainian
+		religion = orthodox
+		size = 1250
+	}
+
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = russian
+		religion = orthodox
+		size = 175
+	}
+
+	officers = {
+		culture = russian
+		religion = orthodox
+		size = 60
+	}
+
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 75
+	}
+
+	soldiers = {
+		culture = russian
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 1265
+	}
+}
+#Palestine Region (20000)  #see Israel-Palestine.txt for balance of region
+#under the rule of Egypt in 1836  
+#Aqaba (20000/5000 POPS) #now part of Jordan 
+922 = {
+	clergymen = {
+		culture = mashriqi
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = sunni
+		size = 50
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = sunni
+		size = 25
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = sunni
+		size = 900
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 150
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 25
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 3775
+	}
+
+}

@@ -1,0 +1,5 @@
+owner = YSH
+controller = YSH
+add_core = YSH
+trade_goods = grain
+life_rating = 32

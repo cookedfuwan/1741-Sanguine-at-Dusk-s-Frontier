@@ -1,0 +1,5 @@
+owner = HSK
+controller = HSK
+add_core = HSK
+trade_goods = grain
+life_rating = 32

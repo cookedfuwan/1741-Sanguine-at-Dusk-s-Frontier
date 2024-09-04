@@ -1,0 +1,69 @@
+capital = 375
+primary_culture = dutch
+culture = flemish
+religion = protestant
+government = absolute_monarchy
+plurality = 30
+nationalvalue = nv_order
+literacy = 0.3
+non_state_culture_literacy = 0.03
+civilized = yes
+
+#GreaterPowers = prestige
+prestige = 60
+
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = yes_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = underground_parties
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+ruling_party = HOL_conservative
+upper_house = {
+	fascist = 0
+	liberal = 1
+	conservative = 90
+	reactionary = 1
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+building_societies = 1
+no_standard = 1
+eco_physiocracy = 1
+market_structure = 1
+guild_organization = 1
+
+water_wheel_power = 1
+flying_shuttle = 1
+flintlock_muskets = 1
+
+
+#Inventions
+
+# Starting Consciousness
+consciousness = 1
+nonstate_consciousness = 1
+
+oob = "NET_oob.txt"
+
+schools = naval_tech_school
+
+
+

@@ -1,0 +1,1677 @@
+#army_doctrine
+traditional_warfare = {
+	area = army_doctrine
+	year = 1740 
+	cost = 4500
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 1.0
+		supply_consumption = 0.05
+	}
+		land_organisation = -0.15
+	
+		infantry = {
+			attack = 0.5
+		}
+		guard = {
+			attack = 0.5
+		}
+		cuirassier = {
+			attack = 0.5
+		}
+		dragoon = {
+			attack = 0.5
+		}
+		hussar = {
+			attack = 0.5
+		}
+		cavalry = {
+			attack = 0.5
+		}
+		irregular = {
+			attack = 0.5
+		}
+}
+
+early_gunpowder_warfare = {
+	area = army_doctrine
+	year = 1750 
+	cost = 3500
+	unciv_military = yes
+	
+	activate_building = fort
+	
+	army_base = {
+		supply_consumption = 0.05
+	}
+	
+		infantry = {
+			attack = 0.5
+		}
+		guard = {
+			attack = 0.5
+		}
+		cuirassier = {
+			attack = 0.5
+		}
+		dragoon = {
+			attack = 0.5
+		}
+		hussar = {
+			attack = 0.5
+		}
+		cavalry = {
+			attack = 0.5
+		}
+		irregular = {
+			attack = 0.5
+		
+	
+}
+}
+
+linear_formations_warfare = {
+	area = army_doctrine
+	year = 1750 
+	cost = 75000
+	unciv_military = yes
+	
+		infantry = {
+			attack = 0.5
+		}
+		guard = {
+			attack = 0.5
+		}
+		cuirassier = {
+			attack = 0.5
+		}
+		dragoon = {
+			attack = 0.5
+		}
+		hussar = {
+			attack = 0.5
+		}
+		cavalry = {
+			attack = 0.5
+		}
+		irregular = {
+			attack = 0.5
+		}
+}
+
+early_modern_warfare = {
+	area = army_doctrine
+	year = 1750
+	cost = 2000
+	unciv_military = yes
+	
+	activate_building = fort
+	
+	army_base = {
+		default_organisation = 2.5
+		supply_consumption = 0.05
+	}
+	land_organisation = 0.05
+		
+		infantry = {
+			attack = 0.5
+		}
+		guard = {
+			attack = 0.5
+		}
+		cuirassier = {
+			attack = 0.5
+		}
+		dragoon = {
+			attack = 0.5
+		}
+		hussar = {
+			attack = 0.5
+		}
+		cavalry = {
+			attack = 0.5
+		}
+		irregular = {
+			attack = 0.5
+		}
+}
+
+maneuver_warfare = {
+	area = army_doctrine
+	year = 1760
+	cost = 4000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 2.5
+		supply_consumption = 0.05
+	}
+	land_organisation = 0.1
+	dig_in_cap = 1
+	
+		infantry = {
+			attack = 0.5
+		}
+		guard = {
+			attack = 0.5
+		}
+		cuirassier = {
+			attack = 0.5
+		}
+		dragoon = {
+			attack = 0.5
+		}
+		hussar = {
+			attack = 0.5
+		}
+		cavalry = {
+			attack = 0.5
+		}
+		irregular = {
+			attack = 0.5
+		}
+
+}
+
+attrition_warfare = {
+	area = army_doctrine
+	year = 1770
+	cost = 6000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 2.5
+		supply_consumption = 0.05
+	}
+	max_fort = 1
+	
+		infantry = {
+			attack = 0.5
+		}
+		guard = {
+			attack = 0.5
+		}
+		cuirassier = {
+			attack = 0.5
+		}
+		dragoon = {
+			attack = 0.5
+		}
+		hussar = {
+			attack = 0.5
+		}
+		cavalry = {
+			attack = 0.5
+		}
+		irregular = {
+			attack = 0.5
+		}
+	
+}
+
+napoleonic_warfare = {
+	area = army_doctrine
+	year = 1790
+	cost = 8000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 2.5
+		supply_consumption = 0.05
+	}
+	dig_in_cap = 1
+	
+		infantry = {
+			attack = 0.5
+		}
+		guard = {
+			attack = 0.5
+		}
+		cuirassier = {
+			attack = 0.5
+		}
+		dragoon = {
+			attack = 0.5
+		}
+		hussar = {
+			attack = 0.5
+		}
+		cavalry = {
+			attack = 0.5
+		}
+		irregular = {
+			attack = 0.5
+		}
+	
+
+}
+
+guerilla_warfare = {
+	area = army_doctrine
+	year = 1810
+	cost = 10000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 2.5
+	}
+	max_fort = 1
+	
+		infantry = {
+			attack = 0.5
+		}
+		guard = {
+			attack = 0.5
+		}
+		cuirassier = {
+			attack = 0.5
+		}
+		dragoon = {
+			attack = 0.5
+		}
+		hussar = {
+			attack = 0.5
+		}
+		cavalry = {
+			attack = 0.5
+		}
+		irregular = {
+			attack = 0.5
+		}
+	
+}
+
+total_warfare = {
+	area = army_doctrine
+	year = 1850
+	cost = 12000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 2.5
+	}
+	dig_in_cap = 1
+	
+		infantry = {
+			attack = 0.5
+		}
+		guard = {
+			attack = 0.5
+		}
+		cuirassier = {
+			attack = 0.5
+		}
+		dragoon = {
+			attack = 0.5
+		}
+		hussar = {
+			attack = 0.5
+		}
+	
+
+}
+
+offensive_warfare = {
+	area = army_doctrine
+	year = 1870
+	cost = 14000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 2.5
+		supply_consumption = 0.05
+	}
+	max_fort = 1
+	
+		infantry = {
+			attack = 0.5
+		}
+		guard = {
+			attack = 0.5
+		}
+		cuirassier = {
+			attack = 0.5
+		}
+		dragoon = {
+			attack = 0.5
+		}
+		hussar = {
+			attack = 0.5
+		}
+	
+}
+
+industrial_warfare = {
+	area = army_doctrine
+	year = 1880
+	cost = 16000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 2.5
+		supply_consumption = 0.05
+	}
+	dig_in_cap = 1
+	
+		infantry = {
+			attack = 0.5
+		}
+		guard = {
+			attack = 0.5
+		}
+		cuirassier = {
+			attack = 0.5
+		}
+		dragoon = {
+			attack = 0.5
+		}
+		hussar = {
+			attack = 0.5
+		}
+
+}
+
+defensive_warfare = {
+	area = army_doctrine
+	year = 1890
+	cost = 18000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 2.5
+		supply_consumption = 0.05
+	}
+	max_fort = 1
+	
+		infantry = {
+			attack = 0.5
+		}
+		guard = {
+			attack = 0.5
+		}
+		cuirassier = {
+			attack = 0.5
+		}
+		dragoon = {
+			attack = 0.5
+		}
+		hussar = {
+			attack = 0.5
+		}
+}
+
+indirect_warfare = {
+	area = army_doctrine
+	year = 1900
+	cost = 20000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 2.5
+		supply_consumption = 0.05
+	}
+	dig_in_cap = 1
+	
+		engineer = {
+			siege = 1
+		}
+		tank = {
+			attack = 2
+			defence = 4
+			supply_consumption = 1
+			siege = 1				
+		}
+
+}
+
+armored_warfare = {
+	area = army_doctrine
+	year = 1910
+	cost = 22000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 2.5
+		supply_consumption = 0.05
+	}
+	max_fort = 1
+	
+	engineer = {
+			siege = 1
+		}
+		tank = {
+			attack = 2
+			defence = 4
+			supply_consumption = 1
+			siege = 1				
+		}
+	
+	
+}
+
+aerial_warfare = {
+	area = army_doctrine
+	year = 1920
+	cost = 24000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 2.5
+		supply_consumption = 0.05
+	}
+	dig_in_cap = 1
+	
+	plane = {
+			attack = 3			
+			defence = 0.255
+			support = 4
+			default_organisation = 30
+		}
+
+}
+
+
+
+
+
+#light_armament
+
+basic_armament = {
+	area = light_armament
+	year = 1750 	
+	cost = 9000
+	unciv_military = yes
+	activate_unit = irregular
+		irregular = {
+			defence = 0.05
+			attack = 0.07
+		}
+
+}
+
+arquebus_muskets = {
+	area = light_armament
+	year = 1750 
+	cost = 3500
+	unciv_military = yes
+	
+		infantry = {
+			defence = 0.1
+			attack = 0.07
+		}
+		guard = {
+			defence = 0.1
+			attack = 0.07
+		}
+		engineer = {
+			defence = 0.1
+			attack = 0.07
+		}
+		cuirassier = {
+			defence = 0.1
+			attack = 0.07
+		}
+		dragoon = {
+			defence = 0.1
+			attack = 0.07
+		}
+		hussar = {
+			defence = 0.1
+			attack = 0.07
+		}
+		cavalry = {
+			defence = 0.1
+			attack = 0.07
+		}
+
+}
+
+early_rifling_musket = {
+	area = light_armament
+	year = 1740 
+	cost = 9000
+	unciv_military = yes
+	
+	
+		infantry = {
+			defence = 0.1
+			attack = 0.07
+		}
+		guard = {
+			defence = 0.1
+			attack = 0.07
+		}
+		engineer = {
+			defence = 0.1
+			attack = 0.07
+		}
+		cuirassier = {
+			defence = 0.1
+			attack = 0.07
+		}
+		dragoon = {
+			defence = 0.1
+			attack = 0.07
+		}
+		hussar = {
+			defence = 0.1
+			attack = 0.07
+		}
+		cavalry = {
+			defence = 0.1
+			attack = 0.07
+		}
+
+}
+
+matchlock_muskets = {
+	area = light_armament
+	year = 1740 
+	cost = 9000
+	unciv_military = yes
+	
+		infantry = {
+			defence = 0.25
+			attack = 0.07
+		}
+		guard = {
+			defence = 0.25
+			attack = 0.07
+		}
+		engineer = {
+			defence = 0.25
+			attack = 0.07
+		}
+		cuirassier = {
+			defence = 0.25
+			attack = 0.07
+		}
+		dragoon = {
+			defence = 0.25
+			attack = 0.07
+		}
+		hussar = {
+			defence = 0.25
+			attack = 0.07
+		}
+		cavalry = {
+			defence = 0.25
+			attack = 0.07
+		}
+
+}
+
+flintlock_muskets = {
+	area = light_armament
+	year = 1750
+	cost = 19000
+	unciv_military = no
+	
+		infantry = {
+			defence = 0.25
+			attack = 0.5
+		}
+		guard = {
+			defence = 0.25
+			attack = 0.5
+		}
+		engineer = {
+			defence = 0.25
+			attack = 0.5
+		}
+		cuirassier = {
+			defence = 0.25
+			attack = 0.5
+		}
+		dragoon = {
+			defence = 0.25
+			attack = 0.5
+		}
+		hussar = {
+			defence = 0.25
+			attack = 0.5
+		}
+		cavalry = {
+			defence = 0.25
+			attack = 0.5
+		}
+}
+
+rifled_muskets = {
+	area = light_armament
+	year = 1760
+	cost = 19000
+	unciv_military = no
+	
+	
+	combat_width = -2
+	
+		infantry = {
+			defence = 0.25
+			attack = 0.5
+		}
+		guard = {
+			defence = 0.25
+			attack = 0.5
+		}
+		engineer = {
+			defence = 0.25
+			attack = 0.5
+		}
+		cuirassier = {
+			defence = 0.25
+			attack = 0.5
+		}
+		dragoon = {
+			defence = 0.25
+			attack = 0.5
+		}
+		hussar = {
+			defence = 0.25
+			attack = 0.5
+		}
+		cavalry = {
+			defence = 0.25
+			attack = 0.5
+		}
+
+}
+
+caplock_muskets = {
+	area = light_armament
+	year = 1780
+	cost = 9000
+	unciv_military = no
+	
+	activate_unit = guard
+	combat_width = -2
+	
+		infantry = {
+			defence = 0.25
+			attack = 0.5
+		}
+		guard = {
+			defence = 0.25
+			attack = 0.5
+		}
+		engineer = {
+			defence = 0.25
+			attack = 0.5
+		}
+		cuirassier = {
+			defence = 0.25
+			attack = 0.5
+		}
+		dragoon = {
+			defence = 0.25
+			attack = 0.5
+		}
+		hussar = {
+			defence = 0.25
+			attack = 0.5
+		}
+		cavalry = {
+			defence = 0.25
+			attack = 0.5
+		}
+
+}
+
+carbines = {
+	area = light_armament
+	year = 1800
+	cost = 9000
+	unciv_military = no
+	combat_width = -1
+	
+		infantry = {
+			defence = 1.5
+			attack = 1.5
+		}
+		guard = {
+			defence = 1.5
+			attack =1.5
+		}
+		engineer = {
+			defence = 1.5
+			attack = 1.5
+			}
+		cuirassier = {
+			defence = 1.5
+			attack = 1.5
+		}
+		dragoon = {
+			defence = 1.5
+			attack = 1.5
+		}
+		hussar = {
+			defence = 1.5
+			attack = 1.5
+		}
+		cavalry = {
+			defence = 1.5
+			attack = 1.5
+		}
+
+}
+
+breech_loaded_muskets = {
+	area = light_armament
+	year = 1820
+	cost = 10000
+	unciv_military = yes
+	
+	
+	combat_width = -1
+	
+		infantry = {
+			defence = 0.25
+			attack = 0.5
+		}
+		guard = {
+			defence = 0.25
+			attack = 0.5
+		}
+		engineer = {
+			defence = 0.25
+			attack = 0.5
+		}
+		cuirassier = {
+			defence = 0.25
+			attack = 0.5
+		}
+		dragoon = {
+			defence = 0.25
+			attack = 0.5
+		}
+		hussar = {
+			defence = 0.25
+			attack = 0.5
+		}
+		cavalry = {
+			defence = 0.25
+			attack = 0.5
+		}
+
+}
+
+breech_loaded_rifles = {
+	area = light_armament
+	year = 1840
+	cost = 12000
+	unciv_military = no
+	
+	combat_width = -2
+	
+		infantry = {
+			defence = 0.25
+		}
+		guard = {
+			defence = 0.25
+		}
+		engineer = {
+			defence = 0.25
+		}
+		cuirassier = {
+			defence = 0.25
+		}
+		dragoon = {
+			defence = 0.25
+		}
+		hussar = {
+			defence = 0.25
+		}
+		cavalry = {
+			defence = 0.25
+		}
+
+}
+
+percussion_rifles = {
+	area = light_armament
+	year = 1850
+	cost = 14000
+	unciv_military = no
+	
+	combat_width = -2
+	
+		infantry = {
+			defence = 0.25
+		}
+		guard = {
+			defence = 0.25
+		}
+		engineer = {
+			defence = 0.25
+		}
+		cuirassier = {
+			defence = 0.25
+		}
+		dragoon = {
+			defence = 0.25
+		}
+		hussar = {
+			defence = 0.25
+		}
+		cavalry = {
+			defence = 0.25
+		}
+
+}
+
+bolt_action_rifles = {
+	area = light_armament
+	year = 1860
+	cost = 16000
+	unciv_military = no
+	
+	combat_width = -2
+	
+		infantry = {
+			defence = 0.25
+			attack = 0.5
+		}
+		guard = {
+			defence = 0.25
+			attack = 0.5
+		}
+		engineer = {
+			defence = 0.25
+			attack = 0.5
+		}
+		cuirassier = {
+			defence = 0.25
+			attack = 0.5
+		}
+		dragoon = {
+			defence = 0.25
+			attack = 0.5
+		}
+		hussar = {
+			defence = 0.25
+			attack = 0.5
+		}
+		cavalry = {
+			defence = 0.25
+			attack = 0.5
+		}
+
+}
+
+machine_guns = {
+	area = light_armament
+	year = 1870
+	cost = 18000
+	unciv_military = no
+	
+	combat_width = -2
+	
+		infantry = {
+			defence = 0.25
+			attack = 0.5
+		}
+		guard = {
+			defence = 0.25
+			attack = 0.5
+		}
+		engineer = {
+			defence = 0.25
+			attack = 0.5
+		}
+
+}
+
+repeating_rifles = {
+	area = light_armament
+	year = 1890
+	cost = 20000
+	unciv_military = no
+	
+	combat_width = -2
+	
+		infantry = {
+			defence = 0.25
+		}
+		guard = {
+			defence = 0.25
+		}
+		engineer = {
+			defence = 0.25
+
+}
+}
+
+lever_action_rifles = {
+	area = light_armament
+	year = 1890
+	cost = 22000
+	unciv_military = no
+	
+	combat_width = -2
+	
+		infantry = {
+			defence = 0.25
+		}
+		guard = {
+			defence = 0.25
+		}
+		engineer = {
+			defence = 0.25
+		}
+		cuirassier = {
+			defence = 0.25
+		}
+
+}
+
+semi_automatic_rifles = {
+	area = light_armament
+	year = 1900
+	cost = 24000
+	unciv_military = no
+	
+	combat_width = -2
+	
+		infantry = {
+			defence = 0.25
+		}
+		guard = {
+			defence = 0.25
+		}
+		engineer = {
+			defence = 0.25
+		}
+		cuirassier = {
+			defence = 0.25
+		}
+		dragoon = {
+			defence = 0.25
+		}
+		hussar = {
+			defence = 0.25
+		}
+		cavalry = {
+			defence = 0.25
+		}
+		irregular = {
+			defence = 0.25
+		}
+
+}
+
+
+
+
+
+#heavy_armament
+
+
+wall_cannon = {
+	area = heavy_armament
+	year = 1750
+	cost = 9000 
+	unciv_military = yes
+	
+	activate_unit = artillery
+}
+
+swivel_guns = {
+	area = heavy_armament
+	year = 1750 
+	cost = 9000
+	unciv_military = yes
+	
+	artillery = {
+		attack = 0.05
+		support = 0.05
+		supply_consumption = 0.05
+	}	
+}
+
+siege_cannon = {
+	area = heavy_armament
+	year = 1750 
+	cost = 9000
+	unciv_military = yes
+	
+	artillery = {
+		attack = 0.5
+		support = 0.1
+		supply_consumption = 0.05
+	}	
+}
+
+Limbers_n_caissons = {
+	area = heavy_armament
+	year = 1760 
+	cost = 11000
+	unciv_military = no
+	
+	artillery = {
+		attack = 0.2
+		support = 0.5
+		supply_consumption = 0.1
+	}	
+}
+
+de_valiere_system = {
+	area = heavy_armament
+	year = 1770
+	cost = 9000
+	unciv_military = no
+	
+	
+	artillery = {
+		attack = 0.2
+		support = 0.5
+		supply_consumption = 0.25
+	}
+	
+}
+
+gribeauval_system = {
+	area = heavy_armament
+	year = 1790
+	cost = 9000
+	unciv_military = no
+
+	artillery = {
+		attack = 0.2
+		support = 0.5
+		supply_consumption = 0.25
+	}
+	
+}
+
+improved_horse_artillery = {
+	area = heavy_armament
+	year = 1800
+	cost = 12000
+	unciv_military = no
+	
+	artillery = {
+		attack = 0.5
+		support = 1.5
+		supply_consumption = 0.25
+	}
+	
+}
+
+
+valee_system = {
+	area = heavy_armament
+	year = 1820
+	cost = 9000
+	unciv_military = no
+	activate_unit = engineer
+	
+	artillery = {
+		attack = 0.2
+		support = 0.5
+		supply_consumption = 0.25
+	}
+	
+}
+
+rifled_artillery = {
+	area = heavy_armament
+	year = 1830
+	cost = 10000
+	unciv_military = no
+	
+	artillery = {
+		attack = 0.2
+		support = 0.5
+		supply_consumption = 0.25
+	}
+	
+}
+
+breech_loaded_artillery = {
+	area = heavy_armament
+	year = 1840
+	cost = 18000
+	unciv_military = no
+
+	artillery = {
+		attack = 0.5
+		support = 1.5
+		supply_consumption = 0.25
+	}
+	
+}
+
+improved_siege_artillery = {
+	area = heavy_armament
+	year = 1850
+	cost = 14000
+	unciv_military = no
+	
+	artillery = {
+		attack = 0.2
+		support = 0.5
+		supply_consumption = 0.25
+	}
+	
+}
+
+howitzer_arty = {
+	area = heavy_armament
+	year = 1880
+	cost = 16000
+	unciv_military = no
+	
+	artillery = {
+		attack = 0.2
+		support = 0.5
+		supply_consumption = 0.25
+	}
+	
+}
+
+indirect_fire = {
+	area = heavy_armament
+	year = 1890
+	cost = 18000
+	unciv_military = no
+	
+	artillery = {
+		attack = 0.2
+		support = 0.5
+		supply_consumption = 0.25
+	}
+	
+}
+
+precision_fire = {
+	area = heavy_armament
+	year = 1900
+	cost = 20000
+	unciv_military = no
+
+	artillery = {
+		attack = 0.2
+		support = 0.5
+		supply_consumption = 0.25
+	}	
+	
+}
+
+armoured_vehicles = {
+	area = heavy_armament
+	year = 1910
+	cost = 22000
+	unciv_military = no
+	
+	artillery = {
+		attack = 0.2
+		support = 0.5
+		supply_consumption = 0.25
+	}
+	
+}
+
+fixed_aircraft = {
+	area = heavy_armament
+	year = 1910
+	cost = 24000
+	unciv_military = no
+	
+	artillery = {
+		attack = 0.2
+		support = 0.5
+		supply_consumption = 0.25
+	}
+	
+}
+
+
+
+
+#military_science
+
+mil_school = {
+	area = military_science
+	year = 1740 
+	cost = 3500
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 1
+		supply_consumption = 0.02
+	}
+	
+}
+
+aristocratic_school = {
+	area = military_science
+	year = 1750 
+	cost = 3500
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 1
+		supply_consumption = 0.02
+	}
+	
+}
+
+officer_school = {
+	area = military_science
+	year = 1750 
+	cost = 3500
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 1
+		supply_consumption = 0.01
+	}
+	
+}
+
+mil_mobility = {
+	area = military_science
+	year = 1760
+	cost = 2000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	
+}
+
+mil_planning = {
+	area = military_science
+	year = 1770
+	cost = 4000
+	unciv_military = no
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	
+}
+
+mil_statistics = {
+	area = military_science
+	year = 1790
+	cost = 6000
+	unciv_military = no
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	
+	mobilisation_size = 0.01
+	
+}
+
+mil_logistics = {
+	area = military_science
+	year = 1800
+	cost = 8000
+	unciv_military = no
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	
+}
+
+mil_admin = {
+	area = military_science
+	year = 1810
+	cost = 10000
+	unciv_military = no
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	
+	mobilisation_size = 0.01
+	
+}
+
+mil_history = {
+	area = military_science
+	year = 1830
+	cost = 12000
+	unciv_military = no
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	
+}
+
+mil_economics = {
+	area = military_science
+	year = 1840
+	cost = 14000
+	unciv_military = no
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	
+	mobilisation_size = 0.01
+	
+}
+
+mil_engineering = {
+	area = military_science
+	year = 1850
+	cost = 16000
+	unciv_military = no
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	
+}
+
+mil_directionism = {
+	area = military_science
+	year = 1880
+	cost = 18000
+	unciv_military = no
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	
+	mobilisation_size = 0.01
+	
+}
+
+mil_strategy = {
+	area = military_science
+	year = 1890
+	cost = 20000
+	unciv_military = no
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	
+	mobilisation_size = 0.01
+	
+}
+
+mil_legislation = {
+	area = military_science
+	year = 1900
+	cost = 22000
+	unciv_military = no
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	
+	mobilisation_size = 0.02
+	
+}
+
+aeronautics = {
+	area = military_science
+	year = 1910
+	cost = 24000
+	unciv_military = no
+	
+	activate_unit = plane
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	
+	mobilisation_size = 0.02
+}
+
+
+
+
+#army_leadership
+
+treatise_on_war = {
+	area = army_leadership
+	year = 1740 
+	cost = 13500
+
+	morale = 0.05
+	unciv_military = yes
+	military_tactics = 0.05
+
+	army_base = {
+		supply_consumption = 0.05
+	}
+
+}
+
+military_principle = {
+	area = army_leadership
+	year = 1750 
+	cost = 5500
+
+	morale = 0.1
+	unciv_military = yes
+	military_tactics = 0.1
+
+	army_base = {
+		supply_consumption = 0.1
+	}
+
+}
+
+geographic_study = {
+	area = army_leadership
+	year = 1760 
+	cost = 5500
+
+	morale = 0.1
+	unciv_military = yes
+	military_tactics = 0.1
+
+	army_base = {
+		supply_consumption = 0.1
+	}
+
+}
+
+unity_of_command = {
+	area = army_leadership
+	year = 1770
+	cost = 2000
+
+	morale = 0.15
+	unciv_military = yes
+	military_tactics = 0.15
+
+	army_base = {
+		supply_consumption = 0.15
+	}
+
+}
+
+academic_training = {
+	area = army_leadership
+	year = 1780
+	cost = 4000
+
+	morale = 0.15
+	unciv_military = yes
+	military_tactics = 0.15
+
+	army_base = {
+		supply_consumption = 0.15
+	}
+
+}
+
+army_professionalism = {
+	area = army_leadership
+	year = 1790
+	cost = 6000
+
+	morale = 0.15
+	unciv_military = yes
+	military_tactics = 0.15
+
+	army_base = {
+		supply_consumption = 0.15
+	}
+
+}
+
+force_structure = {
+	area = army_leadership
+	year = 1800
+	cost = 8000
+
+	morale = 0.15
+	unciv_military = yes
+	military_tactics = 0.15
+
+	army_base = {
+		supply_consumption = 0.15
+	}
+
+}
+
+army_promotion_principles = {
+	area = army_leadership
+	year = 1810
+	cost = 10000
+
+	morale = 0.15
+	unciv_military = yes
+	military_tactics = 0.15
+
+	army_base = {
+		supply_consumption = 0.15
+	}
+
+}
+
+army_decision_making = {
+	area = army_leadership
+	year = 1820
+	cost = 12000
+
+	morale = 0.15
+	unciv_military = yes
+	military_tactics = 0.15
+
+	army_base = {
+		supply_consumption = 0.15
+	}
+
+}
+
+general_staff_system = {
+	area = army_leadership
+	year = 1840
+	cost = 14000
+
+	morale = 0.15
+	unciv_military = yes
+	military_tactics = 0.15
+
+	army_base = {
+		supply_consumption = 0.15
+	}
+
+}
+
+army_independent_command = {
+	area = army_leadership
+	year = 1860
+	cost = 16000
+
+	morale = 0.15
+	unciv_military = yes
+	military_tactics = 0.15
+
+	army_base = {
+		supply_consumption = 0.15
+	}
+
+}
+
+field_training = {
+	area = army_leadership
+	year = 1870
+	cost = 18000
+
+	morale = 0.15
+	unciv_military = yes
+	military_tactics = 0.15
+
+	army_base = {
+		supply_consumption = 0.15
+	}
+
+}
+
+army_risk_management = {
+	area = army_leadership
+	year = 1880
+	cost = 20000
+
+	morale = 0.15
+	unciv_military = yes
+	military_tactics = 0.15
+
+	army_base = {
+		supply_consumption = 0.15
+	}
+
+}
+
+army_nco_training = {
+	area = army_leadership
+	year = 1890
+	cost = 22000
+
+	morale = 0.15
+	unciv_military = yes
+	military_tactics = 0.15
+
+	army_base = {
+		supply_consumption = 0.15
+	}
+
+}
+
+army_command_structure = {
+	area = army_leadership
+	year = 1900
+	cost = 24000
+
+	morale = 0.15
+	unciv_military = yes
+	military_tactics = 0.15
+
+	army_base = {
+		supply_consumption = 0.15
+	}
+
+}
+
+
+
+
+

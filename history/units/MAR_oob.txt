@@ -1,0 +1,55 @@
+army = {
+	name = "Army of Maratha"
+	location = 1297
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = artillery
+		home = 1302
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = cavalry
+		home = 1301
+	}
+
+	regiment = {
+		name= "3.Balangir Contingent"
+		type = infantry
+		home = 1297
+	}
+	
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = infantry
+		home = 1297
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = infantry
+		home = 1297
+	}
+
+	regiment = {
+		name= "3.Balangir Contingent"
+		type = infantry
+		home = 1299
+	}
+	
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = infantry
+		home = 1296
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = infantry
+		home = 1298
+	}
+
+	
+	
+}
+

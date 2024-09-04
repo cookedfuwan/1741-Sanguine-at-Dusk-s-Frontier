@@ -1,0 +1,777 @@
+political_decisions = {
+
+# Claim Florida
+	claim_florida = {
+		potential = {
+			tag = USA
+			NOT = {
+				has_country_flag = claim_florida_usa
+			}
+		}
+		allow = {
+			war = no
+			NOT = { 
+				owns = 198
+				owns = 199
+				owns = 200
+			}
+		}
+		effect = {
+			set_country_flag = claim_florida_usa
+			USA_200 = {
+				add_core = USA
+			}
+			any_pop = {
+				militancy = -1
+			}
+			
+			
+		}
+		ai_will_do = {
+				factor = 1
+			}
+	}
+
+# Austrian Expansionism
+	austrian_expansionism = {
+		potential = {
+			tag = AUS
+			NOT = {
+				has_country_flag = italian_desires_aus
+			}
+			exists = VEN
+			owns = 703
+		}
+		allow = {
+			owns = 770
+		}
+		effect = {
+			set_country_flag = italian_desires_aus
+			AUS_780 = {
+				add_core = AUS
+			}
+			AUS_729 = {
+				add_core = AUS
+			}
+			AUS_726 = {
+				add_core = AUS
+			}
+			
+			
+		}
+		ai_will_do = {
+				factor = 1
+			}
+	}
+
+# Diplo-annex Five Tribes
+	annex_five_tribes = {
+		potential = {
+			tag = USA
+			USA = { ai = yes }
+			NOT = {
+				has_country_flag = annex_tribes
+			}
+			exists = CHE
+			war = no
+		}
+		allow = {
+			owns = 227
+		}
+		effect = {
+			set_country_flag = annex_tribes
+			inherit = CHE
+			
+			
+		}
+		ai_will_do = {
+				factor = 1
+			}
+	}
+
+# Annexation of Cologne
+	annex_cologne = {
+		potential = {
+			tag = PRU
+			NOT = {
+				has_country_flag = annex_ruhr
+			}
+			exists = CLG
+			war = no
+		}
+		allow = {
+			CLG = {
+				in_sphere = PRU
+			}
+		}
+		effect = {
+			set_country_flag = annex_ruhr
+			inherit = CLG
+			
+			
+		}
+		ai_will_do = {
+				factor = 1
+			}
+	}
+
+
+# Partition of Poland
+	partition_of_poland = {
+		potential = {
+			tag = PRU
+			NOT = {
+				has_country_flag = partition_poland
+			}
+		}
+		allow = {
+			exists = PLC
+			war = no
+			RUS = { war = no }
+			AUS = { war = no }
+		}
+		effect = {
+			set_country_flag = partition_poland
+			RUS = {
+				country_event = { id=24716 days=0 }
+			}
+			AUS = {
+				country_event = { id=24717 days=0 }
+			}
+			
+			PRU_701 = {
+				add_core = PRU
+			}
+			PRU_690 = {
+				add_core = PRU
+			}
+			
+			
+		}
+		ai_will_do = {
+				factor = 1
+			}
+	}
+
+
+#Jewish State
+	jewish_state = {
+		potential = {
+			tag = TUR
+			NOT = {
+				has_global_flag = new_jewish_state
+			}
+		}
+		
+		allow = {
+			owns = 916
+			owns = 917
+			owns = 919
+			919 = { is_core = ISR }
+		}
+		
+		effect = {
+			release = ISR
+			
+			money = 200000
+			
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+			}
+			
+			set_global_flag = new_jewish_state
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+# Armenian Relocation
+	armenian_relocation = {
+		potential = {
+			tag = TUR
+			NOT = {
+				has_global_flag = armenians_relocated
+			}
+			great_wars_enabled = yes
+		}
+		
+		allow = {
+			war_with = RUS
+			OR = {
+			ruling_party_ideology = reactionary
+			ruling_party_ideology = fascist
+			}
+		}
+		
+		effect = {
+			any_pop = {
+				limit = {
+					has_pop_culture = armenian
+					NOT = {					
+						location = {						
+							OR = {
+							province_id = 860
+							province_id = 861
+							}
+						}
+					}
+				}
+				
+				reduce_pop = 0.75
+				consciousness = 3
+				militancy = -3
+				move_pop = 901
+			}
+			TUR_1502 = {
+				remove_core = ARM
+			}
+			TUR_889 = {
+				remove_core = ARM
+			}
+			TUR_885 = {
+				remove_core = ARM
+			}
+			set_global_flag = armenians_relocated
+			badboy = 10
+			prestige = -10
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+
+# All puppets except Thirteen Colonies
+	war_for_independence = {
+		
+		potential = {
+			year = 1790
+			NOT = { tag = THC }
+			is_vassal = yes			
+		}
+		allow = {
+			NOT = { overlord = { is_culture_group = THIS } }
+			#total_amount_of_divisions = 3
+			
+			NOT = { 
+				overlord = {
+					brigades_compare = 3
+				}
+			}
+		}
+		
+		effect = {
+			overlord = {
+				diplomatic_influence = {
+				who = THIS
+				value = -200
+				}
+				country_event = { id=24500 days=0 }
+			}
+			add_country_modifier = {
+				name = minutemen_usa
+				duration = 3650
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		
+		}
+	}
+	
+	change_viceroyalty = {
+		potential = {
+			government = viceroyalty		
+		}
+
+		allow = {
+			is_independant = yes
+			war = no
+		}
+
+		effect = {
+			government = absolute_monarchy
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	
+	louisiana_purchase = {
+		potential = {
+			tag = FRA
+			exists = LOU
+			LOU = { ai = yes }
+			exists = USA	
+		}
+
+		allow = {
+			LOU = {
+				vassal_of = FRA
+			}
+#			USA = { owns = 188 }
+#			NOT = {
+#				exists = CHE
+#			}
+			USA = {
+				war = no
+				money = 20000
+				is_independant = yes
+			}
+			war = no
+		}
+
+		effect = {
+			USA = {
+				country_event = { id=24713 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+# Road to American Revolution	
+	sugarr_act = {
+		potential = {
+			tag = ENG
+			year = 1751
+			NOT = {
+				has_country_flag = sugar_act_passed
+			}	
+		}
+
+		allow = {
+			THC = {
+				vassal_of = ENG
+			}
+
+		}
+
+		effect = {
+		
+			diplomatic_influence = {
+				who = THC
+				value = -50
+			}
+			money = 20000
+			THC = {
+				country_event = { id=24502 days=0 }
+			}
+			set_country_flag = sugar_act_passed
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	stampp_act = {
+		potential = {
+			tag = ENG
+			year = 1752
+			THC = {
+				vassal_of = ENG
+			}
+			NOT = {
+				has_country_flag = stamp_act_passed
+			}		
+		}
+
+		allow = {
+			has_country_flag = sugar_act_passed
+
+		}
+
+		effect = {
+			diplomatic_influence = {
+				who = THC
+				value = -50
+			}
+
+			money = 20000
+			THC = {
+				country_event = { id=24504 days=0 }				
+			}
+			set_country_flag = stamp_act_passed
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	no_taxation_no_representation = {
+		potential = {
+			tag = THC
+			year = 1753
+			THC = {
+				vassal_of = ENG
+			}
+			NOT = {
+				has_country_flag = no_taxation_no_representation_hap
+			}	
+		}
+
+		allow = {
+			ENG = {
+				has_country_flag = sugar_act_passed
+				has_country_flag = stamp_act_passed
+			}
+		}
+
+		effect = {
+			overlord = {
+				diplomatic_influence = {
+				who = THC
+				value = -100
+				}
+			}
+			upper_house = {
+			ideology = liberal
+			value = 0.2
+			}
+			set_country_flag = no_taxation_no_representation_hap
+		}
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	
+	teaa_act = {
+		potential = {
+			tag = ENG
+			year = 1754
+			THC = {
+				vassal_of = ENG
+			}
+			NOT = {
+				has_country_flag = tea_act_passed
+			}		
+		}
+
+		allow = {
+			has_country_flag = stamp_act_passed
+
+		}
+
+		effect = {
+			diplomatic_influence = {
+				who = THC
+				value = -50
+			}
+
+			money = 20000
+			THC = {
+				country_event = { id=24502 days=0 }				
+			}
+			set_country_flag = tea_act_passed
+		}
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	
+	boston_tea_party = {
+		potential = {
+			tag = THC
+			year = 1755
+			THC = {
+				vassal_of = ENG
+			}
+			NOT = {
+				has_country_flag = tea_destroyed
+			}		
+		}
+
+		allow = {
+			ENG = {
+				has_country_flag = tea_act_passed
+			}
+
+		}
+
+		effect = {
+			overlord = {
+				diplomatic_influence = {
+				who = THC
+				value = -50
+				}
+			}
+			
+			upper_house = {
+			ideology = liberal
+			value = 0.1
+			}
+			
+			set_country_flag = tea_destroyed
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	coercive_acts = {
+		potential = {
+			tag = ENG
+			year = 1756
+			THC = {
+				vassal_of = ENG
+			}
+			NOT = {
+				has_country_flag = coercive_acts_passed
+			}		
+		}
+
+		allow = {
+			THC = {
+				has_country_flag = tea_destroyed
+			}
+
+		}
+
+		effect = {			
+			diplomatic_influence = {
+				who = THC
+				value = 50
+			}
+		
+			set_country_flag = coercive_acts_passed
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	intolerable_acts = {
+		potential = {
+			tag = THC
+			year = 1757
+			THC = {
+				vassal_of = ENG
+			}
+			NOT = {
+				has_country_flag = intolerable_acts_passed
+			}		
+		}
+
+		allow = {
+			ENG = {
+				has_country_flag = coercive_acts_passed
+			}
+
+		}
+
+		effect = {
+			overlord = {
+				diplomatic_influence = {
+				who = THIS
+				value = -100
+				}
+			}
+			upper_house = {
+				ideology = liberal
+				value = 0.2
+			}
+			any_pop = {
+				militancy = 1
+				consciousness = 1
+			}
+		
+			set_country_flag = intolerable_acts_passed
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	petition_to_the_king = {
+		potential = {
+			tag = THC
+			year = 1758
+			NOT = {
+				has_country_flag = petition_king
+			}		
+		}
+
+		allow = {
+			THC = {
+				vassal_of = ENG
+			}
+			has_country_flag = intolerable_acts_passed
+
+		}
+
+		effect = {
+			any_pop = {
+			militancy = -1
+			}
+			ENG = {
+				country_event = { id=24503 days=0 }
+			}
+			set_country_flag = petition_king
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	minutemen = {
+		potential = {
+			tag = THC
+			year = 1758
+			NOT = {
+				has_country_flag = minutemen_militia
+			}		
+		}
+
+		allow = {
+			THC = {
+				vassal_of = ENG
+			}
+			has_country_flag = petition_king
+
+		}
+
+		effect = {			
+			set_country_flag = minutemen_militia
+			
+			add_country_modifier = {
+				name = minutemen_usa
+				duration = 9125
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	first_continental_congress = {
+		potential = {
+			tag = THC
+			year = 1759	
+		}
+
+		allow = {
+			NOT = {
+				government = democracy
+			}
+		}
+
+		effect = {
+			government = democracy
+			#political_reform = wealth_voting
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	
+	join_or_die = {
+		potential = {
+			tag = THC
+			year = 1760
+			THC = {
+				vassal_of = ENG
+			}			
+		}
+		
+		allow = {
+			government = democracy
+		}
+		
+		effect = {
+			release_vassal = THC
+			overlord = {
+				diplomatic_influence = {
+				who = THIS
+				value = -300
+				}
+			}	
+			war = {
+				target = ENG
+				attacker_goal = {
+					casus_belli = become_independent
+				}
+			}
+		}
+
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	declaration_of_independence = {
+		potential = {
+			tag = THC
+			year = 1760
+			NOT = {
+				has_country_flag = declaration_of_independence_hap
+			}		
+		}
+		
+		allow = {
+			THC = { war_with = ENG }
+		}
+		
+		effect = {
+			change_tag = USA	
+			prestige = 30
+			any_pop = {
+				militancy = -3
+			}
+			set_country_flag = declaration_of_independence_hap
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	continental_army = {
+		potential = {
+			tag = USA
+			year = 1760
+			NOT = {
+				has_country_flag = continental_army_usa
+			}
+		}
+
+		allow = {
+			has_country_flag = declaration_of_independence_hap
+
+		}
+
+		effect = {
+			define_general = {
+				name = "George Washington"
+				personality = cautious
+				background = school_of_defense
+			}
+			add_country_modifier = {
+				name = continental_army_usa
+				duration = 3650
+			}
+			set_country_flag = continental_army_usa
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	
+}

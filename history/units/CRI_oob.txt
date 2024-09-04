@@ -1,0 +1,30 @@
+army = {
+	name = "Army of Crimea"
+	location = 967
+	regiment = {
+		name= "1.1 Tatars"
+		type = cavalry
+		home = 967
+	}
+
+	regiment = {
+		name= "2.1 Tatars"
+		type = cavalry
+		home = 965
+	}
+
+	regiment = {
+		name= "1.1 Infantry"
+		type = irregular
+		home = 966
+	}
+
+	regiment = {
+		name= "1.2 Infantry"
+		type = irregular
+		home = 964
+	}
+
+}
+
+

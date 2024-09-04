@@ -1,0 +1,56 @@
+capital = 729
+primary_culture = north_italian
+religion = catholic
+government = democracy
+plurality = 25.0
+nationalvalue = nv_order
+literacy = 0.2
+civilized = yes
+
+
+prestige = 30
+
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = landed_voting
+public_meetings = yes_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = non_secret_ballots
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+oob = "VEN_oob.txt"
+
+ruling_party = LUC_conservative
+upper_house = {
+	fascist = 0
+	liberal = 40
+	conservative = 50
+	reactionary = 0
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+
+# Technologies
+flintlock_muskets = 1
+line_of_battle = 1
+nav_frigates = 1
+
+
+# Inventions
+
+
+

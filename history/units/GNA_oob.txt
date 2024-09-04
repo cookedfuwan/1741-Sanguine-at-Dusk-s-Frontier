@@ -1,0 +1,23 @@
+army = {
+	name = "Arma di Genoa"
+	location = 724
+	regiment = {
+		name= "1. Zuavi Pontifici"
+		type = infantry
+		home = 724
+	}
+
+	regiment = {
+		name= "2. Zuavi Pontifici"
+		type = infantry
+		home = 724
+	}
+
+	regiment = {
+		name= "3. Zuavi Pontifici"
+		type = infantry
+		home = 725
+	}
+}
+
+

@@ -1,0 +1,6 @@
+owner = KAK
+controller = KAK
+add_core = KAK
+add_core = RUS
+trade_goods = grain
+life_rating = 32

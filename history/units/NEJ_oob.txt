@@ -1,0 +1,33 @@
+army = {
+	name = "Bedouin Army"
+	location = 1159
+	regiment = {
+		name= "1. Shammari"
+		type = cavalry
+		home = 1159
+	}
+
+	regiment = {
+		name= "2. Shammari"
+		type = cavalry
+		home = 1161
+	}
+}
+
+army = {
+	name = "Ibn Saud's Army"
+	location = 1157
+	regiment = {
+		name= "1. Saudi"
+		type = cavalry
+		home = 1157
+	}
+
+	regiment = {
+		name= "2. Saudi"
+		type = cavalry
+		home = 1157
+	}
+
+}
+

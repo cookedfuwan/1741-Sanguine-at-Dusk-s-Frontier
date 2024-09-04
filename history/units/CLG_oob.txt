@@ -1,0 +1,34 @@
+army = {
+	name = "Kölnische Heer"
+	location = 580
+	regiment = {
+		name= "1. Hannöversche Infanteriebrigade"
+		type = infantry
+		home = 575
+	}
+
+	regiment = {
+		name= "2. Hannöversche Infanteriebrigade"
+		type = infantry
+		home = 580
+	}
+
+	regiment = {
+		name= "3. Hannöversche Infanteriebrigade"
+		type = infantry
+		home = 581
+	}
+
+	regiment = {
+		name= "1. Hannöversche Artilleriebrigade"
+		type = artillery
+		home = 582
+	}
+	
+	regiment = {
+		name = "4. Hannöversche Infanteriebrigade"
+		type = infantry
+		home = 584
+	}
+}
+

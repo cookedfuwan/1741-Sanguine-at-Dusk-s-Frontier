@@ -1,0 +1,8 @@
+
+add_core = TGK
+add_core = TGK
+trade_goods = grain
+life_rating = 32
+
+owner = TGK
+controller = TGK

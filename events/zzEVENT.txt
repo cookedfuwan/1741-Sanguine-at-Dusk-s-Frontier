@@ -1,0 +1,1050 @@
+
+#Portuguese Colonial Government
+country_event = {
+	id = 24727
+	title = "Colonial Government"
+	desc = "We must leave these lands to the colonial government for better administration."
+	picture = "Revolution"
+
+	trigger = {
+		any_owned_province = { is_core = BRZ }
+		tag = POR
+		BRZ = {
+			vassal_of = POR
+		}
+	}
+	
+	option = {
+		name = "OK"
+		any_owned = {
+			limit = {
+				is_core = BRZ
+			}
+			secede_province = BRZ
+		}
+	}
+	
+}
+
+#Spanish Colonial Government I
+country_event = {
+	id = 24726
+	title = "Colonial Government"
+	desc = "We must leave these lands to the colonial government for better administration."
+	picture = "Revolution"
+
+	trigger = {
+		any_owned_province = { is_core = BRZ }
+		tag = SPA
+		GCO = {
+			vassal_of = SPA
+		}
+	}
+	
+	option = {
+		name = "OK"
+		any_owned = {
+			limit = {
+				is_core = BRZ
+			}
+			secede_province = GCO
+		}
+	}
+	
+}
+
+#Spanish Colonial Government II
+country_event = {
+	id = 24725
+	title = "Colonial Government"
+	desc = "We must leave these lands to the colonial government for better administration."
+	picture = "Revolution"
+
+	trigger = {
+		any_owned_province = { 
+			OR = {
+				is_core = ARG 
+				is_core = PRG 
+				is_core = CHL
+			}
+		}
+		tag = SPA
+		ARG = {
+			vassal_of = SPA
+		}
+	}
+	
+	option = {
+		name = "OK"
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = ARG 
+					is_core = PRG 
+					is_core = CHL
+				}
+			}
+			secede_province = ARG
+		}
+	}
+	
+}
+
+#Spanish Colonial Government III
+country_event = {
+	id = 24724
+	title = "Colonial Government"
+	desc = "We must leave these lands to the colonial government for better administration."
+	picture = "Revolution"
+
+	trigger = {
+		any_owned_province = { is_core = BOL }
+		tag = SPA
+		PEU = {
+			vassal_of = SPA
+		}
+	}
+	
+	option = {
+		name = "OK"
+		any_owned = {
+			limit = {
+				is_core = BOL
+			}
+			secede_province = PEU
+		}
+	}
+	
+}
+
+#French Colonial Government I
+country_event = {
+	id = 24723
+	title = "Colonial Government"
+	desc = "We must leave these lands to the colonial government for better administration."
+	picture = "Revolution"
+
+	trigger = {
+		any_owned_province = { is_core = USA }
+		tag = FRA
+		LOU = {
+			vassal_of = FRA
+		}
+	}
+	
+	option = {
+		name = "OK"
+		any_owned = {
+			limit = {
+				is_core = USA
+			}
+			secede_province = LOU
+		}
+	}
+	
+}
+
+#French Colonial Government II
+country_event = {
+	id = 24722
+	title = "Colonial Government"
+	desc = "We must leave these lands to the colonial government for better administration."
+	picture = "Revolution"
+
+	trigger = {
+		any_owned_province = {
+					continent = north_america
+					NOT = { is_core = CAN }
+					OR = {
+						culture = cherokee
+						culture = dakota
+						culture = native_american_minor
+					}
+		}
+		tag = FRA
+		LOU = {
+			vassal_of = FRA
+		}
+	}
+	
+	option = {
+		name = "OK"
+		any_owned = {
+				limit = {
+					continent = north_america
+					NOT = { is_core = CAN }
+					OR = {
+						culture = cherokee
+						culture = dakota
+						culture = native_american_minor
+					}					
+				}
+			secede_province = LOU
+		}
+	}
+	
+}
+
+#Spanish Colonial Government IV
+country_event = {
+	id = 24721
+	title = "Colonial Government"
+	desc = "We must leave these lands to the colonial government for better administration."
+	picture = "Revolution"
+
+	trigger = {
+		any_owned_province = {
+				OR = {
+					is_core = DES
+					is_core = TEX
+					is_core = CAL
+				}
+		}
+		tag = SPA
+		MEX = {
+			vassal_of = SPA
+		}
+	}
+	
+	option = {
+		name = "OK"
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = DES
+					is_core = TEX
+					is_core = CAL
+				}
+			}
+			secede_province = MEX
+		}
+	}
+	
+}
+
+#American Colonial Government
+country_event = {
+	id = 24720
+	title = "Colonial Government"
+	desc = "We must leave these lands to the colonial government for better administration."
+	picture = "Revolution"
+
+	trigger = {
+		any_owned_province = { is_core = USA }
+		tag = ENG
+		THC = {
+			vassal_of = ENG
+		}
+	}
+	
+	option = {
+		name = "OK"
+		any_owned = {
+			limit = {
+				is_core = USA
+			}
+			secede_province = THC
+		}
+	}
+	
+}
+
+# Badboy
+country_event = {
+	id = 24718
+	title = "Badboy"
+	desc = "Our country's bad reputation will give us hard time."
+	picture = "Revolution"
+
+	trigger = {
+		badboy = 1.01
+		NOT = {
+			has_country_modifier = badboy_badboy
+		}
+	}
+	
+	option = {
+		name = "Damnation"
+		#neutrality = yes
+		add_country_modifier = {
+			name = "badboy_badboy"
+			duration = 1825
+		}
+		prestige_factor = -0.4
+	}
+	
+}
+
+# Partition of Poland - Russia
+country_event = {
+	id = 24716
+	title = "Partition of Poland"
+	desc = "We are ready to annex Poland."
+	picture = "Revolution"
+	is_triggered_only = yes
+	
+	option = {
+		name = "Do it"
+		RUS_710 = {
+				add_core = RUS
+			}
+		RUS_706 = {
+				add_core = RUS
+			}
+		RUS_360 = {
+				add_core = RUS
+			}
+		RUS_354 = {
+				add_core = RUS
+			}
+		RUS_947 = {
+				add_core = RUS
+			}
+		RUS_718 = {
+				add_core = RUS
+			}
+		RUS_955 = {
+				add_core = RUS
+			}
+		RUS_707 = {
+				add_core = RUS
+			}
+		RUS_958 = {
+				add_core = RUS
+			}
+		ai_chance = {
+			factor = 99
+		}
+	}
+	
+	option = {
+		name = "Don't do it"
+		
+		relation = {
+				who = PLC
+				value = 200
+			}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+}
+
+# Partition of Poland - Austria
+country_event = {
+	id = 24717
+	title = "Partition of Poland"
+	desc = "We are ready to annex Poland."
+	picture = "Revolution"
+	is_triggered_only = yes
+	
+	option = {
+		name = "Do it"
+		AUS_702 = {
+				add_core = AUS
+			}
+		AUS_662 = {
+				add_core = AUS
+			}
+		ai_chance = {
+			factor = 99
+		}
+	}
+	
+	option = {
+		name = "Don't do it"
+		
+		relation = {
+				who = PLC
+				value = 200
+			}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+}
+
+# Irish population boom	
+country_event = {
+	id = 24700
+	title = "Irish Population Boom"
+	desc = "Population in Ireland grows rapidly thanks to potato. Scarce lands will be populated."
+	picture = "Revolution"
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		year = 1820
+	}
+	
+	option = {
+		name = "Rabbits!"
+		
+		all_core = {
+			limit = {
+				culture = irish
+			}
+			life_rating = 5
+		}
+	}
+	
+}
+
+
+#Belgian question
+country_event = {
+	id = 24701
+	title = "Belgian Question"
+	desc = "People in Low Countries are questioning our authority and they desire an independent country."
+	picture = "Revolution"
+
+	trigger = {
+		NOT = { tag = NET }
+		NOT = { exists = BEL }
+		exists = NET
+		OR = {
+			owns = 387 
+			owns = 395 
+		}
+		year = 1760
+	}
+	
+	mean_time_to_happen = {
+		months = 360
+	}
+	
+	option = {
+		name = "Give them what they want"
+		release = BEL
+		release = LUX
+		any_pop = {
+			militancy = -1
+		}
+		
+		ai_chance = {
+			factor = 70
+		}
+	}
+	
+	option = {
+		name = "Let Dutchmen handle it"
+		any_owned = {
+			limit = {
+				is_core = NET
+			}
+			secede_province = NET
+		}
+		any_pop = {
+			militancy = -1
+		}
+		
+		ai_chance = {
+			factor = 20
+		}
+	}
+	
+	option = {
+		name = "Are you kidding me?"
+		any_pop = {
+				limit = {
+					has_pop_culture = flemish
+				}
+				militancy = 5
+				consciousness = 5
+			}
+			
+		any_pop = {
+				limit = {
+					has_pop_culture = wallonian
+				}
+				militancy = 5
+				consciousness = 5
+			}
+			
+		ai_chance = {
+			factor = 10
+		}
+		
+	}
+	
+}
+
+#After Greek Independence
+country_event = {
+	id = 24702
+	title = "Greek Claims"
+	desc = "Greece is a new nation. They have brethren outside their borders."
+	picture = "Revolution"
+	fire_only_once = yes
+
+	trigger = {
+		tag = GRE
+		exists = GRE	
+	}
+	
+	option = {
+		name = "Claim it!"
+		TUR_832 = {
+				add_core = GRE
+			}
+		TUR_1506 = {
+				add_core = GRE
+			}
+		TUR_1505 = {
+				add_core = GRE
+			}
+	}
+	
+}
+
+
+# Parts of Greece
+country_event = {
+	id = 24703
+	title = "Greek Irredentalism"
+	desc = "Greece has more brethren."
+	picture = "Revolution"
+	fire_only_once = yes
+
+	trigger = {
+		tag = GRE
+		AND = {
+			owns = 831 
+			owns = 827 
+			owns = 834 
+			owns = 848
+		}	
+	}
+	
+	option = {
+		name = "Claim it!"
+		TUR_819 = {
+				add_core = GRE
+			}
+	}
+	
+}
+
+#Parts of Greece II
+country_event = {
+	id = 24704
+	title = "Greek Desires"
+	desc = "All parts of Greece should be united."
+	picture = "Revolution"
+	fire_only_once = yes
+
+	trigger = {
+		tag = GRE
+		AND = {
+			owns = 831 
+			owns = 827 
+			owns = 834 
+			owns = 848
+			owns = 821
+		}	
+	}
+	
+	option = {
+		name = "Claim it!"
+		TUR_805 = {
+				add_core = GRE
+			}
+		TUR_843 = {
+				add_core = GRE
+			}
+		TUR_855 = {
+				add_core = GRE
+			}
+	}
+	
+}
+
+
+#After Serbian Independence
+country_event = {
+	id = 24705
+	title = "Serbian Nationalism"
+	desc = "Serbian government wishes to see all Serb people to unite under single banner."
+	picture = "Revolution"
+	fire_only_once = yes
+
+	trigger = {
+		tag = SER
+		exists = SER	
+	}
+	
+	option = {
+		name = "Claim it!"
+		AUS_777 = {
+				add_core = SER
+			}
+		TUR_803 = {
+				add_core = SER
+			}
+	}
+	
+}
+
+
+# Irish immigration to America	
+country_event = {
+	id = 24706
+	title = "Irish Emigration"
+	desc = "Irish people see no future in Ireland under British rule."
+	picture = "Revolution"
+
+	trigger = {
+		tag = ENG
+		year = 1840
+		exists = USA
+		NOT = {	has_country_flag = irish_flee_for_usa }
+	}
+	
+	option = {
+		name = "Let them flee"
+		set_country_flag = irish_flee_for_usa
+		all_core = {
+			limit = {
+				culture = irish
+			}
+			add_province_modifier = {
+			name = "irish_migration"
+			duration = 21900
+			}
+		}
+	}
+	
+}
+
+
+# Blight in Ireland
+country_event = {
+	id = 24707
+	title = "Blight in Ireland"
+	desc = "Potato blight has hit us but it has hit Ireland even more severly."
+	picture = "Revolution"
+
+	trigger = {
+		tag = ENG
+		year = 1830
+		NOT = {	has_country_flag = blight_in_ireland }
+	}
+	
+	option = {
+		name = "Less Irish"
+		set_country_flag = blight_in_ireland
+		all_core = {
+			limit = {
+				culture = irish
+			}
+			life_rating = -15
+		}
+	}
+	
+}
+
+#After Bulgarian Independence
+country_event = {
+	id = 24708
+	title = "Bulgarian Nationalism"
+	desc = "We have gained our independence and we are ready for more."
+	picture = "Revolution"
+	fire_only_once = yes
+
+	trigger = {
+		tag = BUL
+		exists = BUL	
+	}
+	
+	option = {
+		name = "Claim it!"
+		TUR_809 = {
+				add_core = BUL
+			}
+	}
+	
+}
+
+#Population Adjustment I
+country_event = {
+	id = 24709
+	title = "Population Adjustment"
+	desc = "I am an event that adjust population historically. I have done my duty."
+	picture = "Revolution"
+	
+	trigger = {
+		is_culture_group = latin_american_cultures
+		NOT = {
+			has_country_modifier = pop_adjustment
+		}
+	}
+
+	
+	option = {
+		name = "OK"
+		any_pop = {
+			reduce_pop = 0.6
+		}
+		add_country_modifier = {
+			name = "pop_adjustment"
+			duration = -1
+		}
+	}
+}
+
+#Population Adjustment II
+country_event = {
+	id = 24710
+	title = "Population Adjustment"
+	desc = "I am an event that adjust population historically. I have done my duty."
+	picture = "Revolution"
+	
+	trigger = {
+		tag = ETH
+		NOT = {
+			has_country_modifier = pop_adjustment
+		}
+	}
+
+	
+	option = {
+		name = "OK"
+		any_pop = {
+			reduce_pop = 0.5
+		}
+		add_country_modifier = {
+			name = "pop_adjustment"
+			duration = -1
+		}
+	}
+}
+
+#Population Adjustment III
+country_event = {
+	id = 24711
+	title = "Population Adjustment"
+	desc = "I am an event that adjust population historically. I have done my duty."
+	picture = "Revolution"
+	
+	trigger = {
+		OR = {
+			is_culture_group = iranian_turanian
+			is_culture_group = south_asian
+		}
+		NOT = {
+			has_country_modifier = pop_adjustment
+		}
+	}
+
+	
+	option = {
+		name = "OK"
+		any_pop = {
+			reduce_pop = 0.8
+		}
+		add_country_modifier = {
+			name = "pop_adjustment"
+			duration = -1
+		}
+	}
+}
+
+#Population Adjustment IV
+country_event = {
+	id = 24712
+	title = "Population Adjustment"
+	desc = "I am an event that adjust population historically. I have done my duty."
+	picture = "Revolution"
+	
+	trigger = {
+		OR = {
+			is_culture_group = southeast_asian
+			is_culture_group = central_asian
+			primary_culture = nanfaren
+			primary_culture = beifaren
+			primary_culture = manchu
+		}
+		NOT = {
+			has_country_modifier = pop_adjustment
+		}
+	}
+
+	
+	option = {
+		name = "OK"
+		any_pop = {
+			reduce_pop = 0.7
+		}
+		add_country_modifier = {
+			name = "pop_adjustment"
+			duration = -1
+		}
+	}
+}
+
+# Louisiana Purchase 1/3
+country_event = {
+	id = 24713
+	title = "Louisiana Purchase"
+	desc = "Louisiana is a vast colony. For French, it is far from home and hard to maintain both militarily and financially. They consider selling it to us."
+	picture = "alaska"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Take the deal"
+		FRA = {
+			country_event = { id=24714 days=0 }
+		}
+		USA = {
+			inherit = LOU
+		}
+		any_owned = {
+			remove_core = LOU
+			add_core = USA
+		}
+		ai_chance = {
+			factor = 99
+		}
+	}
+	
+	option = {
+		name = "Time is not right"
+		FRA = {
+			country_event = { id=24715 days=0 }
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Louisiana Purchase 2/3 USA Accepts 
+country_event = {
+	id = 24714
+	title = "Louisiana Purchase"
+	desc = "USA accepted the deal. We must ratify the aggreement."
+	picture = "alaska"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ratify"
+		money = 20000
+		badboy = -10
+		USA = {
+			money = -2000
+		}
+	}
+}
+
+# Louisiana Purchase 3/3 USA Denies
+country_event = {
+	id = 24715
+	title = "Louisiana Purchase"
+	desc = "USA declined our generous offer. This will bring them only regret."
+	picture = "alaska"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		relation = {
+			who = USA
+			value = -100
+		}
+	}
+}
+
+
+
+#####################################
+# Rebellion against overlord
+country_event = {
+	id = 24500
+	title = "EVTNAME24500"
+	desc = "EVTDESC24500"
+	picture = "Revolution"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA24500"
+		release_vassal = FROM
+
+		war = {
+			target = FROM
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+				defender_goal = {
+				casus_belli = become_independent
+			}
+		}
+	}
+	
+
+}
+
+# Boston Massacre
+country_event = {
+	id = 24501
+	title = "EVTNAME24501"
+	desc = "EVTDESC24501"
+	picture = "greatpowers"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = THC 
+		THC = {
+			has_country_flag = tea_destroyed
+		}
+	}
+
+
+	option = {
+		name = "EVTOPTA24501"
+		prestige = 5
+		relation = {
+			who = ENG
+			value = 100
+		}
+		
+		any_pop = {
+			militancy = 1
+		}
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "EVTOPTB24501"
+		relation = {
+			who = ENG
+			value = -100
+		}
+		any_pop = {
+			militancy = -1
+			consciousness = -1
+		}
+		
+		ai_chance = {
+			factor = 99
+		}
+	}
+
+}
+
+
+country_event = {
+	id = 24502
+	title = "EVTNAME24502"
+	desc = "EVTDESC24502"
+	picture = "Outside_influences"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA24502"
+		
+		add_country_modifier = {
+			name = sugar_act_on_colonies
+			duration = 1825
+		}
+		
+		any_pop = {
+			militancy = 1
+		}
+	}
+	
+
+}
+
+# Petition to the king
+country_event = {
+	id = 24503
+	title = "EVTNAME24503"
+	desc = "EVTDESC24503"
+	picture = "Yeats"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA24503"
+		release_vassal = FROM
+		prestige = -50
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB24503"
+		prestige = 10
+		diplomatic_influence = {
+				who = THC
+				value = 100
+		}
+		
+		ai_chance = {
+			factor = 99
+		}
+	}
+	
+
+}
+
+
+country_event = {
+	id = 24504
+	title = "EVTNAME24502"
+	desc = "EVTDESC24502"
+	picture = "Outside_influences"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA24502"
+		
+		add_country_modifier = {
+			name = stamp_act_on_colonies
+			duration = 1825
+		}
+		
+		any_pop = {
+			militancy = 1
+		}
+	}
+	
+
+}
+
+
+country_event = {
+	id = 24505
+	title = "EVTNAME24502"
+	desc = "EVTDESC24502"
+	picture = "Outside_influences"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA24502"
+		
+		add_country_modifier = {
+			name = tea_act_on_colonies
+			duration = 1825
+		}
+		
+		any_pop = {
+			militancy = 1
+		}
+	}
+	
+
+}

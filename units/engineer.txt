@@ -1,0 +1,44 @@
+engineer = {
+	icon = 16
+	
+	type = land
+	sprite = Artillery
+	active = no
+	unit_type = support
+	#Core Abilities
+	priority = 20
+	max_strength = 3
+	default_organisation = 30
+	maximum_speed = 6.00
+	weighted_value = 4.0
+	floating_flag = no
+
+
+	#Building Costs
+	build_time = 90 #120
+	build_cost = {
+		#small_arms = 10
+		#canned_food = 10
+		#liquor = 10
+		#explosives = 5
+	}
+	
+	supply_consumption = 0.4
+	supply_cost = {
+		artillery = 0.1 #0.012 #0.01
+		ammunition = 0.025 #0.1 # 0
+		canned_food = 0.02 #0.06 # 0.02
+		explosives = 0.01 #0.05
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 0
+	attack = 4
+	defence = 4
+	discipline = 1.0
+	support = 0.5
+	maneuver = 2
+	siege = 1
+
+}

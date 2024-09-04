@@ -1,0 +1,5 @@
+owner = AKS
+controller = AKS
+add_core = AKS
+trade_goods = precious_metal
+life_rating = 30

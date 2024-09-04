@@ -1,0 +1,5 @@
+owner = AME
+controller = AME
+add_core = AME
+trade_goods = fish
+life_rating = 20

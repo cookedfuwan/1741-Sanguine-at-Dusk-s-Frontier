@@ -1,0 +1,108 @@
+capital = 487
+primary_culture = spanish
+culture = catalan
+culture = basque
+religion = catholic
+government = hms_government
+plurality = 25.0
+nationalvalue = nv_equality
+literacy = 0.05
+civilized = yes
+
+
+#GreaterPowers = prestige
+prestige = 160
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = wealth_voting
+public_meetings = yes_meeting
+press_rights = censored_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = non_secret_ballots
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+ruling_party = SPA_conservative
+last_election = 1834.1.1
+upper_house = {
+	fascist = 0
+	liberal = 35
+	conservative = 60
+	reactionary = 5
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+early_gunpowder_warfare = 1
+transitional_gunpowder_warfare = 1
+linear_formations_warfare = 1
+
+hand_gonne_muskets = 1
+arquebus_muskets = 1
+early_rifling_musket = 1
+matchlock_muskets = 1
+
+wall_cannon = 1
+swivel_guns = 1
+siege_cannon = 1
+battlefield_cannon = 1
+
+nav_frigates = 1
+commune_organization = 1
+early_guild_organization = 1
+guild_organization = 1
+
+Manorial_System = 1
+Medici_Bank = 1
+Casa_di_San_Giorgio_public_bank = 1
+Gold_Ducat = 1
+Greshams_Law = 1
+no_standard = 1
+
+Scholastic_Economic_Thought = 1
+Critiques_currency_debasement = 1
+trade_guilds = 1
+trade_league_market = 1
+enlightment_philosophy = 1
+
+classicism = 1
+enlightment_philosophy = 1
+social_contract = 1
+state_formation = 1
+
+water_wheel_power = 1
+steam_pump = 1
+screw_cutting_lathe = 1
+
+mil_school = 1
+aristocratic_school = 1
+officer_school = 1
+art_of_war = 1
+supply_line_protection = 1
+line_of_battle = 1
+ship_of_the_line = 1
+carronades = 1
+navigation_techniques = 1
+admiralty = 1
+
+#Inventions
+
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+
+oob = "SPA_oob.txt"

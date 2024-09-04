@@ -1,0 +1,133 @@
+army = {
+	name = "Army of Bengal"
+	location = 1254
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = cavalry
+		home = 1251
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = cavalry
+		home = 1251
+	}
+
+	regiment = {
+		name= "3.Balangir Contingent"
+		type = irregular
+		home = 1251
+	}
+	
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = irregular
+		home = 1251
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = irregular
+		home = 1251
+	}
+
+	regiment = {
+		name= "3.Balangir Contingent"
+		type = irregular
+		home = 1253
+	}
+	
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = irregular
+		home = 1253
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = irregular
+		home = 1253
+	}
+
+	regiment = {
+		name= "3.Balangir Contingent"
+		type = irregular
+		home = 1255
+	}
+	
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = irregular
+		home = 1255
+	}
+
+
+	
+}
+
+
+army = {
+	name = "Army of River"
+	location = 1251
+	regiment = {
+		name= "3.Balangir Contingent"
+		type = cavalry
+		home = 1252
+	}
+	
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = cavalry
+		home = 1252
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = irregular
+		home = 1254
+	}
+	
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = irregular
+		home = 1252
+	}
+
+	regiment = {
+		name= "3.Balangir Contingent"
+		type = irregular
+		home = 1254
+	}
+	
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = irregular
+		home = 1254
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = irregular
+		home = 1257
+	}
+
+	regiment = {
+		name= "3.Balangir Contingent"
+		type = irregular
+		home = 1257
+	}
+	
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = irregular
+		home = 1257
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = irregular
+		home = 1257
+	}
+	
+}
+

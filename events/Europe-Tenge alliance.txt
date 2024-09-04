@@ -1,0 +1,144 @@
+country_event = {
+    id = 1744001
+    title = "EVTNAME1744001"
+    desc = "EVTDESC1744001"
+    picture = "oriental_crisis"
+
+    trigger = {
+        year = 1740
+        NOT = { year = 1742 }
+        tag = RUS
+    }
+    fire_only_once = yes
+
+    option = {
+        name = "EVTOPTA1744001"
+        
+        # Transfer provinces from Kazakh Khanate to Russia
+        1181 = { 
+		secede_province = RUS 
+		} # Qaraganda
+        2611 = { 
+		secede_province = RUS 
+		} # Turgay
+        3509 = {
+		secede_province = RUS 
+		} # Torkara
+        1183 = {
+		secede_province = RUS
+		} # Aqtobe
+        3522 = {
+		secede_province = RUS
+		} # South Zhetryu
+        3511 = {
+		secede_province = RUS 
+		} # Bayuly
+        1182 = { 
+		secede_province = RUS 
+		} # Guryev
+        1036 = {
+		secede_province = RUS } # Astrakhan
+        1041 = { secede_province = RUS 
+		} # Elitsa
+        1050 = { 
+		secede_province = RUS 
+		} # Stavropol
+        3507 = { 
+		secede_province = RUS 
+		} # Baganaly
+
+        # Effects of the transfer
+        RUS = {	
+            prestige = 10
+            create_alliance = TGK
+        }
+        RUS = {
+            badboy = 5
+            prestige = -20
+            relation = { who = RUS value = -150 }
+        }
+        TGK = {
+            relation = { who = RUS value = 50 }
+        }
+		
+		AME = {
+            relation = { who = RUS value = -30 }
+        }
+		
+        ai_chance = {
+            factor = 100
+        }
+    }
+
+    option = {
+        name = "EVTOPTB1744001"
+        RUS = {
+            prestige = -10
+        }
+        ai_chance = {
+            factor = 0
+        }
+    }
+}
+
+# Russian Diplomacy Focus on the Ottoman Empire - Russia
+country_event = {
+    id = 1779001
+    title = "EVTNAME1779001"
+    desc = "EVTDESC1779001"
+    picture = "Revolution"
+	
+    trigger = {
+        year = 1779
+        NOT = { year = 1780 }
+        tag = RUS
+    }
+    fire_only_once = yes
+
+    option = {
+        name = "EVTOPTA1779001"
+        # Decrease relations with the Ottomans
+        relation = {
+            who = TUR
+            value = -50
+        }
+		relation = {
+            who = AUS
+            value = -25
+        }
+        # Gain cores on specified provinces
+        TUR_809 = { # Rumeli
+            add_core = RUS
+        }
+        TUR_674 = { # Constanta
+            add_core = RUS
+        }
+        MOL_673 = { # Moldavia
+            add_core = RUS
+        }
+        WAL_665 = { # Wallachia
+            add_core = RUS
+        }
+        RUS_676 = { # Budjak
+            add_core = RUS
+        }
+        TUR_810 = { # Tuna
+            add_core = RUS
+        }
+        ai_chance = {
+            factor = 99
+        }
+    }
+
+    option = {
+        name = "EVTOPTB1779001"
+        # Improve relations with a third party (e.g., Austria)
+        relation = {
+            who = AUS
+            value = 25
+        }
+        ai_chance = {
+            factor = 1
+        }
+    }
+}

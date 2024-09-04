@@ -1,0 +1,8 @@
+owner = ODH
+controller = ODH
+add_core = ODH
+add_core = GWA
+add_core = BUN
+add_core = HND
+trade_goods = grain
+life_rating = 30

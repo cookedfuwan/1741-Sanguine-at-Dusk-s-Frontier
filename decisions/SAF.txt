@@ -1,0 +1,19 @@
+political_decisions = {
+	adopt_die_stem = {
+		potential = {
+			tag = SAF
+			NOT = {
+				has_country_flag = has_die_stem
+			}
+		}
+		
+		allow = {
+			avant_garde_culture = 1
+		}
+		
+		effect = {
+			prestige = 5
+			set_country_flag = has_die_stem
+		}
+	}
+}

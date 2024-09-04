@@ -1,0 +1,5 @@
+owner = KKA
+controller = KKA
+add_core = KKA
+trade_goods = grain
+life_rating = 32

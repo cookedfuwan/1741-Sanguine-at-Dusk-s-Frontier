@@ -1,0 +1,6 @@
+owner = KZI
+controller = KZI
+add_core = KZI
+add_core = KZI
+trade_goods = coal
+life_rating = 32

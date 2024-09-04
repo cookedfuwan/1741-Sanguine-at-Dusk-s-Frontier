@@ -1,0 +1,5 @@
+owner = AKS
+controller = AKS
+add_core = AKS
+trade_goods = cotton
+life_rating = 30

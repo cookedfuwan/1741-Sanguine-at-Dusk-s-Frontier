@@ -1,0 +1,868 @@
+#Sphere of Influence
+
+THC = {
+	value = 200		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+HAN = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+PRU = {
+	value = 150
+}
+
+
+army = {
+	name = "1st Army"
+	location = 300
+	regiment = {
+		name= "Light Brigade"
+		type = hussar
+		home = 299
+	}
+
+	regiment = {
+		name= "Royal Dragoons"
+		type = cuirassier
+		home = 297
+	}
+
+	regiment = {
+		name= "Heavy Brigade"
+		type = artillery
+		home = 303
+	}
+
+	regiment = {
+		name= "1.1st Division"
+		type = artillery
+		home = 302
+	}
+
+	regiment = {
+		name= "2.1st Division"
+		type = infantry
+		home = 301
+	}
+
+	regiment = {
+		name= "3.1st Division"
+		type = infantry
+		home = 300
+	}
+	
+	regiment = {
+		name= "Heavy Brigade"
+		type = infantry
+		home = 300
+	}
+
+	regiment = {
+		name= "1.1st Division"
+		type = infantry
+		home = 294
+	}
+
+	regiment = {
+		name= "2.1st Division"
+		type = infantry
+		home = 295
+	}
+
+	regiment = {
+		name= "3.1st Division"
+		type = infantry
+		home = 293
+	}
+
+}
+
+army = {
+	name = "2nd Army"
+	location = 303
+	regiment = {
+		name= "Light Brigade"
+		type = hussar
+		home = 292
+	}
+
+	regiment = {
+		name= "Royal Dragoons"
+		type = dragoon
+		home = 284
+	}
+
+	regiment = {
+		name= "Heavy Brigade"
+		type = artillery
+		home = 288
+	}
+
+	regiment = {
+		name= "1.1st Division"
+		type = artillery
+		home = 285
+	}
+
+	regiment = {
+		name= "2.1st Division"
+		type = infantry
+		home = 277
+	}
+
+	regiment = {
+		name= "3.1st Division"
+		type = infantry
+		home = 278
+	}
+	
+	regiment = {
+		name= "Heavy Brigade"
+		type = infantry
+		home = 283
+	}
+
+	regiment = {
+		name= "1.1st Division"
+		type = infantry
+		home = 282
+	}
+
+	regiment = {
+		name= "2.1st Division"
+		type = infantry
+		home = 281
+	}
+
+	regiment = {
+		name= "3.1st Division"
+		type = infantry
+		home = 280
+	}
+
+}
+
+army = {
+	name = "Army of Canada"
+	location = 72
+	regiment = {
+		name= "3.1st Division"
+		type = infantry
+		home = 271
+	}
+	
+	regiment = {
+		name= "Heavy Brigade"
+		type = infantry
+		home = 269
+	}
+
+	regiment = {
+		name= "1.1st Division"
+		type = infantry
+		home = 268
+	}
+
+}
+
+
+army = {
+	name = "Army of India"
+	location = 1304
+	regiment = {
+		name= "1.1st Division"
+		type = infantry
+		home = 259
+	}
+	
+	regiment = {
+		name= "1.2nd Division"
+		type = infantry
+		home = 266
+	}
+
+	regiment = {
+		name= "1.3rd Division"
+		type = infantry
+		home = 1256
+	}
+	
+	regiment = {
+		name= "1.4th Division"
+		type = infantry
+		home = 1256
+	}
+	
+	regiment = {
+		name= "1.5th Division"
+		type = infantry
+		home = 1256
+	}
+	
+	regiment = {
+		name= "1.6th Division"
+		type = infantry
+		home = 1256
+	}
+	
+	regiment = {
+		name= "1.7th Division"
+		type = infantry
+		home = 1256
+	}
+	
+	regiment = {
+		name= "Royal Dragoons"
+		type = dragoon
+		home = 1256
+	}
+
+	regiment = {
+		name= "light arty Heavy Brigade"
+		type = artillery
+		home = 1256
+	}
+	
+	regiment = {
+		name= "light arty Heavy Brigade"
+		type = artillery
+		home = 1256
+	}
+
+}
+
+
+
+
+navy = {
+	name = "Channel Fleet"
+	location = 299
+	ship = {
+		name= "HMS Asia"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Belleisle"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Bellerophon"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Bombay"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Britannia"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Calcutta"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Camperdown"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Carnatic"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Clarence"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Formidable"
+		type = manowar
+	}
+	
+	ship = {
+		name= "HMS America"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Castor"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Conquestadore"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Eagle"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Forth"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Gloucester"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Pique"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Seahorse"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Stag"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Thalia"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Ganges"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Hastings"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Hawke"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Malabar"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Monarch"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Neptune"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Powerful"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Prince Regent"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Princess Charlotte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Rodney"
+		type = clipper_transport
+	}
+
+
+
+
+}
+
+navy = {
+	name = "1st Reserve Squadron"
+	location = 303
+	ship = {
+		name= "HMS Blenheim"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Cambridge"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Cornwallis"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Defence"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Genoa"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Hercules"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Howe"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Nelson"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Redoubtable"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Salisbury"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Amazon"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Fisguard"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Isis"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Latona"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Melampus"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Minerva"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Nereus"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Seringapatam"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Southampton"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Venus"
+		type = frigate
+	}
+	
+	ship = {
+		name= "HMS Cornwall"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Eurotas"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Fox"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Hotspur"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Leda"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Penelope"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS President"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Proserpine"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Salamander"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "HMS Wellesley"
+		type = clipper_transport
+	}
+
+}
+
+
+navy = {
+	name = "2nd Reserve Squadron"
+	location = 71
+	ship = {
+		name= "HMS Bellona"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Benbow"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Devonshire"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Hogue"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Medway"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Mulgrave"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Pembroke"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Queen Charlotte"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Scarborough"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Stirling Castle"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Amphitrite"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Arethusa"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Blonde"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Brilliant"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Forte"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Java"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Laurel"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Pallas"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Sirius"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Trincomalee"
+		type = frigate
+	}
+	
+	ship = {
+		name= "HMS Agincourt"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Black Prince"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Melville"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Minotaur"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Pitt"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Wellington"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Alfred"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Andromeda"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Circe"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Clyde"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "3rd Reserve Squadron"
+	location = 1304
+	ship = {
+		name= "HMS Ajax"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Armada"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Caledonia"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Edinburgh"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Egmont"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Impregnable"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Invincible"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Minden"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Poictiers"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Warspite"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Bacchante"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Belvidera"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Briton"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Crescent"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Galatea"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Havannah"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Maidstone"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Menelaus"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Nymphe"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Tenedos"
+		type = frigate
+	}
+	
+	ship = {
+		name= "HMS Hibernia"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Illustrious"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Implacable"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Revenge"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Apollo"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Horatio"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Leonidas"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Naiad"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Owen Glendower"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Resistance"
+		type = clipper_transport
+	}
+
+}
+
+
+
+

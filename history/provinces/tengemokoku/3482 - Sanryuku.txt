@@ -1,0 +1,5 @@
+owner = GFM
+controller = GFM
+add_core = GFM
+trade_goods = iron
+life_rating = 32

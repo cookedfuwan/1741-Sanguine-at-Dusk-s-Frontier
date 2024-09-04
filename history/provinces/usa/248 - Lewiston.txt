@@ -1,0 +1,8 @@
+owner = THC
+controller = THC
+add_core = THC
+add_core = USA
+#add_core = NEN
+trade_goods = timber
+life_rating = 40
+

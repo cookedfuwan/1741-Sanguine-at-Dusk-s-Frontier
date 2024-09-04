@@ -1,0 +1,6 @@
+owner = HKS
+controller = HKS
+add_core = HKS
+add_core = TIB
+trade_goods = cotton
+life_rating = 32

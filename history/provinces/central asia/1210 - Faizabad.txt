@@ -1,0 +1,5 @@
+owner = TZK
+controller = TZK
+add_core = TZK
+trade_goods = wool
+life_rating = 30

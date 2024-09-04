@@ -1,0 +1,11 @@
+owner = RTS
+controller = RTS
+add_core = RTS
+add_core = RTS
+trade_goods = coal
+life_rating = 32
+1861.1.1 = {
+	owner = RUS
+	controller = RUS
+	colonial = 2
+}

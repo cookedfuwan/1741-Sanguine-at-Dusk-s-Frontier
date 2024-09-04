@@ -1,0 +1,6 @@
+owner = NSK
+controller = NSK
+add_core = NSK
+add_core = NSK
+trade_goods = timber
+life_rating = 32

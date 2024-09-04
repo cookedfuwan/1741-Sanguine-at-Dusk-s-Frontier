@@ -1,0 +1,361 @@
+TGK = {
+	value = -125		#relation
+}
+
+RUS = {
+	value = -200		#relation
+}
+
+RUS = {
+	level = 0		#relation
+}
+
+SPA = {
+	value = -125		#relation
+}
+
+ENG = {
+	value = -125		#relation
+}
+
+POR = {
+	value = -125		#relation
+}
+
+CHI = {
+	value = -125		#relation
+}
+
+army = {
+	name = "Imperial Capital guard"
+	
+	leader = {
+		name = "Echio Nagase"
+		date = 1740.1.1
+		type = land
+		personality = heroic
+		background = natural_born_leader
+		prestige = 0.1
+	
+	}
+	
+	location = 1650
+	regiment = {
+		name= "1.Edo"
+		type = infantry
+		home = 1650
+	}
+
+	regiment = {
+		name= "2.Edo"
+		type = infantry
+		home = 1649
+	}
+	
+	regiment = {
+		name= "3.Edo"
+		type = infantry
+		home = 1649
+	}
+
+	regiment = {
+		name= "3.Edo"
+		type = artillery
+		home = 1652
+	}
+	
+	regiment = {
+		name= "3.Edo"
+		type = artillery
+		home = 1652
+	}
+
+}
+
+army = {
+	
+	leader = {
+		name = "Muroki Kawashimi"
+		date = 1740.1.1
+		type = land
+		personality = heroic
+		background = natural_born_leader
+		prestige = 0.1
+	
+	}
+	
+	name = "Army of Chugoku"
+	location = 1640
+	regiment = {
+		name= "1.Choshu"
+		type = infantry
+		home = 1640
+	}
+
+	regiment = {
+		name= "2.Choshu"
+		type = infantry
+		home = 1638
+	}
+
+	regiment = {
+		name= "3.Choshu"
+		type = artillery
+		home = 1641
+	}
+
+}
+
+army = {
+	name = "Army of Kagoshima"
+	location = 1662
+	regiment = {
+		name= "1.1 Satsuma"
+		type = infantry
+		home = 1662
+	}
+
+	regiment = {
+		name= "2.1 Satsuma"
+		type = infantry
+		home = 1660
+	}
+	
+	regiment = {
+		name= "3.1 Satsuma"
+		type = infantry
+		home = 1660
+	}
+
+	regiment = {
+		name= "3.1 Satsuma"
+		type = artillery
+		home = 1661
+	}
+	
+	regiment = {
+		name= "4.1 Satsuma"
+		type = artillery
+		home = 1661
+	}
+
+
+}
+
+army = {
+	name = "Tosa army"
+	location = 1665
+	regiment = {
+		name= "1.Tosa"
+		type = infantry
+		home = 1665
+	}
+
+	regiment = {
+		name= "2.Tosa"
+		type = infantry
+		home = 1667
+	}
+
+	regiment = {
+		name= "3.Tosa"
+		type = artillery
+		home = 1666
+	}
+
+}
+
+army = {
+	name = "Army of Tohoku"
+	location = 1668
+	regiment = {
+		name= "1.Sendai"
+		type = infantry
+		home = 1668
+	}
+
+	regiment = {
+		name= "2.Sendai"
+		type = infantry
+		home = 1673
+	}
+
+	regiment = {
+		name= "3.Sendai"
+		type = artillery
+		home = 1669
+	}
+
+}
+
+army = {
+	name = "Army of Chubu"
+	location = 1646
+	regiment = {
+		name= "1.Kaga"
+		type = infantry
+		home = 1645
+	}
+
+	regiment = {
+		name= "2.Kaga"
+		type = infantry
+		home = 1675
+	}
+
+	regiment = {
+		name= "3.Kaga"
+		type = artillery
+		home = 1677
+	}
+
+}
+
+army = {
+	name = "Army of Chubu"
+	location = 1646
+	regiment = {
+		name= "1.Kaga"
+		type = infantry
+		home = 1645
+	}
+
+	regiment = {
+		name= "2.Kaga"
+		type = infantry
+		home = 1675
+	}
+
+	regiment = {
+		name= "3.Kaga"
+		type = artillery
+		home = 1677
+	}
+
+}
+
+army = {
+	name = "Imperial Army of Tamuchi"
+	location = 1632
+	regiment = {
+		name= "1.Tamuchi"
+		type = infantry
+		home = 1645
+	}
+	
+	regiment = {
+		name= "2.Tamuchi"
+		type = infantry
+		home = 1645
+	}
+
+	regiment = {
+		name= "3.Tamuchi"
+		type = infantry
+		home = 1632
+	}
+	
+	regiment = {
+		name= "4.Tamuchi"
+		type = infantry
+		home = 1632
+	}
+
+	regiment = {
+		name= "1.Art Tamuchi"
+		type = artillery
+		home = 1632
+	}
+	
+	regiment = {
+		name= "2.Art Tamuchi"
+		type = artillery
+		home = 1632
+	}
+	
+	regiment = {
+		name= "3.Art Tamuchi"
+		type = artillery
+		home = 1632
+	}
+
+}
+
+navy = {
+	name = "Imperial Fleet"
+	location = 1657
+	ship = {
+		name= "1 Yusosentai"
+		type = clipper_transport
+		}
+	ship = {	
+		name= "2 Yusosentai"
+		type = clipper_transport
+	}
+	ship = {	
+		name= "3 Yusosentai"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Saigo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Owari"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ibaraki"
+		type = manowar
+	}
+
+	ship = {
+		name= "Hashidate"
+		type = manowar
+	}
+
+	ship = {
+		name= "Yamashiro"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ijuin "
+		type = manowar
+	}
+
+	ship = {
+		name= "Sagami"
+		type = manowar
+	}
+
+	ship = {
+		name= "Togo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Nagato"
+		type = manowar
+	}
+
+	ship = {
+		name= "Shikishima"
+		type = manowar
+	}
+
+	ship = {
+		name= "Settsu"
+		type = manowar
+	}
+
+	ship = {
+		name= "Hozu"
+		type = manowar
+	}
+
+}
+

@@ -1,0 +1,5 @@
+owner = KAK
+controller = KAK
+add_core = KAK
+trade_goods = coal
+life_rating = 25

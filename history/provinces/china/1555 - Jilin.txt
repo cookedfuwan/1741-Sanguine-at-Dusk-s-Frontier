@@ -1,0 +1,6 @@
+owner = AME
+controller = AME
+add_core = AME
+add_core = AME
+trade_goods = iron
+life_rating = 32

@@ -1,0 +1,16 @@
+army = {
+	name = "Colonial Militias"
+	location = 223
+	regiment = {
+		name= "1st Regiment of Infantry"
+		type = infantry
+		home = 211
+	}
+
+	regiment = {
+		name= "2nd Regiment of Infantry"
+		type = infantry
+		home = 243
+	}
+
+}

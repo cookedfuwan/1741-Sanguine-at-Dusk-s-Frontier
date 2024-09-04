@@ -1,0 +1,5 @@
+owner = RTS
+controller = RTS
+add_core = RTS
+trade_goods = iron
+life_rating = 32

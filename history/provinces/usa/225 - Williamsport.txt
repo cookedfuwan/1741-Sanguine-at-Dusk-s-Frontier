@@ -1,0 +1,7 @@
+owner = THC
+controller = THC
+add_core = THC
+add_core = USA
+trade_goods = coal
+life_rating = 40
+

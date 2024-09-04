@@ -1,0 +1,5 @@
+owner = BKI
+controller = BKI
+add_core = BKI
+trade_goods = sulphur
+life_rating = 32

@@ -1,0 +1,37 @@
+army = {
+	name = "Army of Karnataka"
+	location = 1309
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = irregular
+		home = 1309
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = irregular
+		home = 1309
+	}
+
+	regiment = {
+		name= "3.Balangir Contingent"
+		type = irregular
+		home = 1311
+	}
+	
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = irregular
+		home = 1311
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = irregular
+		home = 1307
+	}
+
+	
+	
+}
+

@@ -1,0 +1,10 @@
+owner = AKS
+controller = AKS
+add_core = AKS
+trade_goods = coal
+life_rating = 30
+#state_building = {
+#	level = 1
+#	building = glass_factory
+#	upgrade = yes
+#}

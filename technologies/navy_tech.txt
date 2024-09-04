@@ -1,0 +1,797 @@
+#naval_doctrine
+
+line_of_battle = {
+	area = naval_doctrine
+	year = 1750
+	cost = 5000
+	unciv_military = yes
+	colonial_points = 100
+	activate_building = naval_base
+	
+
+}
+
+commerce_raiding = {
+	area = naval_doctrine
+	year = 1750
+	cost = 7000
+	unciv_military = yes
+	
+	navy_base = {
+			gun_power = 1
+		}
+
+	
+}
+
+total_blockade = {
+	area = naval_doctrine
+	year = 1750
+	cost = 9000
+	unciv_military = yes
+	max_naval_base = 1
+
+	
+	
+}
+
+command_of_the_sea = {
+	area = naval_doctrine
+	year = 1750
+	cost = 13000
+	unciv_military = yes
+
+	navy_base = {
+			gun_power = 1
+		}
+	
+}
+
+steel_and_steam = {
+	area = naval_doctrine
+	year = 1750
+	cost = 20000
+	unciv_military = yes
+	max_naval_base = 1
+
+	
+}
+
+naval_maneuver = {
+	area = naval_doctrine
+	year = 1750
+	cost = 25000
+	unciv_military = yes
+	
+	navy_base = {
+			gun_power = 1
+		}
+}
+
+firepower = {
+	area = naval_doctrine
+	year = 1830
+	cost = 29000
+	unciv_military = yes
+	max_naval_base = 1
+
+
+	
+}
+
+blue_water_navy = {
+	area = naval_doctrine
+	year = 1830
+	cost = 32000
+	unciv_military = yes
+
+	navy_base = {
+			gun_power = 2
+		}
+	
+}
+
+raider_group_doctrine = {
+	area = naval_doctrine
+	year = 1830
+	cost = 35000
+	unciv_military = yes
+	max_naval_base = 1
+
+
+	
+}
+
+brown_water_navy = {
+	area = naval_doctrine
+	year = 1830
+	cost = 37000
+	unciv_military = yes
+
+	navy_base = {
+			gun_power = 2
+		}
+	
+}
+
+high_sea_battlefleet = {
+	area = naval_doctrine
+	year = 1830
+	cost = 40000
+	unciv_military = yes
+	max_naval_base = 1
+
+	
+}
+
+modern_naval_doctrine = {
+	area = naval_doctrine
+	year = 1830
+	cost = 45000
+	unciv_military = yes
+
+	navy_base = {
+			gun_power = 1
+		}	
+}
+
+
+
+
+#ship_construction
+
+nav_frigates = {
+	area = ship_construction
+	year = 1750
+	cost = 5000
+	unciv_military = yes
+	
+	navy_base = {
+			maximum_speed = 2
+	}
+
+}
+
+
+ship_of_the_line = {
+	area = ship_construction
+	year = 1750
+	cost = 7000
+	unciv_military = yes
+	
+	
+	navy_base = {
+			maximum_speed = 1
+	} 	
+
+}
+
+
+copper_bottoms = {
+	area = ship_construction
+	year = 1750
+	cost = 9000
+	unciv_military = yes
+	activate_building = clipper_shipyard 
+	navy_base = {
+			maximum_speed = 1
+			hull = 1
+	}
+
+
+}
+
+steamboats = {
+	area = ship_construction
+	year = 1750
+	cost = 13000
+	unciv_military = yes
+	
+	navy_base = {
+			maximum_speed = 2
+	}
+
+}
+
+
+clipper_design = {
+	area = ship_construction
+	year = 1750
+	cost = 20000
+	unciv_military = yes
+	
+	navy_base = {
+			maximum_speed = 2
+	}
+	
+
+}
+
+
+steamships = {
+	area = ship_construction
+	year = 1750
+	cost = 25000
+	unciv_military = yes
+	
+	activate_building = steamer_shipyard 
+	activate_unit = steam_transport 
+	activate_unit = commerce_raider
+	
+	navy_base = {
+			maximum_speed = 2
+	}
+
+}
+
+
+iron_steamers = {
+	area = ship_construction
+	year = 1830
+	cost = 29000
+	unciv_military = yes
+	
+	activate_unit = ironclad 
+
+	navy_base = {
+			maximum_speed = 1
+	}
+
+}
+
+
+standardized_design = {
+	area = ship_construction
+	year = 1830
+	cost = 32000
+	unciv_military = yes
+	
+	activate_unit = monitor 
+	
+	navy_base = {
+			maximum_speed = 1
+	}
+}
+
+
+steel_steamers = {
+	area = ship_construction
+	year = 1830
+	cost = 35000
+	unciv_military = yes
+	
+	activate_unit = cruiser
+	activate_unit = battleship
+	
+	navy_base = {
+			maximum_speed = 1
+	}
+
+}
+
+
+steam_turbine_ships = {
+	area = ship_construction
+	year = 1830
+	cost = 37000
+	unciv_military = yes
+	
+	activate_unit = dreadnought 
+	
+	navy_base = {
+			maximum_speed = 1
+	}
+}
+
+
+oil_driven_ships = {
+	area = ship_construction
+	year = 1830
+	cost = 40000
+	unciv_military = yes
+
+	navy_base = {
+			maximum_speed = 1
+	} 
+
+}
+
+
+modern_shipbuilding = {
+	area = ship_construction
+	year = 1830
+	cost = 45000
+	unciv_military = yes
+
+	navy_base = {
+			maximum_speed = 1
+	} 
+
+}
+
+
+
+#naval_engineering
+
+carronades = {
+	area = naval_engineering
+	year = 1750
+	cost = 5000
+	navy_base = { build_time = -10 }
+	unciv_military = yes
+	
+	navy_base = {
+			hull = 1
+	} 
+	
+
+}
+
+copper_sheating = {
+	area = naval_engineering
+	year = 1750
+	cost = 7000
+	navy_base = { build_time = -10 }
+	unciv_military = yes
+	
+	navy_base = {
+			hull = 1
+	} 
+
+}
+
+top_gallants = {
+	area = naval_engineering
+	year = 1750
+	cost = 9000
+	navy_base = { build_time = -10 }
+	unciv_military = yes
+	
+	navy_base = {
+			hull = 1
+	} 
+	
+}
+
+improved_coppering = {
+	area = naval_engineering
+	year = 1750
+	cost = 13000
+	navy_base = { build_time = -10 }
+	unciv_military = yes
+	
+	navy_base = {
+			hull = 1
+	} 
+
+}
+
+fire_control_systems = {
+	area = naval_engineering
+	year = 1750
+	cost = 20000
+	navy_base = { build_time = -10 }
+	unciv_military = yes
+	
+	navy_base = {
+			hull = 1
+	} 
+
+}
+
+modern_shipyards = {
+	area = naval_engineering
+	year = 1750
+	cost = 25000
+	navy_base = { build_time = -10 }
+	unciv_military = yes
+	
+	navy_base = {
+			hull = 1
+	} 
+
+}
+
+weapon_platforms = {
+	area = naval_engineering
+	year = 1830
+	cost = 29000
+	navy_base = { build_time = -10 }
+	unciv_military = yes
+	
+	navy_base = {
+			hull = 1
+	} 
+
+}
+
+main_armament = {
+	area = naval_engineering
+	year = 1830
+	cost = 32000
+	navy_base = { build_time = -10 }
+	unciv_military = yes
+	
+	navy_base = {
+			hull = 1
+	} 
+
+}
+
+advanced_naval_design = {
+	area = naval_engineering
+	year = 1830
+	cost = 35000
+	navy_base = { build_time = -10 }
+	unciv_military = yes
+	
+	navy_base = {
+			hull = 1
+	} 
+
+}
+
+prefabrication_techniques = {
+	area = naval_engineering
+	year = 1830
+	cost = 37000
+	navy_base = { build_time = -10 }
+	unciv_military = yes
+	
+	navy_base = {
+			hull = 1
+	} 
+
+}
+
+production_line = {
+	area = naval_engineering
+	year = 1830
+	cost = 40000
+	navy_base = { build_time = -10 }
+	unciv_military = yes
+	
+	navy_base = {
+			hull = 1
+	} 
+
+}
+
+modern_naval_design = {
+	area = naval_engineering
+	year = 1830
+	cost = 45000
+	navy_base = { build_time = -10 }
+	unciv_military = yes
+	
+	navy_base = {
+			hull = 1
+	} 
+
+}
+
+
+
+
+#naval_science
+
+early_exploration = {
+	area = naval_science
+	year = 1750
+	cost = 5000
+	unciv_military = yes
+	supply_range = -0.15
+	navy_base = {
+		default_organisation = -2
+	}
+
+}
+
+long_distance_journey = {
+	area = naval_science
+	year = 1750
+	cost = 7000
+	unciv_military = yes
+	supply_range = 0.05
+	navy_base = {
+		default_organisation = -1
+	}
+
+}
+
+navigation_techniques = {
+	area = naval_science
+	year = 1750
+	cost = 5000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 1
+	}
+
+}
+
+marine_chronometer = {
+	area = naval_science
+	year = 1750
+	cost = 7000
+	unciv_military = yes
+	supply_range = 0.05
+	
+	colonial_life_rating = -5
+	navy_base = {
+		default_organisation = 1
+	}
+
+}
+
+
+canned_food_tech = {
+	area = naval_science
+	year = 1750
+	cost = 9000
+	unciv_military = yes
+	
+	activate_building = canned_food_factory 
+	supply_range = 0.1
+	navy_base = {
+		default_organisation = 1
+	}
+
+}
+
+alphabetic_flag_signal = {
+	area = naval_science
+	year = 1750
+	cost = 13000
+	unciv_military = yes
+	supply_range = 0.05
+	navy_base = {
+		default_organisation = 2
+	}
+
+}
+
+naval_planning = {
+	area = naval_science
+	year = 1750
+	cost = 20000
+	unciv_military = yes
+	supply_range = 0.05
+	navy_base = {
+		default_organisation = 3
+	}
+
+}
+
+
+naval_statistics = {
+	area = naval_science
+	year = 1750
+	cost = 25000
+	unciv_military = yes
+	supply_range = 0.05
+	navy_base = {
+		default_organisation = 1
+	}
+
+}
+
+naval_logistics = {
+	area = naval_science
+	year = 1830
+	cost = 29000
+	unciv_military = yes
+	supply_range = 0.05
+	navy_base = {
+		default_organisation = 3
+	}
+	
+
+}
+
+naval_administration = {
+	area = naval_science
+	year = 1830
+	cost = 32000
+	unciv_military = yes
+	supply_range = 0.05
+	navy_base = {
+		default_organisation = 2
+	}
+	
+
+}
+
+
+naval_economics = {
+	area = naval_science
+	year = 1830
+	cost = 35000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 1
+	}
+	
+
+}
+
+naval_strategy = {
+	area = naval_science
+	year = 1830
+	cost = 37000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 1
+	}
+	
+
+}
+
+naval_directionism = {
+	area = naval_science
+	year = 1830
+	cost = 40000
+	unciv_military = yes
+	supply_range = 0.05
+	navy_base = {
+		default_organisation = 2
+	}
+	
+
+}
+
+
+naval_integration = {
+	area = naval_science
+	year = 1830
+	cost = 45000
+	unciv_military = yes
+	supply_range = 0.05
+	navy_base = {
+		default_organisation = 2
+	}
+	
+
+}
+
+
+
+
+#naval_leadership
+
+admiralty = {
+	area = naval_leadership
+	year = 1750
+	cost = 5000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+
+}
+
+naval_professionalism = {
+	area = naval_leadership
+	year = 1750
+	cost = 7000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+
+}
+
+
+navy_decision_making = {
+	area = naval_leadership
+	year = 1750
+	cost = 9000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+
+}
+
+naval_risk_management = {
+	area = naval_leadership
+	year = 1750
+	cost = 13000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+
+}
+
+naval_command_principle = {
+	area = naval_leadership
+	year = 1750
+	cost = 20000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+
+}
+
+
+naval_promotion_principle = {
+	area = naval_leadership
+	year = 1750
+	cost = 25000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+
+}
+
+theatre_of_operation = {
+	area = naval_leadership
+	year = 1830
+	cost = 29000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+
+}
+
+naval_independent_command = {
+	area = naval_leadership
+	year = 1830
+	cost = 32000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+
+}
+
+
+naval_nco_training = {
+	area = naval_leadership
+	year = 1830
+	cost = 35000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+
+}
+
+naval_modern_command_structure = {
+	area = naval_leadership
+	year = 1830
+	cost = 37000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+
+}
+
+modern_naval_training = {
+	area = naval_leadership
+	year = 1830
+	cost = 40000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+
+}
+
+
+naval_exercises = {
+	area = naval_leadership
+	year = 1830
+	cost = 45000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+
+}
+

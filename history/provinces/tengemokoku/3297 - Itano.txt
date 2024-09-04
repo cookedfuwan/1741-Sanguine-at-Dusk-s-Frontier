@@ -1,0 +1,5 @@
+owner = YSM
+controller = YSM
+add_core = YSM
+trade_goods = cotton
+life_rating = 32

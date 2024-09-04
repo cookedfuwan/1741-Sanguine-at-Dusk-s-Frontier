@@ -1,0 +1,7 @@
+owner = ODH
+controller = ODH
+add_core = ODH
+add_core = AWA
+add_core = HND
+trade_goods = timber
+life_rating = 30

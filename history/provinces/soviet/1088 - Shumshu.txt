@@ -1,0 +1,6 @@
+owner = AME
+controller = AME
+add_core = AME
+add_core = RUS
+trade_goods = coal
+life_rating = 20

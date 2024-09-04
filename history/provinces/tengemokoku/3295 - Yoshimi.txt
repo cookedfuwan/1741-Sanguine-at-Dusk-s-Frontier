@@ -1,0 +1,5 @@
+owner = YSM
+controller = YSM
+add_core = YSM
+trade_goods = sulphur
+life_rating = 32

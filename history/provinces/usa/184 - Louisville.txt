@@ -1,0 +1,6 @@
+
+
+add_core = USA
+trade_goods = tobacco
+life_rating = 30
+

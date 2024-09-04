@@ -1,0 +1,164 @@
+# Amekosen
+substate = {
+	first = AME
+	second = AKS
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = AME
+	second = NSK
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = AME
+	second = NKS
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = AME
+	second = MNN
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = AME
+	second = RTS
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = AME
+	second = USR
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = AME
+	second = KZI
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = AME
+	second = SHR
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = AME
+	second = ESK
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+#Tengemokoku
+
+union = {
+	first = TGK
+	second = SES
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+union = {
+	first = TGK
+	second = GFM
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = TGK
+	second = HSK
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+alliance = {
+	first = TGK
+	second = NKS
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = TGK
+	second = HKS
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = TGK
+	second = TZK
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+#Koyuaki
+
+substate = {
+	first = KYK
+	second = MNK
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = KYK
+	second = SKK
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = KYK
+	second = KKA
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = KYK
+	second = SRF
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+substate =
+	{
+		first="KYK"
+		second="KFI"
+		start_date = 1700.1.1
+		end_date = 1937.1.1
+	}
+	
+substate =
+	{
+		first="KYK"
+		second="YSH"
+		start_date = 1700.1.1
+		end_date = 1937.1.1
+	}
+substate =
+	{
+		first="KYK"
+		second="YSM"
+		start_date = 1700.1.1
+		end_date = 1937.1.1
+	}
+	
+alliance=
+	{
+		first="KYK"
+		second="BKI"
+		start_date = 1700.1.1
+		end_date = 1937.1.1
+	}

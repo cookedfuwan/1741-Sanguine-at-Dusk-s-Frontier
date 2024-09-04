@@ -1,0 +1,23 @@
+political_decisions = {
+    add_research_points_decision = {
+        potential = {
+            tag = TGK
+            NOT = { has_country_flag = army_reform_taken }
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            research_points = 5.0  # Adjust this value to reflect how much research you want to add
+            set_country_flag = research_points_decision_taken
+        }
+        ai_will_do = {
+            factor = 0
+        }
+        title = "add_research_points_decision_title"
+        desc = "add_research_points_decision_desc"
+        option = {
+            name = "add_research_points_decision_option"
+        }
+    }
+}

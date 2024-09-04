@@ -1,0 +1,37 @@
+# Tengemokoku Reduced Army Consumption Event
+country_event = {
+    id = 1001740
+    title = "EVTNAME1001740"
+    desc = "EVTDESC1001740"
+    picture = "army_speech"
+
+    trigger = {
+        tag = TGK
+    }
+		fire_only_once = yes
+
+    mean_time_to_happen = {
+        months = 6
+    }
+
+    option = {
+        name = "EVTOPTA1001740"  # Maybe we should abandon our way
+        plurality = 5  # Adjust as needed to indirectly affect research
+        set_country_flag = army_reform_taken
+        ai_chance = {
+            factor = 0  # The AI will not choose this option
+        }
+    }
+
+    option = {
+        name = "EVTOPTB1001740"  # No, it has not entirely ended yet
+        add_country_modifier = {
+            name = "Nomadic_army"
+            duration = 7300  # 20 years * 365 days
+        }
+        set_country_flag = army_reform_taken
+        ai_chance = {
+            factor = 100  # The AI will choose this option
+        }
+    }
+}

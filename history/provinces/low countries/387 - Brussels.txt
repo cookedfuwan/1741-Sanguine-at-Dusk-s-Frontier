@@ -1,0 +1,9 @@
+owner = AUS
+controller = AUS
+add_core = BEL
+add_core = NET
+#add_core = FLA
+trade_goods = sulphur
+life_rating = 36
+
+

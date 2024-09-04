@@ -1,0 +1,10 @@
+owner = LAD
+controller = LAD
+add_core = PAN
+add_core = KAS
+trade_goods = tea
+life_rating = 30
+1861.1.1 = {
+	owner = KAS
+	controller = KAS
+}

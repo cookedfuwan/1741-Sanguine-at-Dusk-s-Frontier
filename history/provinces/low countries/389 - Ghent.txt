@@ -1,0 +1,8 @@
+owner = AUS
+controller = AUS
+add_core = BEL
+add_core = NET
+#add_core = FLA
+trade_goods = wool
+life_rating = 36
+

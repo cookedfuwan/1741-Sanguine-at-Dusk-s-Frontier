@@ -1,0 +1,5 @@
+owner = KYK
+controller = KYK
+add_core = KYK
+trade_goods = cotton
+life_rating = 32

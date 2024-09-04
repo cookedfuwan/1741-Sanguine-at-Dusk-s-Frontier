@@ -1,0 +1,5 @@
+owner = NSK
+controller = NSK
+add_core = NSK
+trade_goods = grain
+life_rating = 32

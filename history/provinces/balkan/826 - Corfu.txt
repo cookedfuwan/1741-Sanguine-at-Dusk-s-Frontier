@@ -1,0 +1,7 @@
+owner = VEN
+controller = VEN
+add_core = ION
+add_core = TUR
+#add_core = GRE
+trade_goods = fish
+life_rating = 30

@@ -1,0 +1,59 @@
+capital = 860
+primary_culture = turkish
+culture = mashriqi
+culture = misri
+culture = albanian
+culture = bosniak
+religion = sunni
+government = absolute_monarchy
+plurality = 5.0
+nationalvalue = nv_order
+literacy = 0.03
+non_state_culture_literacy = 0.03
+civilized = yes
+
+#GreaterPowers
+prestige = 80
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = yes_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = underground_parties
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+ruling_party = TUR_reactionary_1
+upper_house = {
+	fascist = 0
+	liberal = 5
+	conservative = 60
+	reactionary = 35
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+flintlock_muskets = 1
+
+# Inventions
+
+#Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 1
+
+schools = army_tech_school
+
+oob = "TUR_oob.txt"

@@ -1,0 +1,146 @@
+# CHINA
+substate = {
+	first = CHI
+	second = GXI
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = CHI
+	second = MCK
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = CHI
+	second = XIN
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = CHI
+	second = YNN
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = CHI
+	second = XBI
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = CHI
+	second = MGL
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = CHI
+	second = TIB
+	start_date = 1700.1.1
+	end_date = 1937.1.1
+}
+
+#vassal = {
+#	first = CHI
+#	second = KOR
+#	start_date = 1700.1.1
+#	end_date = 1895.5.17 #Treaty of Shimonoseki
+#}
+
+# OTTOMAN EMPIRE
+# Ottoman Empire-Wallachia
+vassal = {
+	first = TUR
+	second = WAL
+	start_date = 1700.1.1
+	end_date = 1859.1.24	# Reunification of Wallachia and Moldavia
+}
+
+# Ottoman Empire-Moldavia
+vassal = {
+	first = TUR
+	second = MOL
+	start_date = 1700.1.1
+	end_date = 1859.1.24	# Reunification of Wallachia and Moldavia
+}
+
+# Ottoman Empire-Georgia
+vassal = {
+	first = TUR
+	second = GEO
+	start_date = 1600.1.1
+	end_date = 1900.1.1	
+}
+
+# Ottoman Empire-Crimea
+vassal = {
+	first = TUR
+	second = CRI
+	start_date = 1600.1.1
+	end_date = 1900.1.1	
+}
+
+# SPANISH EMPIRE
+# Spain-Mexico
+vassal = {
+	first = SPA
+	second = MEX
+	start_date = 1600.1.1
+	end_date = 1900.1.1	
+}
+
+# Spain-La Plata
+vassal = {
+	first = SPA
+	second = ARG
+	start_date = 1600.1.1
+	end_date = 1900.1.1	
+}
+
+# Spain-Peru
+vassal = {
+	first = SPA
+	second = PEU
+	start_date = 1600.1.1
+	end_date = 1900.1.1	
+}
+
+# Spain-New Granada
+vassal = {
+	first = SPA
+	second = GCO
+	start_date = 1600.1.1
+	end_date = 1900.1.1	
+}
+
+# PORTUGAL
+# Portugal-Brazil
+vassal = {
+	first = POR
+	second = BRZ
+	start_date = 1600.1.1
+	end_date = 1900.1.1	
+}
+
+# GREAT BRITAIN
+# Britain-Thirteen Colonies
+vassal = {
+	first = ENG
+	second = THC
+	start_date = 1600.1.1
+	end_date = 1900.1.1	
+}
+
+# FRANCE
+# France-Louisiana
+vassal = {
+	first = FRA
+	second = LOU
+	start_date = 1600.1.1
+	end_date = 1900.1.1	
+}
+
+
+

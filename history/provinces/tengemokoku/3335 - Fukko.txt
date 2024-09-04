@@ -1,0 +1,5 @@
+owner = NKS
+controller = NKS
+add_core = NKS
+trade_goods = grain
+life_rating = 32

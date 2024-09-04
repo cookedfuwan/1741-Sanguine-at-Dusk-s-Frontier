@@ -1,0 +1,289 @@
+RUS = {
+	value = 125		#relation
+}
+
+RUS = {
+	level = 4		#relation
+}
+
+AME = {
+	value = -125		#relation
+}
+
+CHI = {
+	value = -125		#relation
+}
+
+army = {
+	name = "Arusan Tenge heaven raider"
+	location = 3413
+	regiment = {
+		name= "1st Raider"
+		type = cavalry
+		home = 3413
+	}
+
+	regiment = {
+		name= "2nd Raider"
+		type = cavalry
+		home = 3413
+	}
+
+	regiment = {
+		name= "3rd Raider"
+		type = infantry
+		home = 3411
+	}
+	
+	regiment = {
+		name= "4th Raider"
+		type = infantry
+		home = 3411
+	}
+	
+	regiment = {
+		name= "5th Raider"
+		type = artillery
+		home = 3407
+	}
+
+}
+
+army = {
+	name = "Chihaya Tenge Imperial guard"
+	location = 3337 
+	regiment = {
+		name= "1st cavalry Imperial Guard"
+		type = cavalry
+		home = 3337 
+	}
+
+	regiment = {
+		name= "2nd cavalry Imperial Guard"
+		type = cavalry
+		home = 3337 
+	}
+
+	regiment = {
+		name= "North Imperial Guard"
+		type = infantry
+		home = 3337 
+	}
+	
+	regiment = {
+		name= "South Imperial Guard"
+		type = infantry
+		home = 3337 
+	}
+	
+	regiment = {
+		name= "East Artillery Imperial Guard"
+		type = artillery
+		home = 3337 
+	}
+	
+	regiment = {
+		name= "West Artillery Imperial Guard"
+		type = artillery
+		home = 3337 
+	}
+
+}
+
+army = {
+	name = "Burugan Tenge Imperial guard"
+	location = 2678 
+	regiment = {
+		name= "3rd cavalry Imperial Guard"
+		type = cavalry
+		home = 2678 
+	}
+
+	regiment = {
+		name= "4th cavalry Imperial Guard"
+		type = cavalry
+		home = 2678 
+	}
+
+	regiment = {
+		name= "North Burugan Imperial Guard"
+		type = infantry
+		home = 2678 
+	}
+	
+	regiment = {
+		name= "South Burugan Imperial Guard"
+		type = infantry
+		home = 2678 
+	}
+	
+	regiment = {
+		name= "East Burugan Artillery Imperial Guard"
+		type = artillery
+		home = 2678 
+	}
+	
+	regiment = {
+		name= "West Burugan Artillery Imperial Guard"
+		type = artillery
+		home = 2678 
+	}
+
+}
+
+army = {
+	name = "Ryoko Tenge Border guard"
+	location = 3480 
+	regiment = {
+		name= "1 Ryoko cavalry Border guard"
+		type = cavalry
+		home = 3480 
+	}
+
+	regiment = {
+		name= "2 Ryoko cavalry Border Guard"
+		type = cavalry
+		home = 3480 
+	}
+	
+	regiment = {
+		name= "3 Ryoko cavalry Border Guard"
+		type = cavalry
+		home = 3480 
+	}
+	
+	regiment = {
+		name= "4 Ryoko cavalry Border Guard"
+		type = cavalry
+		home = 3480 
+	}
+
+	regiment = {
+		name= "North Ryoko Border Guard"
+		type = infantry
+		home = 3480 
+	}
+	
+	regiment = {
+		name= "South Ryoko Border Guard"
+		type = infantry
+		home = 3480 
+	}
+	
+	regiment = {
+		name= "1st conscript Ryoko Border Guard"
+		type = infantry
+		home = 3480 
+	}
+	
+	regiment = {
+		name= "2nd conscript Ryoko Border Guard"
+		type = infantry
+		home = 3480 
+	}
+	
+	regiment = {
+		name= "East Ryoko Artillery Border Guard"
+		type = artillery
+		home = 3480 
+	}
+	
+	regiment = {
+		name= "West Ryoko Artillery Border guard"
+		type = artillery
+		home = 3480 
+	}
+	
+	regiment = {
+		name= "2nd East Ryoko Artillery Border guard"
+		type = artillery
+		home = 3480 
+	}
+	
+	regiment = {
+		name= "2nd West Ryoko Artillery Border guard"
+		type = artillery
+		home = 3480 
+	}
+
+}
+
+army = {
+	name = "Shanyu Tenge Border guard"
+	location = 3325 
+	regiment = {
+		name= "1 Shanyu cavalry Border guard"
+		type = cavalry
+		home = 3325  
+	}
+
+	regiment = {
+		name= "2 Shanyu cavalry Border Guard"
+		type = cavalry
+		home = 3325  
+	}
+	
+	regiment = {
+		name= "3 Shanyu cavalry Border Guard"
+		type = cavalry
+		home = 3325  
+	}
+	
+	regiment = {
+		name= "4 Shanyu cavalry Border Guard"
+		type = cavalry
+		home = 3325  
+	}
+
+	regiment = {
+		name= "North Shanyu Border Guard"
+		type = infantry
+		home = 3325  
+	}
+	
+	regiment = {
+		name= "South Shanyu Border Guard"
+		type = infantry
+		home = 3325  
+	}
+	
+	regiment = {
+		name= "1st conscript Shanyu Border Guard"
+		type = infantry
+		home = 3325  
+	}
+	
+	regiment = {
+		name= "2nd conscript Shanyu Border Guard"
+		type = infantry
+		home = 3325  
+	}
+	
+	regiment = {
+		name= "East Shanyu Artillery Border Guard"
+		type = artillery
+		home = 3325  
+	}
+	
+	regiment = {
+		name= "West Shanyu Artillery Border guard"
+		type = artillery
+		home = 3325  
+	}
+	
+	regiment = {
+		name= "2nd East Shanyu Artillery Border guard"
+		type = artillery
+		home = 3325  
+	}
+	
+	regiment = {
+		name= "2nd West Shanyu Artillery Border guard"
+		type = artillery
+		home = 3325  
+	}
+
+}
+
+
+

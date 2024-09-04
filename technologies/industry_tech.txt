@@ -1,0 +1,819 @@
+#tech_power
+
+lever_pulley_and_screw = {
+	area = tech_power
+	year = 1750
+	cost = 6000
+	
+	
+	mine_rgo_eff = 0.005
+	farm_rgo_eff = 0.005
+}
+
+water_wheel_power = {
+	area = tech_power
+	year = 1750
+	cost = 6000
+	
+	
+	mine_rgo_eff = 0.005
+	farm_rgo_eff = 0.005
+}
+
+
+early_mechanization = {
+	area = tech_power
+	year = 1750
+	cost = 6000
+	activate_building =  fabric_factory
+	
+	mine_rgo_eff = 0.01
+	farm_rgo_eff = 0.05
+	
+}
+
+early_steam_engine = {
+	area = tech_power
+	year = 1750
+	cost = 8000
+	
+
+	mine_rgo_eff = 0.01
+	farm_rgo_eff = 0.05
+	
+}
+
+water_turbine = {
+	area = tech_power
+	year = 1760
+	cost = 6000	
+	
+	mine_rgo_eff = 0.01
+	farm_rgo_eff = 0.05
+	
+}
+
+practical_steam_engine = {
+	area = tech_power
+	year = 1770
+	cost = 8000
+
+	
+	mine_rgo_eff = 0.05
+	farm_rgo_eff = 0.01
+	
+}
+
+stirling_engine = {
+	area = tech_power
+	year = 1780
+	cost = 21000
+
+	
+	mine_rgo_eff = 0.02
+	farm_rgo_eff = 0.02
+	
+}
+
+improved_steam_engine = {
+	area = tech_power
+	year = 1790
+	cost = 21000
+
+	
+	mine_rgo_eff = 0.075
+	farm_rgo_eff = 0.075
+	
+}
+
+steam_turbine = {
+	area = tech_power
+	year = 1820
+	cost = 21000
+
+	
+	mine_rgo_eff = 0.05
+	farm_rgo_eff = 0.15
+	
+}
+
+internal_combustion_engine = {
+	area = tech_power
+	year = 1850
+	cost = 20000
+
+	activate_building = automobile_factory 
+	
+	mine_rgo_eff = 0.05
+	farm_rgo_eff = 0.15
+	
+}
+
+diesel_engine = {
+	area = tech_power
+	year = 1870
+	cost = 21000
+	
+	activate_building = aeroplane_factory 
+
+	mine_rgo_eff = 0.05
+	farm_rgo_eff = 0.15
+	
+}
+
+wind_turbine = {
+	area = tech_power
+	year = 1890
+	cost = 60000
+
+	
+	mine_rgo_eff = 0.05
+	farm_rgo_eff = 0.15
+	
+}
+
+gas_turbine = {
+	area = tech_power
+	year = 1900
+	cost = 22000
+
+	
+	mine_rgo_eff = 0.05
+	farm_rgo_eff = 0.15
+	
+}
+
+electrical_power_generation = {
+	area = tech_power
+	year = 1910
+	cost = 24000
+
+	
+	mine_rgo_eff = 0.05
+	farm_rgo_eff = 0.15
+	
+}
+
+
+
+#mechanization
+
+flying_shuttle = {
+	area = mechanization
+	year = 1750
+	cost = 6000
+	factory_output = 0.15
+	factory_throughput = 0.15
+	
+
+}
+
+spinning_jenny = {
+	area = mechanization
+	year = 1760
+	cost = 8000
+	
+	factory_output = 0.01
+	factory_throughput = 0.05
+	
+
+}
+
+spring_scale = {
+	area = mechanization
+	year = 1780
+	cost = 6000
+	
+	activate_building = regular_clothes_factory 
+	factory_output = 0.01
+	factory_throughput = 0.05
+	
+
+}
+
+threshing_machine = {
+	area = mechanization
+	year = 1790
+	cost = 8000
+	factory_output = 0.01
+	factory_throughput = 0.01
+	farm_rgo_eff = 0.01
+	
+
+}
+
+interchangeable_parts = {
+	area = mechanization
+	year = 1800
+	cost = 21000 
+	
+	factory_output = 0.01
+	factory_throughput = 0.01
+	
+
+}
+
+printing_press = {
+	area = mechanization
+	year = 1810
+	cost = 21000
+
+	activate_building = paper_mill 
+	factory_output = 0.01
+	factory_throughput = 0.05
+	
+
+}
+
+pattern_tracking_lathe = {
+	area = mechanization
+	year = 1850
+	cost = 21000
+
+	factory_output = 0.01
+	factory_throughput = 0.05
+	
+
+}
+
+reaper_machine = {
+	area = mechanization
+	year = 1860
+	cost = 20000
+
+	factory_output = 0.01
+	factory_throughput = 0.01
+	
+
+}
+
+rotary_kiln = {
+	area = mechanization
+	year = 1870
+	cost = 21000
+
+	factory_output = 0.01
+	factory_throughput = 0.05
+	
+
+}
+
+semi_automatization = {
+	area = mechanization
+	year = 1880
+	cost = 60000
+
+	factory_output = 0.01
+	factory_throughput = 0.05
+	factory_cost = -0.1 
+	
+
+}
+
+assembly_line = {
+	area = mechanization
+	year = 1890
+	cost = 22000
+
+	factory_output = 0.01
+	factory_throughput = 0.05
+	factory_cost = -0.1 
+	
+
+}
+
+shift_work = {
+	area = mechanization
+	year = 1900
+	cost = 24000
+
+	factory_output = 0.01
+	factory_throughput = 0.05
+	
+
+}
+
+
+#metallurgy
+
+steam_pump = {
+	area = metallurgy
+	year = 1750
+	cost = 6000
+	
+
+	rgo_size = {
+		coal = 0.05
+	}
+	rgo_size = {
+		sulphur = 0.05
+	}
+	rgo_size = {
+		iron = 0.05
+	}
+	rgo_size = {
+		precious_metal = 0.05
+	}
+
+}
+
+
+screw_cutting_lathe = {
+	area = metallurgy
+	year = 1760
+	cost = 8000
+	
+	activate_building = machine_parts_factory 
+	activate_building = small_arms_factory
+	
+	rgo_goods_output = {
+		iron = 0.3
+	}
+	rgo_goods_output = {
+		coal = 0.3
+	}
+	rgo_goods_output = {
+		sulphur = 0.1
+	}
+	rgo_goods_output = {
+		precious_metal = 0.05
+	}
+	
+
+}
+
+
+hydraulic_press = {
+	area = metallurgy
+	year = 1780
+	cost = 6000
+	
+	activate_building = explosives_factory
+	activate_building = ammunition_factory 
+	
+
+	rgo_goods_output = {
+		iron = 0.3
+	}
+	rgo_goods_output = {
+		coal = 0.3
+	}
+	rgo_goods_output = {
+		sulphur = 0.1
+	}
+	rgo_goods_output = {
+		precious_metal = 0.05
+	}
+
+}
+
+coke_blast_furnace = {
+	area = metallurgy
+	year = 1800
+	cost = 8000
+	
+	activate_building = steel_factory 
+
+	rgo_size = {
+		coal = 0.05
+	}
+	rgo_size = {
+		sulphur = 0.05
+	}
+	rgo_size = {
+		iron = 0.05
+	}
+	rgo_size = {
+		precious_metal = 0.05
+	}
+
+}
+
+machine_tools = {
+	area = metallurgy
+	year = 1820
+	cost = 21000
+	
+
+	rgo_goods_output = {
+		iron = 0.3
+	}
+	rgo_goods_output = {
+		coal = 0.3
+	}
+	rgo_goods_output = {
+		sulphur = 0.1
+	}
+	rgo_goods_output = {
+		precious_metal = 0.05
+	}
+
+}
+
+steam_shovel = {
+	area = metallurgy
+	year = 1830
+	cost = 21000
+	
+
+	rgo_size = {
+		coal = 0.05
+	}
+	rgo_size = {
+		sulphur = 0.05
+	}
+	rgo_size = {
+		iron = 0.05
+	}
+	rgo_size = {
+		precious_metal = 0.05
+	}
+
+}
+
+puddling_furnace = {
+	area = metallurgy
+	year = 1850
+	cost = 21000
+	
+
+	rgo_goods_output = {
+		iron = 0.3
+	}
+	rgo_goods_output = {
+		coal = 0.3
+	}
+	rgo_goods_output = {
+		sulphur = 0.1
+	}
+	rgo_goods_output = {
+		precious_metal = 0.05
+	}
+
+}
+
+gold_cyanidation = {
+	area = metallurgy
+	year = 1860
+	cost = 20000
+	
+
+	rgo_size = {
+		coal = 0.05
+	}
+	rgo_size = {
+		sulphur = 0.05
+	}
+	rgo_size = {
+		iron = 0.05
+	}
+	rgo_size = {
+		precious_metal = 0.05
+	}
+
+}
+
+cheap_iron = {
+	area = metallurgy
+	year = 1870
+	cost = 21000
+	
+
+	rgo_goods_output = {
+		iron = 0.3
+	}
+	rgo_goods_output = {
+		coal = 0.3
+	}
+	rgo_goods_output = {
+		sulphur = 0.1
+	}
+	rgo_goods_output = {
+		precious_metal = 0.05
+	}
+
+}
+
+cheap_steel = {
+	area = metallurgy
+	year = 1880
+	cost = 60000
+	
+
+	rgo_size = {
+		coal = 0.05
+	}
+	rgo_size = {
+		sulphur = 0.05
+	}
+	rgo_size = {
+		iron = 0.05
+	}
+	rgo_size = {
+		precious_metal = 0.05
+	}
+
+}
+
+advanced_metallurgy = {
+	area = metallurgy
+	year = 1890
+	cost = 22000
+	
+
+	rgo_goods_output = {
+		iron = 0.3
+	}
+	rgo_goods_output = {
+		coal = 0.3
+	}
+	rgo_goods_output = {
+		sulphur = 0.1
+	}
+	rgo_goods_output = {
+		precious_metal = 0.05
+	}
+
+}
+
+electrical_furnace = {
+	area = metallurgy
+	year = 1900
+	cost = 24000
+	
+
+	rgo_size = {
+		coal = 0.05
+	}
+	rgo_size = {
+		sulphur = 0.05
+	}
+	rgo_size = {
+		iron = 0.05
+	}
+	rgo_size = {
+		precious_metal = 0.05
+	}
+
+}
+
+
+
+#tech_infrastructure
+
+experimental_railroad = {
+	area = tech_infrastructure
+	year = 1750
+	cost = 6000
+	
+	mine_RGO_eff = 0.05
+	
+
+}
+
+horse_drawn_railroad = {
+	area = tech_infrastructure
+	year = 1760
+	cost = 8000
+
+	mine_RGO_eff = 0.05
+
+}
+
+steam_locomotives = {
+	area = tech_infrastructure
+	year = 1770
+	cost = 6000
+
+	activate_building = railroad
+	factory_throughput = 0.025
+	factory_input = -0.01 
+	
+
+}
+
+early_railroad = {
+	area = tech_infrastructure
+	year = 1780
+	cost = 8000
+
+	max_railroad = 1
+	factory_throughput = 0.025
+	factory_input = -0.03
+}
+
+rack_railroad = {
+	area = tech_infrastructure
+	year = 1780
+	cost = 21000
+
+	mine_RGO_eff = 0.05
+	factory_input = -0.01
+
+}
+
+iron_railroad = {
+	area = tech_infrastructure
+	year = 1800
+	cost = 21000
+
+	max_railroad = 1
+	factory_throughput = 0.02
+
+}
+
+intercity_railroad = {
+	area = tech_infrastructure
+	year = 1820
+	cost = 21000
+
+	mobilisation_size = 0.01
+	factory_throughput = 0.02
+}
+
+steel_railroad = {
+	area = tech_infrastructure
+	year = 1830
+	cost = 20000
+
+	max_railroad = 1
+	factory_throughput = 0.02
+
+}
+
+continental_railroad = {
+	area = tech_infrastructure
+	year = 1850
+	cost = 21000
+
+	max_railroad = 1
+	factory_throughput = 0.03
+
+}
+
+standard_gauge = {
+	area = tech_infrastructure
+	year = 1860
+	cost = 60000
+
+	army_base = {
+		maximum_speed = 1
+	}
+	factory_throughput = 0.03
+}
+
+integral_rail_system = {
+	area = tech_infrastructure
+	year = 1870
+	cost = 22000
+
+	max_railroad = 1
+	factory_throughput = 0.04
+
+}
+
+limited_access_roads = {
+	area = tech_infrastructure
+	year = 1890
+	cost = 24000
+
+	mobilisation_size = 0.01
+	factory_throughput = 0.05
+}
+
+
+
+#chemistry_and_electricity
+
+basic_chemistry = {
+	area = chemistry_and_electricity
+	year = 1750
+	cost = 6000
+
+	activate_building = fertilizer_factory 
+	supply_limit = 0.15
+
+}
+
+
+early_chemistry = {
+	area = chemistry_and_electricity
+	year = 1760
+	cost = 8000
+	
+	activate_building = glass_factory 
+	activate_building = cement_factory
+	supply_limit = 0.15
+	colonial_life_rating = -5
+}
+
+
+vaccination = {
+	area = chemistry_and_electricity
+	year = 1770
+	cost = 6000
+
+	supply_limit = 0.15
+	pop_growth = 0.0001
+
+}
+
+morphine = {
+	area = chemistry_and_electricity
+	year = 1790
+	cost = 8000
+
+	supply_limit = 0.15
+	land_attrition = -0.15 
+
+}
+
+
+medicine = {
+	area = chemistry_and_electricity
+	year = 1810
+	cost = 21000
+
+	supply_limit = 0.15
+	pop_growth = 0.0001
+	colonial_life_rating = -5
+
+}
+
+inorganic_chemistry = {
+	area = chemistry_and_electricity
+	year = 1830
+	cost = 21000
+
+	supply_limit = 0.15
+	factory_output = 0.01
+
+}
+
+pasteurization = {
+	area = chemistry_and_electricity
+	year = 1850
+	cost = 21000
+
+	supply_limit = 0.15
+	pop_growth = 0.0001
+
+}
+
+
+synthetic_dye = {
+	area = chemistry_and_electricity
+	year = 1860
+	cost = 20000
+
+	activate_building = dye_factory 
+	supply_limit = 0.15
+
+}
+
+gas_lights = {
+	area = chemistry_and_electricity
+	year = 1870
+	cost = 21000
+
+	supply_limit = 0.15
+	factory_output = 0.01
+
+}
+
+organic_chemistry = {
+	area = chemistry_and_electricity
+	year = 1880
+	cost = 60000
+	
+	activate_building = fuel_refinery 
+
+	supply_limit = 0.15
+
+}
+
+
+electricity = {
+	area = chemistry_and_electricity
+	year = 1890
+	cost = 22000
+	
+	activate_building = electric_gear_factory 
+	activate_building = telephone_factory
+	activate_building = radio_factory 
+	supply_limit = 0.15
+
+}
+
+synthetic_polymers = {
+	area = chemistry_and_electricity
+	year = 1900
+	cost = 24000
+	
+	activate_building = synthetic_oil_factory
+	supply_limit = 0.15
+
+}
+
+
+

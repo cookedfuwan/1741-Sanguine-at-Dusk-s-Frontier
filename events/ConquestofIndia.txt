@@ -1,0 +1,501 @@
+# British Seizure of Bengal in 1765
+
+country_event = {
+    id = 1750001
+    title = "EVTNAME1750001"
+    desc = "EVTDESC1750001"
+    picture = "oriental_crisis"
+
+    trigger = {
+        tag = ENG
+        year = 1749
+        exists = BNG
+    }
+		fire_only_once = yes
+
+    option = {
+        name = "EVTOPTA1750001"
+        # England inherits all Bengal's provinces
+        ENG = {
+            inherit = BNG
+        }
+        prestige = 10
+        relation = {
+            who = BNG
+            value = -200
+        }
+        ai_chance = {
+            factor = 100
+        }
+    }
+
+    option = {
+        name = "EVTOPTB1750001"
+        prestige = -5
+        any_pop = {
+            militancy = 2
+            consciousness = 1
+        }
+        relation = {
+            who = BNG
+            value = 50
+        }
+        ai_chance = {
+            factor = 0
+        }
+    }
+}
+
+country_event = {
+    id = 1750003
+    title = "EVTNAME1750003"
+    desc = "EVTDESC1750003"
+    picture = "oriental_crisis"
+
+    trigger = {
+        year = 1750
+        NOT = { year = 1751 }  
+        tag = ENG
+        NOT = { war_with = KRN } 
+        exists = KRN 
+    }
+	fire_only_once = yes
+    option = {
+        name = "EVTOPTA1750003"
+            badboy = 5
+            relation = { who = KRN value = -200 }
+			war = {
+			target = KRN
+			attacker_goal = {
+				casus_belli = conquest
+			}
+				defender_goal = {
+				casus_belli = humiliate
+			}
+		}
+        ai_chance = {
+            factor = 100
+        }
+    }
+
+    option = {
+        name = "EVTOPTB1750003"
+        ENG = {
+            prestige = -10
+        }
+        ai_chance = {
+            factor = 0
+        }
+    }
+}
+
+# Event 2: British Seize Nellore
+
+country_event = {
+    id = 1750004
+    title = "EVTNAME1750004"
+    desc = "EVTDESC1750004"
+    picture = "oriental_crisis"
+	
+    trigger = {
+        tag = ENG
+        1307
+        war_with = KRN 
+		year = 1750
+    }
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+	fire_only_once = yes
+    option = {
+        name = "EVTOPTA1750004"
+        # Formalize the transfer of Nellore to England
+        1307 = {
+            secede_province = ENG
+        }
+
+
+        ENG = {
+            prestige = 10  
+        }
+        KRN = {
+            prestige = -10  
+            1307 = {
+                any_pop = {
+                    militancy = 2 
+                    consciousness = 1
+                }
+            }
+        }
+        ai_chance = {
+            factor = 100
+        }
+    }
+
+    option = {
+        name = "EVTOPTB1750004"
+        # If the British reconsider their actions
+        ENG = {
+            prestige = -5  
+        }
+        ai_chance = {
+            factor = 0  
+        }
+    }
+}
+
+country_event = {
+    id = 1750005 
+    title = "EVTNAME1750005"
+    desc = "EVTDESC1750005"
+    picture = "oriental_crisis"
+
+    trigger = {
+        tag = ENG
+        1311 =
+        war_with = KRN  
+		year = 1750
+    }
+
+    mean_time_to_happen = {
+        days = 30
+    }
+    fire_only_once = yes
+    option = {
+        name = "EVTOPTA1750005"
+        # Formalize the transfer of Coimbatore and Tanjore to England
+        1311 = {
+            secede_province = ENG
+        }
+		
+		1309 = {
+            secede_province = ENG
+        }
+
+        # Effects for Coimbatore and Tanjore annexation
+        ENG = {
+            prestige = 10 
+        }
+        KRN = {
+            prestige = -10
+            1311 = {
+                any_pop = {
+                    militancy = 21
+                    consciousness = 1
+                }
+            }
+        }
+        ai_chance = {
+            factor = 100
+        }
+    }
+
+    option = {
+        name = "EVTOPTB1750005"
+        ENG = {
+            prestige = -5 
+        }
+        ai_chance = {
+            factor = 0 
+        }
+    }
+}
+
+country_event = {
+    id = 1750006
+    title = "EVTNAME1750006"
+    desc = "EVTDESC1750006"
+    picture = "oriental_crisis"
+
+    trigger = {
+        year = 1751
+        tag = ENG
+        war_with = HYD
+    }
+	
+	mean_time_to_happen = {
+        days = 90
+    }
+	
+    fire_only_once = yes
+    option = {
+        name = "EVTOPTA1750006"
+        # Formalize the transfer of Warangal to England
+        1287 = {
+            secede_province = ENG
+        }
+
+        # Effects for Warangal annexation
+        ENG = {
+            badboy = 1
+            relation = { who = HYD value = -200 } 
+        }
+        HYD = {
+            prestige = -10
+        }
+        ai_chance = {
+            factor = 100
+        }
+    }
+
+    option = {
+        name = "EVTOPTB1750006"
+        ENG = {
+            prestige = -10
+        }
+        ai_chance = {
+            factor = 0
+        }
+    }
+}
+
+country_event = {
+    id = 1750007 
+    title = "EVTNAME1750007"
+    desc = "EVTDESC1750007"
+    picture = "oriental_crisis"
+
+    trigger = {
+		year = 1751
+        tag = ENG
+        war_with = KRN  
+    }
+
+    mean_time_to_happen = {
+        days = 150
+    }
+    fire_only_once = yes
+    option = {
+        name = "EVTOPTA1750007"
+        # Formalize the transfer of Konaseema, West Kalingandhra, and Kalingandhra to England
+        3529 = {
+            secede_province = ENG
+        }         
+        3528 = {
+            secede_province = ENG
+        }
+
+        3527 = {
+            secede_province = ENG
+        }
+
+        # Effects for the annexation of these provinces
+        ENG = {
+            prestige = 15 
+        }
+        KRN = {
+            prestige = -15
+            3529 = {
+                any_pop = {
+                    militancy = 1
+                    consciousness = 1
+                }
+            }
+            3528 = {
+                any_pop = {
+                    militancy = 1
+                    consciousness = 1
+                }
+            }
+            3527 = {
+                any_pop = {
+                    militancy = 1
+                    consciousness = 1
+                }
+            }
+        }
+        ai_chance = {
+            factor = 100
+        }
+    }
+
+    option = {
+        name = "EVTOPTB1750007"
+        ENG = {
+            prestige = -5 
+        }
+        ai_chance = {
+            factor = 0 
+        }
+    }
+}
+
+country_event = {
+    id = 1750008 
+    title = "EVTNAME1750008"
+    desc = "EVTDESC1750008"
+    picture = "oriental_crisis"
+
+    trigger = {
+        year = 1752
+        tag = ENG
+        war_with = KRN  
+    }
+
+    mean_time_to_happen = {
+        days = 10
+    }
+    fire_only_once = yes
+    option = {
+        name = "EVTOPTA1750008"
+        # Formalize the transfer of Srikakulum, Ganjam, Cuttack, and Jeypore to England
+        3526 = {
+            secede_province = ENG
+        }
+        3530 = {
+            secede_province = ENG
+        }
+        1261 = {
+            secede_province = ENG
+        }
+        3524 = {
+            secede_province = ENG
+        }
+
+        # Effects for the annexation of these provinces
+        ENG = {
+            prestige = 20 
+        }
+        KRN = {
+            prestige = -20
+            3526 = {
+                any_pop = {
+                    militancy = 1
+                    consciousness = 1
+                }
+            }
+            3530 = {
+                any_pop = {
+                    militancy = 1
+                    consciousness = 1
+                }
+            }
+            1261 = {
+                any_pop = {
+                    militancy = 1
+                    consciousness = 1
+                }
+            }
+            3524 = {
+                any_pop = {
+                    militancy = 1
+                    consciousness = 1
+                }
+            }
+        }
+        ai_chance = {
+            factor = 100
+        }
+    }
+
+    option = {
+        name = "EVTOPTB1750008"
+        ENG = {
+            prestige = -5 
+        }
+        ai_chance = {
+            factor = 0 
+        }
+    }
+}
+
+country_event = {
+    id = 1750009
+    title = "EVTNAME1750009"
+    desc = "EVTDESC1750009"
+    picture = "oriental_crisis"
+
+    trigger = {
+        tag = ENG
+        year = 1755
+        exists = KRN
+    }
+    fire_only_once = yes
+	 mean_time_to_happen = {
+        days = 50
+    }
+    option = {
+        name = "EVTOPTA1750009"
+        # England annexes Karnataka as part of the Treaty of Madras
+        ENG = {
+            inherit = KRN
+            money = -10000
+        }
+        prestige = 15
+        relation = {
+            who = HYD
+            value = -200
+        }
+        ai_chance = {
+            factor = 100
+        }
+    }
+
+    option = {
+        name = "EVTOPTB1750009"
+        # England delays the annexation, causing diplomatic consequences
+        ENG = {
+			badboy = 5
+            prestige = -10
+            inherit = KRN
+        }
+        relation = {
+            who = KRN
+            value = -100
+        }
+        ai_chance = {
+            factor = 0
+        }
+    }
+}
+
+country_event = {
+    id = 1750010
+    title = "EVTNAME1750010"  
+    desc = "EVTDESC1750010"  
+    picture = "diplomacy"  
+
+    trigger = {
+        tag = ENG
+        year = 1758 
+    }
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 180
+    }
+
+    option = {
+        name = "EVTOPTA1750010" 
+        # England puppets Oudh
+        ENG = {
+            vassalize = ODH 
+        }
+        prestige = 10
+        relation = {
+            who = ODH
+            value = 200
+        }
+        ai_chance = {
+            factor = 100
+        }
+    }
+
+    option = {
+        name = "EVTOPTB1750010" 
+        # England decides against puppeting Oudh
+        ENG = {
+            prestige = -5 
+			money = 20000
+        }
+        relation = {
+            who = ODH
+            value = 50 
+        }
+        ai_chance = {
+            factor = 0
+        }
+    }
+}

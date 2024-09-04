@@ -1,0 +1,5 @@
+owner = ESK
+controller = ESK
+add_core = ESK
+trade_goods = iron
+life_rating = 32

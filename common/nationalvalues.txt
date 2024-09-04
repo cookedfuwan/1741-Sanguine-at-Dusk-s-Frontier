@@ -1,0 +1,24 @@
+nv_order = {
+	mobilisation_size = 0.04
+	mobilisation_economy_impact = 1.0
+	core_pop_militancy_modifier = -0.45
+}
+
+nv_liberty = {
+	mobilisation_size = 0.02
+	mobilisation_economy_impact = 0.75
+	core_pop_militancy_modifier = -0.275
+}
+
+nv_equality = {
+	mobilisation_size = 0.06
+	mobilisation_economy_impact = 1.25
+	core_pop_militancy_modifier = -0.325
+}
+
+nv_tradition = {
+	mobilisation_size = 0.04
+	mobilisation_economy_impact = 1.0
+	issue_change_speed = -0.2
+	core_pop_militancy_modifier = -0.25
+	}

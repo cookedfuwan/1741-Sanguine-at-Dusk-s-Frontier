@@ -1,0 +1,7 @@
+owner = AME
+controller = AME
+add_core = AME
+trade_goods = coal
+life_rating = 30
+fort = 1
+	naval_base = 1

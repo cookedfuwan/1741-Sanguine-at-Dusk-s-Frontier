@@ -1,0 +1,12 @@
+owner = THC
+controller = THC
+add_core = THC
+add_core = USA
+trade_goods = iron
+life_rating = 40
+
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}

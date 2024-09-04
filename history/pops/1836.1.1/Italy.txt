@@ -1,0 +1,2208 @@
+#Piemonte Region (1610000)
+#under the rule of Sardinia in 1836
+#Turin (916000/229000 POPS)
+720 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 2800
+	}
+
+	bureaucrats = {
+		culture = north_italian
+		religion = catholic
+		size = 600
+	}
+
+	officers = {
+		culture = north_italian
+		religion = catholic
+		size = 300
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 1600
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 3500
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 135000
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = jewish
+		size = 10
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = jewish
+		size = 490
+	}
+}
+#Aosta (156000/39000 POPS)
+721 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 125
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 500
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 150
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 10000
+	}
+
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 200
+	}
+
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 200
+	}
+
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 800
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 200
+	}
+
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 15000
+	}
+}
+#Novara (212000/53000 POPS)
+722 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 650
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 325
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 33000
+	}
+}
+#Alessandria (326000/79000 POPS)
+723 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 1000
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 500
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 6500
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 44000
+	}
+}
+#Liguria Region (960000)
+#under the rule of Sardinia in 1836
+#Genoa (644000/161000 POPS)
+724 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 1800
+	}
+
+	bureaucrats = {
+		culture = north_italian
+		religion = catholic
+		size = 300
+	}
+
+	officers = {
+		culture = north_italian
+		religion = catholic
+		size = 200
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 1100
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 6000
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 3000
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 98000
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = jewish
+		size = 5
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = jewish
+		size = 195
+	}
+}
+#Savona (316000/79000 POPS)
+725 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 1000
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 500
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 3000
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 49000
+	}
+}
+#Lombardy Region (2512000)
+#under the rule of Austria in 1836
+#Milan (1332000/333000 POPS)
+726 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 5350
+	}
+
+	bureaucrats = {
+		culture = north_italian
+		religion = catholic
+		size = 1000
+	}
+
+	officers = {
+		culture = north_italian
+		religion = catholic
+		size = 400
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 2350
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 6000
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 3000
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 196000
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = jewish
+		size = 5
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = jewish
+		size = 95
+	}
+}
+#Bergamo (472000/118000 POPS)
+727 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 800
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 3900
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 1150
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 75000
+	}
+}
+#Brescia (708000/177000 POPS)
+728 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 2900
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 1200
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 6850
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 3500
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 111000
+	}
+}
+#Venetia Region (2060000)
+#under the rule of Austria in 1836
+#Venice (448000/112000 POPS)
+729 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 1800
+	}
+
+	bureaucrats = {
+		culture = north_italian
+		religion = catholic
+		size = 1100
+	}
+
+	officers = {
+		culture = north_italian
+		religion = catholic
+		size = 200
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 800
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 3000
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 1150
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 42000
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = jewish
+		size = 10
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = jewish
+		size = 490
+	}
+}
+#Verona (516000/129000 POPS)
+730 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 1000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 1000
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 1300
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 77000
+	}
+}
+#Padua (564000/141000 POPS)
+731 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 1000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 5500
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 1400
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 90000
+	}
+}
+#Treviso (232000/58000 POPS)
+732 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 800
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 405
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 1200
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 38000
+	}
+}
+#Udine (300000/75000 POPS)
+733 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 1000
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 450
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 2750
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 1200
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 48000
+	}
+}
+#Tirol Region (368000) #see Austria.txt for balance of Region
+#under the rule of Austria in 1836  
+#Trent (276000/69000 POPS) #now part of Italy
+734 = {
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 60 
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 80 
+	}
+
+	bureaucrats = {
+		culture = south_german
+		religion = catholic
+		size = 500 
+	}
+	
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 100
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 50 
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 3300 
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 400
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 550 
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 42000
+	}
+}
+#Bozen (92000/23000 POPS) #now part of Italy
+735 = {
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 200 
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size =  100
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 1000
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 100 
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 10000
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size =  50
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 400
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 50 
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 4000
+	}
+}
+#Friuli-Istria Region (292000) #see Croatia.txt for balance of region 
+#under the rule of Austria in 1836
+#Trieste (112000/28000 POPS)
+736 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 300
+	}
+
+	bureaucrats = {
+		culture = north_italian
+		religion = catholic
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = south_german
+		religion = catholic
+		size = 250
+	}
+	
+	officers = {
+		culture = north_italian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 2500
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 175
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	clergymen = {
+		culture = slovene
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = slovene
+		religion = catholic
+		size = 3500
+	}
+
+	soldiers = {
+		culture = slovene
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 4300
+	}
+}
+#Gorizia (180000/45000 POPS)
+737 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 500
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 900
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 8000
+	}
+
+	clergymen = {
+		culture = slovene
+		religion = catholic
+		size = 200
+	}
+
+	artisans = {
+		culture = slovene
+		religion = catholic
+		size = 800
+	}
+
+	soldiers = {
+		culture = slovene
+		religion = catholic
+		size = 300
+	}
+
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 21000
+	}
+}
+#Emilia Region (1120000)
+#under the rule of Parma in 1836
+#Parma (472000/118000 POPS)
+738 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	bureaucrats = {
+		culture = north_italian
+		religion = catholic
+		size = 100
+	}
+
+	officers = {
+		culture = north_italian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 900
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 5500
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 70000
+	}
+}
+#under the rule of Modena in 1836
+#Modena (484000/121000 POPS)
+739 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	bureaucrats = {
+		culture = north_italian
+		religion = catholic
+		size = 200
+	}
+
+	officers = {
+		culture = north_italian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 1000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 4000
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 76000
+	}
+}
+#Massa (164000/41000 POPS)
+740 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 700
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 200
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 1500
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 25000
+	}
+}
+#Romagna Region (844000)
+#under the rule of Papal States in 1836
+#Bologna (416000/104000 POPS)
+741 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 1500
+	}
+
+	bureaucrats = {
+		culture = north_italian
+		religion = catholic
+		size = 225
+	}
+
+	officers = {
+		culture = north_italian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 700
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 5500
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 56000
+	}
+}
+#Ferrara (180000/45000 POPS)
+742 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 750
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 225
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 4500
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 450
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 25000
+	}
+}
+#Ravenna (248000/62000 POPS)
+743 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 1000
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 425
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 3500
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 650
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 38000
+	}
+}
+#Tuscany Region (1808000)
+#under the rule of Tuscany in 1836
+#Florence (716000/179000 POPS)
+744 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 3000
+	}
+
+	bureaucrats = {
+		culture = north_italian
+		religion = catholic
+		size = 625
+	}
+
+	officers = {
+		culture = north_italian
+		religion = catholic
+		size = 225
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 1200
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 6500
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 105000
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = jewish
+		size = 10
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = jewish
+		size = 390
+	}
+}
+#Leghorn (380000/95000 POPS)
+745 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 1500
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 550
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 6000
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 59000
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = jewish
+		size = 25
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = jewish
+		size = 1000
+	}
+}
+#Siena (380000/95000 POPS)
+747 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 1500
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 675
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 4000
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 60000
+	}
+}
+#Grosseto (184000/46000 POPS)
+748 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 900
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 225
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 1600
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 29000
+	}
+}
+#under the rule of Lucca in 1836
+#Lucca (148000/37000 POPS)
+746 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 550
+	}
+
+	bureaucrats = {
+		culture = north_italian
+		religion = catholic
+		size = 50
+	}
+
+	officers = {
+		culture = north_italian
+		religion = catholic
+		size = 20
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 200
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 3500
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 13000
+	}
+}
+#Latium Region (1272000)
+#under the rule of Papal States in 1836
+#Rome (1092000/273000 POPS)
+749 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 4750
+	}
+
+	bureaucrats = {
+		culture = south_italian
+		religion = catholic
+		size = 525
+	}
+
+	officers = {
+		culture = south_italian
+		religion = catholic
+		size = 250
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 2425
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 4600
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 3000
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 161000
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = jewish
+		size = 25
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = jewish
+		size = 1000
+	}
+}
+#Viterbo (180000/45000 POPS)
+750 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 800
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 300
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 1500
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 28000
+	}
+}
+#Umbria-Abruzzi Region (1056000)
+#under the rule of Papal States in 1836
+#Perugia (376000/94000 POPS)
+751 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 1500
+	}
+
+	bureaucrats = {
+		culture = south_italian
+		religion = catholic
+		size = 150
+	}
+
+	officers = {
+		culture = south_italian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 650
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 3500
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 66000
+	}
+}
+#Ancona (180000/45000 POPS)
+752 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 700
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 250
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 5600
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 250
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 25000
+	}
+}
+#under the rule of Two Sicilies in 1836
+#Aquila (500000/125000 POPS)
+753 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 2350
+	}
+
+	bureaucrats = {
+		culture = south_italian
+		religion = catholic
+		size = 100
+	}
+
+	officers = {
+		culture = south_italian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 900
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 4250
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 76000
+	}
+}
+#Campania Region (2312000)
+#under the rule of Two Sicilies in 1836
+#Naples (1304000/326000 POPS)
+754 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 6250
+	}
+
+	bureaucrats = {
+		culture = south_italian
+		religion = catholic
+		size = 525
+	}
+
+	officers = {
+		culture = south_italian
+		religion = catholic
+		size = 425
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 2375
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 3000
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 3000
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 141000
+	}
+}
+#Salerno (572000/143000 POPS)
+755 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 2600
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 1000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 5000
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 96000
+	}
+}
+#Gaeta (436000/109000 POPS)
+2567 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 2000
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 800
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 5250
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 1500
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 68000
+	}
+}
+#Apulia Region (1424000)
+#under the rule of Two Sicilies in 1836
+#Bari (572000/143000 POPS)
+756 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 2500
+	}
+
+	bureaucrats = {
+		culture = south_italian
+		religion = catholic
+		size = 275
+	}
+
+	officers = {
+		culture = south_italian
+		religion = catholic
+		size = 275
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 1000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 5500
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 89000
+	}
+}
+#Foggia (572000/143000 POPS)
+757 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 2750
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 1000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 5000
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 90000
+	}
+}
+#Brindisi (280000/70000 POPS)
+758 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 1200
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 400
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 2500
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 43000
+	}
+}
+#Calabria-Basilicata Region (1488000)
+#under the rule of Two Sicilies in 1836
+#Reggio (572000/143000 POPS)
+759 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 2500
+	}
+
+	bureaucrats = {
+		culture = south_italian
+		religion = catholic
+		size = 275
+	}
+
+	officers = {
+		culture = south_italian
+		religion = catholic
+		size = 275
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 1000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 5500
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 89000
+	}
+}
+#Catanzaro (344000/86000 POPS)
+760 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 1500
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 575
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 3250
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 55000
+	}
+}
+#Potenza (572000/143000 POPS)
+761 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 2750
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 1000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 4500
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 90000
+	}
+}
+#Sicily Region (1816000)
+#under the rule of Two Sicilies in 1836
+#Palermo (744000/186000 POPS)
+762 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 3200
+	}
+
+	bureaucrats = {
+		culture = south_italian
+		religion = catholic
+		size = 525
+	}
+
+	officers = {
+		culture = south_italian
+		religion = catholic
+		size = 300
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 1300
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 5000
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 103000
+	}
+}
+#Messina (352000/88000 POPS)
+763 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 1600
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 600
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 6500
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 53000
+	}
+}
+#Catania (720000/180000 POPS)
+764 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 3000
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 500
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 800
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 110000
+	}
+}
+#Sardinia Region (524000)
+#under the rule of Sardinia in 1836
+#Cagliari (336000/84000 POPS)
+765 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 1250
+	}
+
+	bureaucrats = {
+		culture = south_italian
+		religion = catholic
+		size = 125
+	}
+
+	officers = {
+		culture = south_italian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 650
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 5000
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 49000
+	}
+}
+#Sassari (188000/47000 POPS)
+766 = {
+	aristocrats = {
+		culture = south_italian
+		religion = catholic
+		size = 800
+	}
+
+	clergymen = {
+		culture = south_italian
+		religion = catholic
+		size = 275
+	}
+
+	artisans = {
+		culture = south_italian
+		religion = catholic
+		size = 4500
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 27000
+	}
+
+}

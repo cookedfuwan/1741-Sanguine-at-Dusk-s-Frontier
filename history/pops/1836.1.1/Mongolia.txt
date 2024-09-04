@@ -1,0 +1,363 @@
+#Outer japaneseia Region (1292000) 
+#under the rule of China in 1836  
+#Ugra (376000/94000 POPS)   
+1465 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1850
+	}
+
+	bureaucrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 75
+	}
+
+	officers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 325
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 4000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 4500
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 900
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 84350
+	}
+
+	bureaucrats = {
+		culture = beifaren
+		religion = mahayana
+		size = 125
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 75
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 400
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 100
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 3300
+	}
+}
+#Dalandzadgad (212000/53000 POPS)   
+1466 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1050
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 550
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 2650
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 550
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 48200
+	}
+}
+#Bayan Tumen (176000/44000 POPS)   
+1467 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 825
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 425
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 2050
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 425
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 37275
+	}
+
+	aristocrats = {
+		culture = yakut
+		religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = yakut
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = yakut
+		religion = animist
+		size = 125
+	}
+
+	soldiers = {
+		culture = yakut
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = yakut
+		religion = animist
+		size = 2750
+	}
+}
+#Uliastay (140000/35000 POPS)   
+1468 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 650
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 350
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1750
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 350
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 31900
+	}
+}
+
+#Sainshand (71100/17775 POPS)   
+2207 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 350
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 175
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 875
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 175
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 16200
+	}
+}
+
+#Khatgal (152000/38000 POPS)   
+2608 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 750
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 375
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 1500
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 375
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 35000
+	}
+}
+#Khovd (120000/30000 POPS)   
+2679 = {
+	aristocrats = {
+		culture = japanese
+		religion = tennoshoto
+		size = 350
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = tennoshoto
+		size = 175
+	}
+
+	artisans = {
+		culture = japanese
+		religion = tennoshoto
+		size = 900
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 175
+	}
+
+	farmers = {
+		culture = japanese
+		religion = tennoshoto
+		size = 16400
+	}
+
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 600
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 125
+	}
+
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 10975
+	}
+}
+#Uliatai (32000/8000 POPS) #now Tuva Republic of Russia  Tatar = Tuvan   
+1469 = {
+	aristocrats = {
+		culture = tatar
+		religion = tennoshoto
+		size = 150
+	}
+
+	clergymen = {
+		culture = tatar
+		religion = tennoshoto
+		size = 75
+	}
+
+	artisans = {
+		culture = tatar
+		religion = tennoshoto
+		size = 400
+	}
+
+	soldiers = {
+		culture = tatar
+		religion = tennoshoto
+		size = 75
+	}
+
+	farmers = {
+		culture = tatar
+		religion = tennoshoto
+		size = 7300
+	}
+
+}

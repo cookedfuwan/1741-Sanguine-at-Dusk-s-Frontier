@@ -1,0 +1,190 @@
+#Amekosen war of honor
+country_event = {
+	id = 1
+	news = yes
+	news_desc_long = "EVTDESC1_NEWS_LONG"
+	news_desc_medium = "EVTDESC1_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC1_NEWS_SHORT"
+	title = "EVTNAME1"
+	desc = "EVTDESC1"
+	picture = "japanese_power"
+	
+	trigger = {
+		tag = AME
+		year = 1782
+	}
+	fire_only_once = yes
+	option = {
+	
+	name = "EVTOPTA1"
+	war = {
+			target = CHI
+			attacker_goal = {
+				casus_belli = humiliate
+			}
+				defender_goal = {
+				casus_belli = humiliate
+			}
+		}
+		}
+}
+
+#Tengemokoku war of honor
+country_event = {
+	id = 2
+	news = yes
+	news_desc_long = "EVTDESC2_NEWS_LONG"
+	news_desc_medium = "EVTDESC2_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC2_NEWS_SHORT"
+	title = "EVTNAME2"
+	desc = "EVTDESC2"
+	picture = "japanese_power"	
+	
+	trigger = {
+		tag = TGK
+		year = 1749
+	}
+	fire_only_once = yes
+	option = {
+	
+	name = "EVTOPTA2"
+	war = {
+			target = CHI
+			attacker_goal = {
+				casus_belli = cut_down_to_size
+			}
+				defender_goal = {
+				casus_belli = humiliate
+			}
+		}
+		}
+}
+country_event = {
+    id = 3
+
+    trigger = {
+        tag = AKS    
+    }
+    
+    fire_only_once = yes
+
+    title = "EVTNAME3"
+    desc = "EVTDESC3"
+
+    option = {	
+        name = "EVTOPTA1100"
+		3378 = { 
+            add_province_modifier = industry_capital_of_the_arc
+        }
+		
+		3379 = { 
+            add_province_modifier = industry_capital_of_the_arc
+        }
+		3380 = { 
+            add_province_modifier = industry_capital_of_the_arc
+        }
+		
+		3383 = { 
+            add_province_modifier = industry_capital_of_the_arc
+        }
+        3384 = { 
+            add_province_modifier = seito_farm
+        }
+		3385 = { 
+            add_province_modifier = seito_farm
+        }
+    }
+}
+
+#Tengemokoku-Amekosen 1st war of honor
+country_event = {
+	id = 4
+	news = yes
+	news_desc_long = "EVTDESC2_NEWS_LONG"
+	news_desc_medium = "EVTDESC2_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC2_NEWS_SHORT"
+	title = "EVTNAME2"
+	desc = "EVTDESC2"
+	picture = "japanese_power"	
+	
+	trigger = {
+		tag = TGK
+		year = 1765
+	}
+	fire_only_once = yes
+	option = {
+	
+	name = "EVTOPTA2"
+	war = {
+			target = TGK
+			attacker_goal = {
+				casus_belli = add_to_sphere
+			}
+				defender_goal = {
+				casus_belli = humiliate
+			}
+		}
+		}
+}
+
+#Tengemokoku-Amekosen 2nd war of honor
+country_event = {
+	id = 5
+	news = yes
+	news_desc_long = "EVTDESC2_NEWS_LONG"
+	news_desc_medium = "EVTDESC2_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC2_NEWS_SHORT"
+	title = "EVTNAME2"
+	desc = "EVTDESC2"
+	picture = "japanese_power"	
+	
+	trigger = {
+		tag = TGK
+		year = 1773
+	}
+	fire_only_once = yes
+	option = {
+	
+	name = "EVTOPTA2"
+	war = {
+			target = TGK
+			attacker_goal = {
+				casus_belli = add_to_sphere
+			}
+				defender_goal = {
+				casus_belli = humiliate
+			}
+		}
+		}
+}
+
+#Tengemokoku-Amekosen 2nd war of honor
+country_event = {
+	id = 6
+	news = yes
+	news_desc_long = "EVTDESC2_NEWS_LONG"
+	news_desc_medium = "EVTDESC2_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC2_NEWS_SHORT"
+	title = "EVTNAME2"
+	desc = "EVTDESC2"
+	picture = "japanese_power"	
+	
+	trigger = {
+		tag = TGK
+		year = 1821
+	}
+	fire_only_once = yes
+	option = {
+	
+	name = "EVTOPTA2"
+	war = {
+			target = TGK
+			attacker_goal = {
+				casus_belli = add_to_sphere
+			}
+				defender_goal = {
+				casus_belli = humiliate
+			}
+		}
+		}
+}

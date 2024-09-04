@@ -1,0 +1,5 @@
+owner = SRF
+controller = SRF
+add_core = SRF
+trade_goods = grain
+life_rating = 38

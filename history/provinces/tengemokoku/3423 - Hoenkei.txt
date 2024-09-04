@@ -1,0 +1,5 @@
+owner = TGK
+controller = TGK
+add_core = TGK
+trade_goods = tobacco
+life_rating = 32
